@@ -32,3 +32,16 @@ body {
     width: 26px;
     height: 17px;
 }
+
+#title{
+    top: 170px;
+    left: 32px;
+    width: 308px;
+    height: 91px;
+
+    text-align: left;
+    font: Bold 45px/45px Neuzeit Grotesk;
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
