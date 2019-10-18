@@ -1,3 +1,13 @@
 body {
     background-color: #283258;
 }
+
+#logo{
+    top: 44px;
+    left: 39px;
+    width: 167px;
+    height: 42px;
+
+    background: transparent url('/img/insidewhats.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
