@@ -17,53 +17,47 @@
 <body>
     <!--Primeira secao a partir daqui-->
     <div class="secao1">
-        <header class="cabecalhoPrincipal">
-            <div class="container-fluid col-md-12">
-                <div class="col-md-4">
-                    <nav class="navbar">
-                        <a class="navbar-brand" href="#">
-                            <img id="logo" src="img/IW_logo_SVG.svg">
-                        </a>
-                    </nav>
-                </div>
-
-                <div class="col-md-offset-6" style="padding: 20px">
-                    <nav class="cabecalhoPrincipal-nav">
-                        <a id="MM" class="cabecalhoPrincipal-nav-link" href="#">Mobile Marketing</a>
-                        <a id="Van" class="cabecalhoPrincipal-nav-link" href="#">Vantagens</a>
-                        <a id="Rec" class="cabecalhoPrincipal-nav-link" href="#">Recursos</a>
-                        <button id="Cont" style="border: 0; color:transparent;">.</button>
-                    </nav>
-                </div>
+        <header class="cabecalhoPrincipal container-fluid col-md-12">
+            <div class="col-md-4">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="#">
+                        <img id="logo" src="img/IW_logo_SVG.svg">
+                    </a>
+                </nav>
             </div>
+
+            <nav class="cabecalhoPrincipal-nav col-md-offset-6">
+                <a id="MM" class="cabecalhoPrincipal-nav-link" href="#mobileMarketing">Mobile Marketing</a>
+                <a id="Van" class="cabecalhoPrincipal-nav-link" href="#vantagens">Vantagens</a>
+                <a id="Rec" class="cabecalhoPrincipal-nav-link" href="#recursos">Recursos</a>
+                <a href="#borda_form">
+                    <button id="Cont">&nbsp;</button>
+                </a>
+            </nav>
         </header>
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-offset-1">
+                <div class="col-md-offset-1 col-md-6 col-sm-11">
                     <h3 id="secao1_titulo">Seus clientes ao seu alcance</h3>
                 </div>
-
-                <div class="col-md-6">
-                
-                </div>
             </div>
             <div class="row">
-                <div class="col-md-offset-1">
-                    <p id="plataforma_text">InsideWhats é uma plataforma alinhada com as diretrizes e políticas do WhatsApp. Fazemos disparos apenas para usuários que manifestaram interesse em sua empresa.</p>
+                <div class="col-md-offset-1 col-md-6 col-sm-11">
+                    <p id="plataforma_text"><strong>InsideWhats</strong> é uma plataforma alinhada com as diretrizes e políticas do WhatsApp. Fazemos disparos apenas para usuários que <strong>manifestaram interesse</strong> em sua empresa.</p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-offset-1">
-                    <button id="banner_button" style="border: 0; color:transparent;">.</button>
+                <div class="col-md-offset-1 col-md-6 col-sm-11">
+                    <button id="banner_button"></button>
                 </div>
             </div>
         </div>
     </div>
 
     <!--Segunda Secao a partir daqui-->
-    <div class="secao2">
+    <div class="secao2" id="mobileMarketing">
 
         <div class="container-fluid">
             <!-- Eh aqui que eu divido a secao na metade, usando grid bootstrap "col-md..." -->
@@ -98,7 +92,7 @@
     </div>
 
     <!--Aqui comeca a secao 3 -->
-    <div class="secao3">
+    <div class="secao3" id="vantagens">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-offset-4 col-md-4 ">
@@ -119,7 +113,7 @@
                 </div>
                 <div class="col-md-3">
                     <img src="img/ilustra-2.svg" class="img-fluid rounded mx-auto d-block">
-                    <p id="txt_van">Escalável e flexível - compatível com 50,1000 ou 100.000 assinantes</p>
+                    <p id="txt_van">Escalável e flexível - compatível com 50, 1000 ou 100.000 assinantes</p>
                 </div>
                 <div class="col-md-3">
                     <img src="img/ilustra-3.svg" class="img-fluid rounded mx-auto d-block">
@@ -136,7 +130,7 @@
     </div>
 
     <!-- Aqui comeca a secao 4 -->
-    <div class="secao4">
+    <div class="secao4" id="recursos">
         <div class="container-fluid">
             <div class="col-md-6">
                 <img src="img/Banner Emoji.png" class="img-fluid" style="left:0px;">
