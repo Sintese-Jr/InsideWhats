@@ -213,9 +213,6 @@ button:focus{
 }
 
 footer{
-	top: 9793px;
-	left: -26px;
-	width: device-width;
 	height: 112px;
 	background: #283258 0% 0% no-repeat padding-box;
 	border: 1px solid #283258;
@@ -526,96 +523,95 @@ footer{
 }
 
 #borda_form{
-	
-	border: 8px solid #283258;
-	opacity: 1;
+	border: 5px solid #283258;
+	padding: 20px;
+	font-size: 1em;
+	margin-bottom: 100px;
 }
 
 #secao8_titulo{
-	top: 7806px;
-	left: 722px;
-	width: 477px;
-	height: 72px;
+	margin-top: 130px;
 	text-align: center;
-	font: Bold 72px/100px Neuzeit Grotesk;
+	font: Bold 3em/1em Neuzeit Grotesk;
 	letter-spacing: 1.8px;
 	color: #283258;
 	opacity: 1;
 }
 
-#txt_icon1{
-	top: 8132px;
-	left: 525px;
-	width: 236px;
-	height: 80px;
-	text-align: center;
-	font: Bold 24px/34px Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #283258;
-	opacity: 1;
+.icons-container{
+	padding: 40px 0px;
 }
 
-#txt_icon2{
-	top: 8134px;
-	left: 833px;
-	width: 255px;
-	height: 66px;
-	text-align: center;
-	font: Bold 24px/34px Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #283258;
-	opacity: 1;
+.icons-container img{
+	width: 50%;
+	height: 50%;
 }
 
-#txt_icon3{
-	top: 8132px;
-	left: 1160px;
-	width: 236px;
-	height: 69px;
+.txt_icon{
 	text-align: center;
-	font: Bold 24px/34px Neuzeit Grotesk;
+	font: Bold 1.3em/1em Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #283258;
 	opacity: 1;
 }
 
 #forms_titulo{
-	top: 8474px;
-	left: 590px;
-	width: 741px;
-	height: 73px;
+	margin: 40px 0px;
 	text-align: center;
-	font: Bold 36px/50px Neuzeit Grotesk;
+	font: Bold 3.5em/1.3em Neuzeit Grotesk;
 	letter-spacing: 1.8px;
 	color: #283258;
-	opacity: 1
 }
 
 #forms_txt{
-	top: 8639px;
-	left: 546px;
-	width: 829px;
-	height: 80px;
+	margin: 60px 0px;
+	padding: 10px;
 	text-align: center;
-	font: Regular 32px/44px Neuzeit Grotesk;
+	font: Normal 1.5em/1.3em Neuzeit Grotesk;
 	letter-spacing: 0.8px;
 	color: #283258;
-	opacity: 1
+
+}
+
+.form-group label{
+	/* background-color: tomato; */
+	font: Bold 0.9em/1.3em Neuzeit Grotesk;
+	color: #ccc;
+}
+
+.form-control{
+	/* para sobrescrever o bootstrap */
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	
+	/* background: red; */
+
+	border-bottom: 2px solid #283258;
+	color: #283258;
+	padding: 0;
+	font: Bold 1em/1.3em Neuzeit Grotesk;
+	letter-spacing: 1px;
+}
+
+.form-control:focus{
+	box-shadow: none;
+	border-color: initial;
+}
+
+.button-container{
+	padding: 30px 0px;
 }
 
 #button_forms{
-	top: 9344px;
-	left: 832px;
-	width: 258px;
-	height: 56px;
-	background: #283258 0% 0% no-repeat padding-box;
+	padding: 15px;
+	background: #283258 0% 0% padding-box;
 	border-radius: 132px;
+	border: none;
 	text-align: center;
-	font: Bold 18px/26px Neuzeit Grotesk;
+	font: Bold 1em/1.3em Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
-	opacity: 1
-
 }
 
 #CC{

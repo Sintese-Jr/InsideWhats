@@ -16,7 +16,7 @@
 </head>
 <body>
     <!--Primeira secao a partir daqui-->
-    <div class="secao1">
+    <div class="secao1" id="home">
         <header class="cabecalhoPrincipal container-fluid col-md-12">
             <div class="col-md-4">
                 <nav class="navbar">
@@ -219,20 +219,20 @@
     <div class="secao8">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-offset-3 col-md-6 ">
+                <div class="col-md-offset-3 col-md-6">
                     <h2 id="secao8_titulo">E muito mais...</h2>
-                    <div class="row" style="padding-top: 40px;">
+                    <div class="row icons-container">
                         <div class="col-md-4">
                             <img src="img/Icon 1.svg" class="img-fluid rounded mx-auto d-block" >
-                            <h4 id="txt_icon1">Envio de arquivos</h4>
+                            <h4 class="txt_icon">Envio de arquivos</h4>
                         </div>
                         <div class="col-md-4">
                             <img src="img/Icon 2.svg" class="img-fluid rounded mx-auto d-block" >
-                            <h4 id="txt_icon2">Análises</h4>
+                            <h4 class="txt_icon">Análises</h4>
                         </div>
                         <div class=" col-md-4">
                             <img src="img/Icon 3.svg" class="img-fluid rounded mx-auto d-block" >
-                            <h4 id="txt_icon3">Suporte especializado</h4>
+                            <h4 class="txt_icon">Suporte especializado</h4>
                         </div>
                     </div>
                     
@@ -241,92 +241,67 @@
             </div>
         
             <div class="row">
-                <span id="borda_form" class="col-md-offset-3 col-md-6" >
-                    <div class="row" >
-                        <h2 id="forms_titulo">Pronto para começar?</h2>
-                    </div>
-                    <div class="row">
-                        <h4 id="forms_txt">Seus clientes estão aguardando o seu atendimento diferenciado através da nossa plataforma.</h4>
-                    </div>
+                <div id="borda_form" class="col-md-offset-3 col-md-6" >
+                    <h2 id="forms_titulo">Pronto para começar?</h2>
+                    <h4 id="forms_txt">Seus clientes estão aguardando o seu atendimento diferenciado através da nossa plataforma.</h4>
                     <div class="row">
 
-                        <form class="col-md-offset-1">
+                        <form class="col-md-offset-1 col-md-10">
                             <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Email</label>
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                <div class="form-group col-md-7">
+                                    <label for="inputNome">Nome Completo</label>
+                                    <input type="text" class="form-control" id="inputNome" placeholder="Email" value="Lorem ipsum dolor sit amet">
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputPassword4">Senha</label>
-                                    <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                                <div class="form-group col-md-5">
+                                    <label for="inputNome2">Nome Completo</label>
+                                    <input type="text" class="form-control" id="inputNome2" placeholder="Senha" value="Lorem ipsum dolor sit amet">
                                 </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputAddress">Endereço</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="inputAddress2">Endereço 2</label>
-                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
                             </div>
 
                             <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputCity">Cidade</label>
-                                    <input type="text" class="form-control" id="inputCity">
+                                <div class="form-group col-md-5">
+                                    <label for="inputCampo">Nome do Campo</label>
+                                    <input type="text" class="form-control" id="inputCampo" placeholder="Email" value="Lorem ipsum dolor sit amet">
                                 </div>
-
-                                <div class="form-group col-md-4">
-                                    <label for="inputEstado">Estado</label>
-                                    <select id="inputEstado" class="form-control">
-                                        <option selected>Escolher...</option>
-                                        <option>...</option>
-                                    </select>
-                                </div>
-
-                                <div class="form-group col-md-2">
-                                    <label for="inputCEP">CEP</label>
-                                    <input type="text" class="form-control" id="inputCEP">
+                                <div class="form-group col-md-7">
+                                    <label for="inputCampo2">Nome do Campo</label>
+                                    <input type="text" class="form-control" id="inputCampo2" placeholder="Senha" value="Lorem ipsum dolor sit amet">
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                        
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputCampo3">Nome do Campo</label>
+                                    <textarea name="inputCampo3" id="inputCampo3" class="form-control" rows="3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero ab ratione cum expedita dolor quisquam quaerat mollitia suscipit possimus officiis, in nulla eligendi earum aliquid nobis dicta facere officia.</textarea>
                                 </div>
                             </div>
-                            <button class="col-md-offset-3" type="submit" id="button_forms">Enviar Mensagem</button>
+
+                            <div class="col-md-12 button-container">
+                                <button class="col-md-offset-3 col-md-6" type="submit" id="button_forms">Enviar Mensagem</button>
+                            </div>
                         </form>
 
                     </div>
-                </span>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer>
-        <div class="container-fluid col-md-12">
-            <div class="col-md-4">
-                <nav class="navbar">
-                    <a class="navbar-brand" href="#">
-                        <img id="logo" src="img/IW_logo_SVG.svg">
-                    </a>
-                </nav>
-            </div>
-
-            <div class="col-md-offset-2" style="padding: 40px">
-                <nav class="cabecalhoPrincipal-nav">
-                    <a id="MM" class="cabecalhoPrincipal-nav-link" href="#mobileMarketing">Mobile Marketing</a>
-                    <a id="Van" class="cabecalhoPrincipal-nav-link" href="#vantagens">Vantagens</a>
-                    <a id="Rec" class="cabecalhoPrincipal-nav-link" href="#recursos">Recursos</a>
-                    <a id="CC">&copy;2019 - InsideWhats - Todos os direitos reservados</a>
-                    
-                </nav>
-            </div>
+    <footer class="cabecalhoPrincipal container-fluid col-md-12">
+        <div class="col-md-4">
+            <nav class="navbar">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="img/IW_logo_SVG.svg">
+                </a>
+            </nav>
         </div>
+
+        <nav class="cabecalhoPrincipal-nav col-md-offset-4">
+            <a id="MM" class="cabecalhoPrincipal-nav-link" href="#mobileMarketing">Mobile Marketing</a>
+            <a id="Van" class="cabecalhoPrincipal-nav-link" href="#vantagens">Vantagens</a>
+            <a id="Rec" class="cabecalhoPrincipal-nav-link" href="#recursos">Recursos</a>
+            <a id="CC">&copy;2019 - InsideWhats - Todos os direitos reservados</a>
+        </nav>
     </footer>
 </body>
 </html>
