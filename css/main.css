@@ -30,6 +30,12 @@ button:focus{
 	padding: 20px;
 }
 
+.neg{
+	font-weight: bold;
+	font-family: Neuzeit Grotesk;
+	color: white;
+}
+
 #MM{
 	padding-right: 30px;
 	top: 86px;
@@ -71,6 +77,7 @@ button:focus{
 }
 
 #Cont{
+	font-family: Neuzeit Grotesk;
 	width: 170px;
 	height: 56px;
 	background: none;
@@ -98,6 +105,7 @@ button:focus{
 }
 
 #plataforma_text{
+	font-family: Neuzeit Grotesk;
 	text-align: left;
 	letter-spacing: 0.45px;
 	color: #FFFFFF;
@@ -127,6 +135,8 @@ button:focus{
 
 
 #sub_sec2{
+	font-family: Neuzeit Grotesk;
+	font-weight: bold;
 	padding-top: 100px;
 	top: 1357px;
 	left: 279px;
@@ -251,7 +261,8 @@ footer{
 	border-radius: 132px;
 	opacity: 1;
 	background: transparent;
-	font: Neuzeit Grotesk;
+	font-family: Neuzeit Grotesk;
+	font-weight: bold;
 	color: #FFFFFF;
 }
 #marketing_button:hover{
@@ -489,7 +500,7 @@ footer{
 }
 
 #balao{
-	font-family: Neuzeit Grotesk;
+	font: Bold 24px/24px Neuzeit Grotesk;
 	padding-top: 55px;
 	top: 7186px;
 	left: 980px;
