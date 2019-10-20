@@ -1,11 +1,12 @@
 @font-face {
-    font-family: 'Neuzeit Grotesk';
-    
-    
-    src: url(../fonts/NeuzeitGro.otf);
-   
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Neuzeit Grotesk';
+	src: url("../fonts/NeuzeitGro.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Neuzeit Grotesk';
+	src: url("../fonts/NeuzeitBold.otf")format("opentype");
+	font-weight: bold;
 }
 
 body {
@@ -151,15 +152,28 @@ button:focus{
 }
 
 .secao1{
+	display: flex;
+	flex-direction: column;
 	top: 0px;
 	left: 0px;
 	width: 100vw;
 	height: 100vh; /* 100vh é a altura da tela do dispositivo (vh = viewpor hight)  */
-	background-image: url('../img/background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	opacity: 1;
+}
+
+@media (orientation: landscape) {
+	.secao1 {
+		background: url('../img/background.png');
+	}
+}
+
+@media (orientation: portrait) {
+	.secao1 {
+		background: url('../img/background-mobile.png');
+	}
 }
 
 .secao2{
@@ -317,7 +331,7 @@ footer{
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #FFFFFF;
-	opacity: 
+	opacity: 0;
 }
 
 #secao4_titulo{
@@ -480,7 +494,7 @@ footer{
 }
 
 #secao7_titulo{
-	
+
 	top: 6890px;
 	left: 1012px;
 	width: 517px;
@@ -493,7 +507,7 @@ footer{
 }
 
 #txt_demo{
-	
+
 	padding: 30px;
 	top: 7009px;
 	left: 1019px;
@@ -528,7 +542,7 @@ footer{
 }
 
 #borda_form{
-	
+
 	border: 8px solid #283258;
 	opacity: 1;
 }
@@ -764,4 +778,17 @@ footer{
 		
 		opacity: 1;
     }
+}
+
+.secao4 .col-md-6 {
+	padding-left:0;
+}
+.secao4 .container-fluid {
+	padding-left:0;
+}
+.secao6 .col-md-6 {
+	padding-right:0;
+}
+.secao6 .container-fluid {
+	padding-right:0;
 }
