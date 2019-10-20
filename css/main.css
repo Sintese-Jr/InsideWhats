@@ -167,6 +167,10 @@ button:focus{
 	padding: 0px;
 	max-width: 100%;
 }
+.noPadding{
+	padding: 0px;
+	max-width: 100%;
+}
 
 @media (orientation: landscape) {
 	.secao1 {
@@ -189,7 +193,7 @@ button:focus{
 .secao2{
 	top: 1086px;
 	left: 0px;
-	width: device-width;
+	width: 100%;
 	height: 100vh;
 	background: #283258 0% 0% no-repeat padding-box;
 	opacity: 1;
@@ -198,32 +202,26 @@ button:focus{
 .secao3{
 	top: 0px;
 	left: 0px;
-	width: device-width;
-	height: 100vh;
+	width: 100%;
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 
-.secao4{
-
-}
 
 .secao5{
 	top: 4455px;
 	left: 0px;
-	width: device-width;
+	width: 100%;
 	height: 660px;
 	background: #F8F8F9 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 
-.secao6{
 
-}
 .secao7{
 	top: 6655px;
 	left: 0px;
-	width: device-width;
+	width: 100%;
 	height: 660px;
 	background: #F8F8F9 0% 0% no-repeat padding-box;
 	opacity: 1;
@@ -232,7 +230,7 @@ button:focus{
 .secao8{
 	top: 0px;
 	left: 0px;
-	width: device-width;
+	width: 100%;
 	height: 1099px;
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	opacity: 1;
