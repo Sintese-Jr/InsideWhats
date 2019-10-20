@@ -150,6 +150,8 @@ button:focus{
 }
 
 .secao1{
+	display: flex;
+	flex-direction: column;
 	top: 0px;
 	left: 0px;
 	width: 100vw;
@@ -327,7 +329,7 @@ footer{
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #FFFFFF;
-	opacity:
+	opacity: 0;
 }
 
 #secao4_titulo{
@@ -642,6 +644,7 @@ footer{
 	opacity: 1;
 }
 
+
 .secao4 .col-md-6 {
 	padding-left:0;
 }
@@ -654,3 +657,4 @@ footer{
 .secao6 .container-fluid {
 	padding-right:0;
 }
+
