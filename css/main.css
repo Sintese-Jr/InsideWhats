@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    
+    
+    src: url(../fonts/NeuzeitGro.otf);
+   
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #283258;
 }
+<<<<<<< HEAD
 .card{
     top: 0px;
     left: 0px;
@@ -19,12 +30,22 @@ body {
 #logo {
     padding-top: 0px;
     padding-left: 10px;
+=======
+
+/* Tira uma borda azul que fica nos botões quando clicados */
+button:focus{
+	outline: none;
+}
+
+#logo{
+>>>>>>> master
     top: 44px;
     left: 39px;
     width: 167px;
     height: 42px;
 }
 
+<<<<<<< HEAD
 #menu {
     padding: 0px;
     top: 58px;
@@ -45,3 +66,610 @@ body {
     color: #FFFFFF;
     opacity: 1;
 }
+=======
+.cabecalhoPrincipal-nav{
+	padding: 20px;
+}
+
+#MM{
+	padding-right: 30px;
+	top: 86px;
+	left: 1129px;
+	width: 148px;
+	height: 18px;
+	text-align: center;
+	font: Regular 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+
+#Van{
+	padding-right: 30px;
+	top: 86px;
+	left: 1337px;
+	width: 88px;
+	height: 18px;
+	text-align: center;
+	font: Regular 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#Rec{
+	padding-right: 30px;
+	top: 86px;
+	left: 1479px;
+	width: 72px;
+	height: 18px;
+	text-align: center;
+	font: Regular 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#Cont{
+	width: 170px;
+	height: 56px;
+	background: none;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#Cont:hover{
+	background-color: #FFFFFF;
+	color: inherit;
+}
+
+#secao1_titulo{
+	top: 324px;
+	left: 275px;
+	height: 187px;
+	text-align: left;
+	font: Bold 90px/96px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#plataforma_text{
+	text-align: left;
+	letter-spacing: 0.45px;
+	color: #FFFFFF;
+	opacity: 1;
+	margin-bottom: 60px;
+}
+
+#banner_button{
+	padding: 2rem 5rem;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 100px;
+	font: Bold 2rem/1.4rem Neuzeit Grotesk;
+	color: #283258;
+}
+
+#secao2_titulo{
+	padding-top:20px;
+	top: 1443px;
+	left: 280px;
+	width: 582px;
+	height: 65px;
+	font: Bold 45px/48px Neuzeit Grotesk;
+	color:  #EADAB4 ;
+	opacity: 1;
+}
+
+
+#sub_sec2{
+	padding-top: 100px;
+	top: 1357px;
+	left: 279px;
+	width: 343px;
+	height: 28px;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#mobile_text{
+	padding-top: 70px;
+	top: 1604px;
+	left: 275px;
+	width: 623px;
+	height: 181px;
+	text-align: left;
+	font: Regular 18px/36px Neuzeit Grotesk;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.secao1{
+	top: 0px;
+	left: 0px;
+	width: device-width;
+	height: 100vh; /* 100vh é a altura da tela do dispositivo (vh = viewpor hight)  */
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 1;
+}
+
+.secao2{
+	top: 1086px;
+	left: 0px;
+	width: device-width;
+	height: 100vh;
+	background: #283258 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.secao3{
+	top: 0px;
+	left: 0px;
+	width: device-width;
+	height: 100vh;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.secao4{
+
+}
+
+.secao5{
+	top: 4455px;
+	left: 0px;
+	width: device-width;
+	height: 660px;
+	background: #F8F8F9 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.secao6{
+
+}
+.secao7{
+	top: 6655px;
+	left: 0px;
+	width: device-width;
+	height: 660px;
+	background: #F8F8F9 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.secao8{
+	top: 0px;
+	left: 0px;
+	width: device-width;
+	height: 1099px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+footer{
+	top: 9793px;
+	left: -26px;
+	width: device-width;
+	height: 112px;
+	background: #283258 0% 0% no-repeat padding-box;
+	border: 1px solid #283258;
+	opacity: 1;
+}
+#marketing_button{
+	top: 1837px;
+	left: 277px;
+	width: 303px;
+	height: 56px;
+	border: 1px solid #FFFFFF;
+	border-radius: 132px;
+	opacity: 1;
+	background: transparent;
+	font: Regular Neuzeit Grotesk;
+	color: #FFFFFF;
+}
+#marketing_button:hover{
+	background-color: #FFFFFF;
+	color: #283258;
+}
+
+#img-desktop{
+	top: 1224px;
+	left: 1091px;
+	width: 530px;
+	height: 360px;
+	background: transparent url('../img/desktop.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#img-mob{
+	top: 1470px;
+	left: 1110px;
+	width: 179px;
+	height: 362px;
+	background: transparent url('../img/Mobile.png') 0% 0% no-repeat padding-box;
+	opacity: 1
+}
+
+#secao3_titulo{
+	padding-top: 80px;
+	top: 2356px;
+	left: 633px;
+	width: 657px;
+	height: 65px;
+	font: Bold 45px/48px Neuzeit Grotesk;
+	color:  #283258;
+	opacity: 1;
+}
+
+#vantagens_text{
+	padding-top: 70px;
+	top: 2493px;
+	left: 623px;
+	width: 674px;
+	height: 123px;
+	text-align: center;
+	font: Regular 20px/32px Neuzeit Grotesk;
+	letter-spacing: 0;
+	color: #283258;
+	opacity: 1;
+}
+
+#txt_van{
+	padding-top: 20px;
+	top: 2894px;
+	left: 209px;
+	width: 260px;
+	height: 123px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #283258;
+	opacity: 1;
+}
+
+#sub_secao4{
+	padding-top: 150px;
+	top: 3649px;
+	left: 1111px;
+	width: 240px;
+	height: 24px;
+	text-align: left;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#sub2_secao4{
+	padding-top: 50px;
+	top: 3843px;
+	left: 1111px;
+	width: 601px;
+	height: 24px;
+	text-align: left;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #FFFFFF;
+	opacity: 
+}
+
+#secao4_titulo{
+	padding-top: 30px;
+	top: 3713px;
+	left: 1111px;
+	width: 556px;
+	height: 63px;
+	font: Bold 45px/48px Neuzeit Grotesk;
+	color:  #EADAB4;
+	opacity: 1;
+}
+
+#text_rec{
+	padding-top: 70px;
+	top: 3949px;
+	left: 1106px;
+	width: 518px;
+	height: 136px;
+	text-align: left;
+	font: Regular 20px/28px Neuzeit Grotesk;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#Love_1{
+	top: 5739px;
+	left: 1706px;
+	width: 19px;
+	height: 19px;
+	background: transparent 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+#Love_2{
+	top: 4300px;
+	left: 1690px;
+	width: 40px;
+	height: 40px;
+	background:  0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+#Love_3{
+	 top: 150px;
+  left: 150px;
+	width: 52px;
+	height: 52px;
+	background: transparent  0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+#Love_4{
+
+	left: 90%;
+	width: 54px;
+	height: 54px;
+	background: transparent  0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#sub_secao5{
+	padding-top: 150px;
+	top: 4690px;
+	left: 166px;
+	width: 240px;
+	height: 24px;
+	text-align: left;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #283258;
+	opacity: 1;
+}
+
+#sub2_secao5{
+	padding-top: 50px;
+	top: 4869px;
+	left: 166px;
+	width: 637px;
+	height: 66px;
+	text-align: left;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #283258;
+	opacity: 1;
+}
+
+
+#secao5_titulo{
+	padding-top: 50px;
+	top: 4754px;
+	left: 166px;
+	width: 794px;
+	height: 88px;
+	text-align: left;
+	font: Bold 72px/70px Neuzeit Grotesk;
+	letter-spacing: 1.8px;
+	color: #283258;
+	opacity: 1;
+}
+
+#txt_his{
+	padding-top: 50px;
+	top: 4994px;
+	left: 166px;
+	width: 683px;
+	height: 250px;
+	text-align: left;
+	font: Regular 20px/28px Neuzeit Grotesk;
+	letter-spacing: 0.5px;
+	color: #283258;
+	opacity: 1;
+}
+
+#sub_secao6{
+	padding-top: 80px;
+	top: 5873px;
+	left: 166px;
+	width: 240px;
+	height: 24px;
+	text-align: left;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#secao6_titulo{
+	padding-top: 80px;
+	top: 5937px;
+	left: 166px;
+	width: 690px;
+	height: 154px;
+	text-align: left;
+	font: Bold 72px/70px Neuzeit Grotesk;
+	letter-spacing: 1.8px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#txt_not{
+	padding-top: 130px;
+	top: 6139px;
+	left: 166px;
+	width: 643px;
+	height: 110px;
+	text-align: left;
+	font: Regular 20px/28px Neuzeit Grotesk;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#balao{
+	padding-top: 55px;
+	top: 7186px;
+	left: 980px;
+	width: 403px;
+	height: 121px;
+	background: transparent;
+	opacity: 1;
+}
+
+#secao7_titulo{
+	
+	top: 6890px;
+	left: 1012px;
+	width: 517px;
+	height: 72px;
+	text-align: left;
+	font: Bold 52px/80px Neuzeit Grotesk;
+	letter-spacing: 1.8px;
+	color: #283258;
+	opacity: 1;
+}
+
+#txt_demo{
+	
+	padding: 30px;
+	top: 7009px;
+	left: 1019px;
+	width: 583px;
+	height: 150px;
+	text-align: left;
+	font: Regular 20px/28px Neuzeit Grotesk;
+	letter-spacing: 0.5px;
+	color: #283258;
+	opacity: 1;
+}
+
+#button_demo{
+	top: 7249px;
+	left: 1019px;
+	width: 258px;
+	height: 56px;
+	background: #283258 0% 0%;
+	border-radius: 132px;
+	font: Bold 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	border: none;
+}
+
+#Mockup{
+	padding-top: 100px;
+	width: 149px;
+	height: 400px;
+	background: transparent 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#borda_form{
+	
+	border: 8px solid #283258;
+	opacity: 1;
+}
+
+#secao8_titulo{
+	top: 7806px;
+	left: 722px;
+	width: 477px;
+	height: 72px;
+	text-align: center;
+	font: Bold 72px/100px Neuzeit Grotesk;
+	letter-spacing: 1.8px;
+	color: #283258;
+	opacity: 1;
+}
+
+#txt_icon1{
+	top: 8132px;
+	left: 525px;
+	width: 236px;
+	height: 80px;
+	text-align: center;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #283258;
+	opacity: 1;
+}
+
+#txt_icon2{
+	top: 8134px;
+	left: 833px;
+	width: 255px;
+	height: 66px;
+	text-align: center;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #283258;
+	opacity: 1;
+}
+
+#txt_icon3{
+	top: 8132px;
+	left: 1160px;
+	width: 236px;
+	height: 69px;
+	text-align: center;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #283258;
+	opacity: 1;
+}
+
+#forms_titulo{
+	top: 8474px;
+	left: 590px;
+	width: 741px;
+	height: 73px;
+	text-align: center;
+	font: Bold 36px/50px Neuzeit Grotesk;
+	letter-spacing: 1.8px;
+	color: #283258;
+	opacity: 1
+}
+
+#forms_txt{
+	top: 8639px;
+	left: 546px;
+	width: 829px;
+	height: 80px;
+	text-align: center;
+	font: Regular 32px/44px Neuzeit Grotesk;
+	letter-spacing: 0.8px;
+	color: #283258;
+	opacity: 1
+}
+
+#button_forms{
+	top: 9344px;
+	left: 832px;
+	width: 258px;
+	height: 56px;
+	background: #283258 0% 0% no-repeat padding-box;
+	border-radius: 132px;
+	text-align: center;
+	font: Bold 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1
+
+}
+
+#CC{
+	top: 9845px;
+	left: 1261px;
+	width: 233px;
+	height: 12px;
+	text-align: left;
+	font: Regular 10px/14px Neuzeit Grotesk;
+	letter-spacing: 0.25px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+>>>>>>> master
