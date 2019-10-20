@@ -19,6 +19,7 @@ button:focus{
 }
 
 #logo{
+  position: absolute;
     top: 44px;
     left: 39px;
     width: 167px;
@@ -86,7 +87,8 @@ button:focus{
 }
 
 #secao1_titulo{
-	top: 324px;
+	padding-top: 50px;
+	top: 20px;
 	left: 275px;
 	height: 187px;
 	text-align: left;
@@ -644,6 +646,139 @@ footer{
 	opacity: 1;
 }
 
+@media not all and (max-width: 600px) {
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+        background: transparent;
+    }
+    .barra-nav{
+    	display: none;
+    }
+}
+
+@media (max-width: 600px){
+	.cabecalhoPrincipal-nav{
+		display: none;
+	}
+	.menu-abrir{
+		position:absolute;
+		display: block;
+		top: 44px;
+		left: 220px;
+	}
+	.menu-fechar{
+		position:absolute;
+		display: block;
+		top: 34px;
+		left: 210px;
+	}
+	.logo{
+	
+	padding-top:10px;	
+	position:absolute;
+	top: 22px;
+	left: -20px;
+	width: 167px;
+	height: 42px;
+	
+	opacity: 1;
+	}
+
+
+	.barra-nav {
+        background: #283258;
+        padding: 1em;
+        margin: 0;
+
+        height: 100%;
+        width: 100%;
+        
+
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -100%;
+
+        transition: left 0.3s ease-out;
+    }
+    .menu-ativo .barra-nav {
+        left: 0;
+    }
+
+    .menu_mm{
+    	position: absolute;
+    	top: 214px;
+		left: 39px;
+		width: 132px;
+		height: 16px;
+		text-align: center;
+		font: Regular 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+		opacity: 1;
+    }
+    .menu_van{
+    	position: absolute;
+    	top: 263px;
+		left: 39px;
+		width: 78px;
+		height: 16px;
+		text-align: center;
+		font: Regular 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+		opacity: 1;
+    }
+    .menu_rec{
+    	position: absolute;
+    	top: 313px;
+		left: 39px;
+		width: 64px;
+		height: 16px;
+		text-align: center;
+		font: Regular 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+		opacity: 1;
+    }
+
+    .menu_vp{
+    	position: absolute;
+    	top: 362px;
+		left: 39px;
+		width: 115px;
+		height: 16px;
+		text-align: left;
+		font: Regular 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+		opacity
+    }
+    .menu_fc{
+    	position: absolute;
+    	top: 412px;
+		left: 39px;
+		width: 100px;
+		height: 16px;
+		text-align: center;
+		font: Regular 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+		opacity: 1;
+    }
+
+    .logo_menu{
+    	padding-top:10px;	
+		position:absolute;
+		top: 30px;
+		left: 30px;
+		width: 167px;
+		height: 42px;
+		
+		opacity: 1;
+    }
+}
 
 .secao4 .col-md-6 {
 	padding-left:0;
@@ -657,4 +792,3 @@ footer{
 .secao6 .container-fluid {
 	padding-right:0;
 }
-
