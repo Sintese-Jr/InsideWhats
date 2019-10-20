@@ -69,13 +69,19 @@ button:focus{
 }
 
 #Cont{
-	top: 64px;
-	left: 1610px;
 	width: 170px;
 	height: 56px;
-	background: transparent url('../img/botao contato.png') 0% 0% no-repeat padding-box;
-	opacity: 1;
-	border: none;
+	background: none;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#Cont:hover{
+	background-color: #FFFFFF;
+	color: inherit;
 }
 
 #secao1_titulo{
@@ -98,13 +104,12 @@ button:focus{
 }
 
 #banner_button{
-	top: 716px;
-	left: 275px;
-	width: 318px;
-	height: 56px;
-	background: transparent url('../img/botao banner.png') 0% 0% no-repeat padding-box;
-	opacity: 1;
+	padding: 2rem 5rem;
+	background-color: #FFFFFF;
 	border: none;
+	border-radius: 100px;
+	font: Bold 2rem/1.4rem Neuzeit Grotesk;
+	color: #283258;
 }
 
 #secao2_titulo{
@@ -227,6 +232,10 @@ footer{
 	background: transparent;
 	font: Regular Neuzeit Grotesk;
 	color: #FFFFFF;
+}
+#marketing_button:hover{
+	background-color: #FFFFFF;
+	color: #283258;
 }
 
 #img-desktop{
@@ -500,13 +509,12 @@ footer{
 	left: 1019px;
 	width: 258px;
 	height: 56px;
-	background: #283258 0% 0% no-repeat padding-box;
+	background: #283258 0% 0%;
 	border-radius: 132px;
 	font: Bold 18px/26px Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
-
-	opacity: 1;
+	border: none;
 }
 
 #Mockup{
