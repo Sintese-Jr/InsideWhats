@@ -182,6 +182,7 @@ button:focus{
 
 }
 
+
 .secao5{
 	top: 4455px;
 	left: 0px;
@@ -315,7 +316,7 @@ footer{
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #FFFFFF;
-	opacity: 
+	opacity: 1;
 }
 
 #secao4_titulo{
@@ -343,32 +344,24 @@ footer{
 }
 
 #Love_1{
-	top: 5739px;
-	left: 1706px;
 	width: 19px;
 	height: 19px;
 	background: transparent 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 #Love_2{
-	top: 4300px;
-	left: 1690px;
 	width: 40px;
 	height: 40px;
 	background:  0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 #Love_3{
-	 top: 150px;
-  left: 150px;
 	width: 52px;
 	height: 52px;
 	background: transparent  0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 #Love_4{
-
-	left: 90%;
 	width: 54px;
 	height: 54px;
 	background: transparent  0% 0% no-repeat padding-box;
@@ -628,4 +621,13 @@ footer{
 	letter-spacing: 0.25px;
 	color: #FFFFFF;
 	opacity: 1;
+}
+
+.emojis{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	width: 70px;
+	height: 150px;
+	border: green solid;
 }
