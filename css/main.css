@@ -151,7 +151,7 @@ button:focus{
 .secao1{
 	top: 0px;
 	left: 0px;
-	width: device-width;
+	width: 100vw;
 	height: 100vh; /* 100vh é a altura da tela do dispositivo (vh = viewpor hight)  */
 	background-image: url('../img/background.png');
 	background-repeat: no-repeat;
