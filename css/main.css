@@ -141,6 +141,8 @@ body {
 }
 
 .secao1{
+	display: flex;
+	flex-direction: column;
 	top: 0px;
 	left: 0px;
 	width: device-width;
@@ -148,6 +150,7 @@ body {
 	background: transparent url('../img/background.png') 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
+
 
 .secao2{
 	top: 1086px;
@@ -300,7 +303,7 @@ footer{
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #FFFFFF;
-	opacity: 
+	opacity: 0;
 }
 
 #secao4_titulo{
@@ -615,3 +618,4 @@ footer{
 	color: #FFFFFF;
 	opacity: 1;
 }
+
