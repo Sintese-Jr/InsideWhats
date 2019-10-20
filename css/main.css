@@ -8,21 +8,13 @@
     font-style: normal;
 }
 
-
-
-#plataforma_text{
-	top: 568px;
-	left: 280px;
-	width: 674px;
-	height: 91px;
-	text-align: left;
-	letter-spacing: 0.45px;
-	color: #FFFFFF;
-	opacity: 1;
-}
-
 body {
     background-color: #283258;
+}
+
+/* Tira uma borda azul que fica nos botões quando clicados */
+button:focus{
+	outline: none;
 }
 
 #logo{
@@ -32,7 +24,9 @@ body {
     height: 42px;
 }
 
-
+.cabecalhoPrincipal-nav{
+	padding: 20px;
+}
 
 #MM{
 	padding-right: 30px;
@@ -81,18 +75,26 @@ body {
 	height: 56px;
 	background: transparent url('../img/botao contato.png') 0% 0% no-repeat padding-box;
 	opacity: 1;
+	border: none;
 }
 
 #secao1_titulo{
 	top: 324px;
 	left: 275px;
-	width: 617px;
 	height: 187px;
 	text-align: left;
 	font: Bold 90px/96px Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
 	opacity: 1;
+}
+
+#plataforma_text{
+	text-align: left;
+	letter-spacing: 0.45px;
+	color: #FFFFFF;
+	opacity: 1;
+	margin-bottom: 60px;
 }
 
 #banner_button{
@@ -102,6 +104,7 @@ body {
 	height: 56px;
 	background: transparent url('../img/botao banner.png') 0% 0% no-repeat padding-box;
 	opacity: 1;
+	border: none;
 }
 
 #secao2_titulo{
@@ -144,8 +147,11 @@ body {
 	top: 0px;
 	left: 0px;
 	width: device-width;
-	height: 660px;
-	background: transparent url('../img/background.png') 0% 0% no-repeat padding-box;
+	height: 100vh; /* 100vh é a altura da tela do dispositivo (vh = viewpor hight)  */
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	opacity: 1;
 }
 
@@ -153,7 +159,7 @@ body {
 	top: 1086px;
 	left: 0px;
 	width: device-width;
-	height: 660px;
+	height: 100vh;
 	background: #283258 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
@@ -162,7 +168,7 @@ body {
 	top: 0px;
 	left: 0px;
 	width: device-width;
-	height: 660px;
+	height: 100vh;
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
