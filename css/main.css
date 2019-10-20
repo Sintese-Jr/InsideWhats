@@ -500,12 +500,9 @@ footer{
 }
 
 #balao{
-	font: Bold 24px/24px Neuzeit Grotesk;
-	padding-top: 55px;
-	top: 7186px;
-	left: 980px;
-	width: 403px;
-	height: 121px;
+	padding-top: 55%;
+	left: 03%;
+	width: 24rem;
 	background: transparent;
 	opacity: 1;
 }
