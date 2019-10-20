@@ -166,12 +166,14 @@ button:focus{
 @media (orientation: landscape) {
 	.secao1 {
 		background: url('../img/background.png');
+		background-size: cover;
 	}
 }
 
 @media (orientation: portrait) {
 	.secao1 {
-		background: url('../img/background-mobile.png');
+		background: url('../img/background-mobile.png') no-repeat;
+		background-size: cover;
 	}
 }
 
