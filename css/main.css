@@ -37,7 +37,7 @@ button:focus{
 	width: 148px;
 	height: 18px;
 	text-align: center;
-	font: Regular 18px/26px Neuzeit Grotesk;
+	font: 18px/26px Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
 	opacity: 1;
@@ -51,7 +51,7 @@ button:focus{
 	width: 88px;
 	height: 18px;
 	text-align: center;
-	font: Regular 18px/26px Neuzeit Grotesk;
+	font: 18px/26px Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
 	opacity: 1;
@@ -64,7 +64,7 @@ button:focus{
 	width: 72px;
 	height: 18px;
 	text-align: center;
-	font: Regular 18px/26px Neuzeit Grotesk;
+	font: 18px/26px Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
 	opacity: 1;
@@ -144,7 +144,7 @@ button:focus{
 	width: 623px;
 	height: 181px;
 	text-align: left;
-	font: Regular 18px/36px Neuzeit Grotesk;
+	font: 18px/36px Neuzeit Grotesk;
 	letter-spacing: 0;
 	color: #FFFFFF;
 	opacity: 1;
@@ -251,7 +251,7 @@ footer{
 	border-radius: 132px;
 	opacity: 1;
 	background: transparent;
-	font: Regular Neuzeit Grotesk;
+	font: Neuzeit Grotesk;
 	color: #FFFFFF;
 }
 #marketing_button:hover{
@@ -295,7 +295,7 @@ footer{
 	width: 674px;
 	height: 123px;
 	text-align: center;
-	font: Regular 20px/32px Neuzeit Grotesk;
+	font: 20px/32px Neuzeit Grotesk;
 	letter-spacing: 0;
 	color: #283258;
 	opacity: 1;
@@ -357,7 +357,7 @@ footer{
 	width: 518px;
 	height: 136px;
 	text-align: left;
-	font: Regular 20px/28px Neuzeit Grotesk;
+	font: 20px/28px Neuzeit Grotesk;
 	letter-spacing: 0.5px;
 	color: #FFFFFF;
 	opacity: 1;
@@ -443,7 +443,7 @@ footer{
 	width: 683px;
 	height: 250px;
 	text-align: left;
-	font: Regular 20px/28px Neuzeit Grotesk;
+	font: 20px/28px Neuzeit Grotesk;
 	letter-spacing: 0.5px;
 	color: #283258;
 	opacity: 1;
@@ -482,13 +482,14 @@ footer{
 	width: 643px;
 	height: 110px;
 	text-align: left;
-	font: Regular 20px/28px Neuzeit Grotesk;
+	font: 20px/28px Neuzeit Grotesk;
 	letter-spacing: 0.5px;
 	color: #FFFFFF;
 	opacity: 1;
 }
 
 #balao{
+	font-family: Neuzeit Grotesk;
 	padding-top: 55px;
 	top: 7186px;
 	left: 980px;
@@ -519,7 +520,7 @@ footer{
 	width: 583px;
 	height: 150px;
 	text-align: left;
-	font: Regular 20px/28px Neuzeit Grotesk;
+	font: 20px/28px Neuzeit Grotesk;
 	letter-spacing: 0.5px;
 	color: #283258;
 	opacity: 1;
@@ -644,7 +645,7 @@ footer{
 	width: 233px;
 	height: 12px;
 	text-align: left;
-	font: Regular 10px/14px Neuzeit Grotesk;
+	font: 10px/14px Neuzeit Grotesk;
 	letter-spacing: 0.25px;
 	color: #FFFFFF;
 	opacity: 1;
@@ -718,7 +719,7 @@ footer{
 		width: 132px;
 		height: 16px;
 		text-align: center;
-		font: Regular 16px/22px Neuzeit Grotesk;
+		font: 16px/22px Neuzeit Grotesk;
 		letter-spacing: 0.8px;
 		color: #FFFFFF;
 		opacity: 1;
@@ -730,7 +731,7 @@ footer{
 		width: 78px;
 		height: 16px;
 		text-align: center;
-		font: Regular 16px/22px Neuzeit Grotesk;
+		font: 16px/22px Neuzeit Grotesk;
 		letter-spacing: 0.8px;
 		color: #FFFFFF;
 		opacity: 1;
@@ -742,7 +743,7 @@ footer{
 		width: 64px;
 		height: 16px;
 		text-align: center;
-		font: Regular 16px/22px Neuzeit Grotesk;
+		font: 16px/22px Neuzeit Grotesk;
 		letter-spacing: 0.8px;
 		color: #FFFFFF;
 		opacity: 1;
@@ -755,7 +756,7 @@ footer{
 		width: 115px;
 		height: 16px;
 		text-align: left;
-		font: Regular 16px/22px Neuzeit Grotesk;
+		font: 16px/22px Neuzeit Grotesk;
 		letter-spacing: 0.8px;
 		color: #FFFFFF;
 		opacity
@@ -767,7 +768,7 @@ footer{
 		width: 100px;
 		height: 16px;
 		text-align: center;
-		font: Regular 16px/22px Neuzeit Grotesk;
+		font: 16px/22px Neuzeit Grotesk;
 		letter-spacing: 0.8px;
 		color: #FFFFFF;
 		opacity: 1;
