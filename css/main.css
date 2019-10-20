@@ -1,11 +1,12 @@
 @font-face {
-    font-family: 'Neuzeit Grotesk';
+	font-family: 'Neuzeit Grotesk';
+	src: url("../fonts/NeuzeitGro.otf") format("opentype");
+}
 
-
-    src: url(../fonts/NeuzeitGro.otf);
-
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+	font-family: 'Neuzeit Grotesk';
+	src: url("../fonts/NeuzeitBold.otf")format("opentype");
+	font-weight: bold;
 }
 
 body {
