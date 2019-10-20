@@ -163,6 +163,11 @@ button:focus{
 	opacity: 1;
 }
 
+#noPadding{
+	padding: 0px;
+	max-width: 100%;
+}
+
 @media (orientation: landscape) {
 	.secao1 {
 		background: url('../img/background.png') no-repeat;
@@ -661,6 +666,7 @@ footer{
 @media (max-width: 600px){
 	.cabecalhoPrincipal-nav{
 		display: none;
+		padding: 0px;
 	}
 	.menu-abrir{
 		position:absolute;
