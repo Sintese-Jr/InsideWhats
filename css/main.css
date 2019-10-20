@@ -644,3 +644,17 @@ footer{
 	opacity: 1;
 }
 
+
+.secao4 .col-md-6 {
+	padding-left:0;
+}
+.secao4 .container-fluid {
+	padding-left:0;
+}
+.secao6 .col-md-6 {
+	padding-right:0;
+}
+.secao6 .container-fluid {
+	padding-right:0;
+}
+
