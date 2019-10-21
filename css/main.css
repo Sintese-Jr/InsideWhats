@@ -328,7 +328,7 @@ footer{
 	padding-top: 150px;
 	top: 3649px;
 	left: 1111px;
-	width: 240px;
+	width: 250px;
 	height: 24px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
@@ -667,7 +667,7 @@ footer{
 	justify-content: start;
 	width: 70px;
 	height: 150px;
-	border: green solid;
+	padding-top: 18%;
 }
 @media not all and (max-width: 600px) {
     .menu-abrir,
