@@ -218,6 +218,7 @@ button:focus{
 }
 
 
+
 .secao5{
 	top: 4455px;
 	left: 0px;
@@ -327,7 +328,7 @@ footer{
 	padding-top: 150px;
 	top: 3649px;
 	left: 1111px;
-	width: 240px;
+	width: 250px;
 	height: 24px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
@@ -353,7 +354,7 @@ footer{
 	padding-top: 30px;
 	top: 3713px;
 	left: 1111px;
-	width: 556px;
+	width: 350px;
 	height: 63px;
 	font: Bold 45px/48px Neuzeit Grotesk;
 	color:  #EADAB4;
@@ -374,32 +375,24 @@ footer{
 }
 
 #Love_1{
-	top: 5739px;
-	left: 1706px;
 	width: 19px;
 	height: 19px;
 	background: transparent 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 #Love_2{
-	top: 4300px;
-	left: 1690px;
 	width: 40px;
 	height: 40px;
 	background:  0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 #Love_3{
-	 top: 150px;
-  left: 150px;
 	width: 52px;
 	height: 52px;
 	background: transparent  0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 #Love_4{
-
-	left: 90%;
 	width: 54px;
 	height: 54px;
 	background: transparent  0% 0% no-repeat padding-box;
@@ -668,6 +661,14 @@ footer{
 	opacity: 1;
 }
 
+.emojis{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	width: 70px;
+	height: 150px;
+	padding-top: 18%;
+}
 @media not all and (max-width: 600px) {
     .menu-abrir,
     .menu-fechar {
@@ -776,7 +777,7 @@ footer{
 		font: 16px/22px Neuzeit Grotesk;
 		letter-spacing: 0.8px;
 		color: #FFFFFF;
-		opacity
+		opacity: 1;
     }
     .menu_fc{
     	position: absolute;
