@@ -804,6 +804,13 @@ footer{
     }
 }
 
+@media screen and (min-width: 500px){
+	#secao1_titulo{
+		font-size: calc(32px + (50/1200) * 100 * 1vw);
+	}
+
+}
+
 .secao4 .col-md-6 {
 	padding-left:0;
 }
