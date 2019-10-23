@@ -1,0 +1,40 @@
+#sub_secao4{
+	left: 20%;
+	width: 70%;
+	height: 40px;
+	text-align: left;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#sub2_secao4{
+	top: 3843px;
+	left: 25%;
+	width: 85%;
+	height: 24px;
+	text-align: left;
+	font: Bold 24px/34px Neuzeit Grotesk;
+	letter-spacing: 0.6px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#secao4_titulo{
+	padding-top: 30px;
+	top: 3713px;
+	left: 1111px;
+	width: 350px;
+	height: 63px;
+	font: Bold 45px/48px Neuzeit Grotesk;
+	color:  #EADAB4;
+	opacity: 1;
+}
+
+.secao4 .col-md-6 {
+	padding-left:0;
+}
+.secao4 .container-fluid {
+	padding-left:0;
+}
