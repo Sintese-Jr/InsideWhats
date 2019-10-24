@@ -38,3 +38,30 @@
 .secao4 .container-fluid {
 	padding-left:0;
 }
+
+.image-section4{
+	width: 50%;
+	min-width: 320px;
+	float: left;
+}
+
+@media(max-width: 800px){
+	.image-section4{
+		width: 100%;
+	}
+
+	#recursos{
+		width: 100%;
+	}
+}
+
+
+.right-section4{
+	width: 40%;
+	float: left;
+}
+
+#recursos{
+	display: flex;
+	flex-direction: row;
+}
