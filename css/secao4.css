@@ -82,6 +82,7 @@
 	.secaoo4-content{
 		display: flex;
 		flex-direction: column;
+		width: 100%;
 	}
 	
 	.image-section4{
@@ -90,6 +91,11 @@
 
 	#recursos{
 		width: 100%;
+	}
+
+	.right-section4{
+		width: 100%;
+		float: left;
 	}
 }
 
