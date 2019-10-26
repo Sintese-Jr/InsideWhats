@@ -1,0 +1,50 @@
+
+
+.secao1{
+	display: flex;
+	flex-direction: column;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh; /* 100vh é a altura da tela do dispositivo (vh = viewpor hight)  */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 1;
+}
+
+#secao1_titulo{
+	
+	left: 275px;
+	height: 187px;
+	text-align: left;
+	font: Bold 90px/96px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+@media screen and (min-width: 500px){
+	#secao1_titulo{
+		font-size: calc(32px + (50/1200) * 100 * 1vw);
+	}
+
+}
+
+@media (orientation: landscape) {
+	.secao1 {
+		background: url('../img/background.png') no-repeat;
+		background-size: 105%;
+		background-origin: padding-box;
+		background-position: initial;
+	}
+}
+
+@media (orientation: portrait) {
+	.secao1 {
+		background: url('../img/background-mobile.png') no-repeat;
+		background-size: 100%;
+		background-origin: padding-box;
+		background-position: initial;
+	}
+}
