@@ -186,7 +186,7 @@ button:focus{
 @media (orientation: portrait) {
 	.secao1 {
 		background: url('../img/background-mobile.png') no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		background-origin: padding-box;
 		background-position: initial;
 	}
@@ -424,7 +424,7 @@ footer{
 	padding-top: 50px;
 	top: 4754px;
 	left: 166px;
-	width: 794px;
+	width: 100%;
 	height: 88px;
 	text-align: left;
 	font: Bold 72px/70px Neuzeit Grotesk;
@@ -437,7 +437,7 @@ footer{
 	padding-top: 50px;
 	top: 4994px;
 	left: 166px;
-	width: 683px;
+	width: 100%;
 	height: 250px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -463,7 +463,7 @@ footer{
 	padding-top: 80px;
 	top: 5937px;
 	left: 166px;
-	width: 690px;
+	width: 100%;
 	height: 154px;
 	text-align: left;
 	font: Bold 72px/70px Neuzeit Grotesk;
@@ -476,7 +476,7 @@ footer{
 	padding-top: 130px;
 	top: 6139px;
 	left: 166px;
-	width: 643px;
+	width: 100%;
 	height: 110px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -497,7 +497,7 @@ footer{
 
 	top: 6890px;
 	left: 1012px;
-	width: 517px;
+	width: 100%;
 	height: 72px;
 	text-align: left;
 	font: Bold 52px/80px Neuzeit Grotesk;
