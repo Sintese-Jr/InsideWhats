@@ -341,11 +341,11 @@ footer{
 /*/////SECAO4FIM////*/
 /*secao5*/
 #sub_secao5{
-	padding-top: 150px;
+	/* padding-top: 150px; */
 	top: 4690px;
 	left: 166px;
-	width: 240px;
-	height: 24px;
+	width: 100%;
+	/* height: 24px; */
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
@@ -354,11 +354,11 @@ footer{
 }
 
 #sub2_secao5{
-	padding-top: 50px;
+	/* padding-top: 50px; */
 	top: 4869px;
 	left: 166px;
-	width: 637px;
-	height: 66px;
+	width: 100%;
+	/* height: 66px; */
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
@@ -368,11 +368,11 @@ footer{
 
 
 #secao5_titulo{
-	padding-top: 50px;
+	/* padding-top: 50px; */
 	top: 4754px;
 	left: 166px;
-	width: 794px;
-	height: 88px;
+	width: 100%;
+	/* height: 88px; */
 	text-align: left;
 	font: Bold 72px/70px Neuzeit Grotesk;
 	letter-spacing: 1.8px;
@@ -384,7 +384,7 @@ footer{
 	padding-top: 50px;
 	top: 4994px;
 	left: 166px;
-	width: 683px;
+	width: 100%;
 	height: 250px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -899,8 +899,8 @@ footer{
 
 	#sub_secao5{
 		
-		width: 200px;
-		height: 18px;
+		width: 100%;
+		/* height: 18px; */
 		text-align: left;
 		font: Bold 18px/26px Neuzeit Grotesk;
 		letter-spacing: 0.45px;
@@ -911,9 +911,9 @@ footer{
 
 	#sub2_secao5{
 		
-		width: 290px;
-		height: 66px;
-		text-align: center;
+		width: 100%;
+		/* height: 66px; */
+		text-align: left;
 		font: Bold 24px/34px Neuzeit Grotesk;
 		letter-spacing: 0.6px;
 		color: #283258;
@@ -925,7 +925,7 @@ footer{
 		
 		width: 319px;
 		height: 132px;
-		text-align: left;
+		text-align: center;
 		font: Bold 48px/48px Neuzeit Grotesk;
 		letter-spacing: 1.2px;
 		color: #283258;
@@ -934,8 +934,8 @@ footer{
 
 	#txt_his{
 		
-		width: 290px;
-		height: 387px;
+		width: 100%;
+		height: 340px;
 		text-align: left;
 		font: 20px/28px Neuzeit Grotesk;
 		letter-spacing: 0.5px;
