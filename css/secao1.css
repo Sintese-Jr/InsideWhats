@@ -69,12 +69,19 @@
 
 
 #logo{
-    width: 167px;
-    height: 42px;
+    width: 280px;
+    height: 55px;
 }
   
+@media (max-width: 800px){
+	#logo{
+		width: 167px;
+    	height: 42px;
+	}
+}
+
 .logo{	
-    padding-top:10px;	
+	
     width: 167px;
     height: 42px;
     
@@ -167,17 +174,16 @@
     }
 }
 
-/* 
+
 @media (max-width: 600px){
 	.cabecalhoPrincipal-nav{
 		display: none;
 		padding: 0px;
 	}
 	.menu-abrir{
-		position:absolute;
-		display: block;
-		top: 44px;
-		left: 220px;
+		width: 30px;
+		height: 30px;
+		padding: 0;
 	}
 	.menu-fechar{
 		position:absolute;
@@ -186,10 +192,9 @@
 		left: 210px;
 	}
 	.logo{	
+		border: whitesmoke solid;
 		padding-top:10px;	
-		position:absolute;
-		top: 22px;
-		left: -20px;
+		padding-left: 4px;
 		width: 167px;
 		height: 42px;
 		
@@ -264,5 +269,4 @@
 		width: 167px;
 		height: 42px;
     }
-} */
-
+}
