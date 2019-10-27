@@ -93,26 +93,6 @@ button:focus{
 	color: inherit;
 }
 
-#secao1_titulo{
-	
-	left: 275px;
-	height: 187px;
-	text-align: left;
-	font: Bold 90px/96px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
-	color: #FFFFFF;
-	opacity: 1;
-}
-
-#plataforma_text{
-	font-family: Neuzeit Grotesk;
-	text-align: left;
-	letter-spacing: 0.45px;
-	color: #FFFFFF;
-	opacity: 1;
-	margin-bottom: 60px;
-}
-
 #banner_button{
 	padding: 2rem 5rem;
 	background-color: #FFFFFF;
@@ -152,19 +132,6 @@ button:focus{
 	opacity: 1;
 }
 
-.secao1{
-	display: flex;
-	flex-direction: column;
-	top: 0px;
-	left: 0px;
-	width: 100vw;
-	height: 100vh; /* 100vh é a altura da tela do dispositivo (vh = viewpor hight)  */
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	opacity: 1;
-}
-
 #noPadding{
 	padding: 0px;
 	max-width: 100%;
@@ -172,24 +139,6 @@ button:focus{
 .noPadding{
 	padding: 0px;
 	max-width: 100%;
-}
-
-@media (orientation: landscape) {
-	.secao1 {
-		background: url('../img/background.png') no-repeat;
-		background-size: 105%;
-		background-origin: padding-box;
-		background-position: initial;
-	}
-}
-
-@media (orientation: portrait) {
-	.secao1 {
-		background: url('../img/background-mobile.png') no-repeat;
-		background-size: 100%;
-		background-origin: padding-box;
-		background-position: initial;
-	}
 }
 
 .secao2{
@@ -691,16 +640,15 @@ footer{
 		top: 34px;
 		left: 210px;
 	}
-	.logo{
-	
-	padding-top:10px;	
-	position:absolute;
-	top: 22px;
-	left: -20px;
-	width: 167px;
-	height: 42px;
-	
-	opacity: 1;
+	.logo{	
+		padding-top:10px;	
+		position:absolute;
+		top: 22px;
+		left: -20px;
+		width: 167px;
+		height: 42px;
+		
+		opacity: 1;
 	}
 
 
@@ -716,12 +664,12 @@ footer{
         position: fixed;
         z-index: 1;
         top: 0;
-        left: -100%;
+        right: -100%;
 
-        transition: left 0.3s ease-out;
+        transition: right 0.3s ease-out;
     }
     .menu-ativo .barra-nav {
-        left: 0;
+        right: 0;
     }
 
     .menu_mm{
@@ -798,12 +746,6 @@ footer{
     }
 }
 
-@media screen and (min-width: 500px){
-	#secao1_titulo{
-		font-size: calc(32px + (50/1200) * 100 * 1vw);
-	}
-
-}
 
 .secao4 .col-md-6 {
 	padding-left:0;

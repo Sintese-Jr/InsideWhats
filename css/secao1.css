@@ -1,0 +1,272 @@
+.fixed{
+	position: fixed;
+	z-index: 3;
+}
+
+#MM{
+	padding-right: 30px;
+	top: 86px;
+	left: 1129px;
+	width: 148px;
+	height: 18px;
+	text-align: center;
+	font: 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+
+#Van{
+	padding-right: 30px;
+	top: 86px;
+	left: 1337px;
+	width: 88px;
+	height: 18px;
+	text-align: center;
+	font: 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+
+#Rec{
+	padding-right: 30px;
+	top: 86px;
+	left: 1479px;
+	width: 72px;
+	height: 18px;
+	text-align: center;
+	font: 18px/26px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+
+#Cont{
+	font-family: Neuzeit Grotesk;
+	width: 170px;
+	height: 56px;
+	background: none;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#Cont:hover{
+	background-color: #FFFFFF;
+	color: inherit;
+}
+
+
+.cabecalhoPrincipal-nav{
+	padding: 20px;
+}
+
+
+#logo{
+    width: 280px;
+    height: 55px;
+}
+  
+@media (max-width: 800px){
+	#logo{
+		width: 167px;
+    	height: 42px;
+	}
+}
+
+.logo{	
+	
+    width: 167px;
+    height: 42px;
+    
+    opacity: 1;
+}
+
+
+.secao1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh; /* 100vh é a altura da tela do dispositivo (vh = viewpor hight)  */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#secao1_titulo{
+	text-align: left;
+	font: Bold 80px Neuzeit Grotesk;
+	letter-spacing: 0.9px;
+	color: #FFFFFF;
+	padding: 0 5px;
+	padding-bottom: 57px;
+}
+
+@media (max-width: 800px){
+	#secao1_titulo{
+		font:Bold 45px Neuzeit Grotesk;
+		letter-spacing: 0.45px;
+		color: white;
+	}
+}
+
+#plataforma_text{
+	font-size: 19px;
+	font-family: Neuzeit Grotesk;
+	text-align: left;
+	letter-spacing: 0.45px;
+	color: white;
+	margin-bottom: 60px;
+	padding: 0 5px;
+}
+
+.neg{
+	font-weight: bold;
+	font-family: Neuzeit Grotesk;
+	color: white;
+}
+
+
+#banner_button{
+	padding: 2rem 5rem;
+	height: 56px;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 100px;
+	font: Bold 2rem/1.4rem Neuzeit Grotesk;
+	color: #283258;
+}
+
+
+@media (orientation: landscape) {
+	.secao1 {
+		background: url('../img/background.png') no-repeat;
+		background-size: 100%;
+		background-origin: padding-box;
+		background-position: initial;
+	}
+}
+
+@media (orientation: portrait) {
+	.secao1 {
+		background: url('../img/background-mobile.png') no-repeat;
+		background-size: 100%;
+		background-origin: padding-box;
+		background-position: initial;
+	}
+}
+
+@media not all and (max-width: 600px) {
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+        background: transparent;
+    }
+    .barra-nav{
+    	display: none;
+    }
+}
+
+
+@media (max-width: 600px){
+	.cabecalhoPrincipal-nav{
+		display: none;
+		padding: 0px;
+	}
+	.menu-abrir{
+		width: 30px;
+		height: 30px;
+		padding: 0;
+	}
+	.menu-fechar{
+		position:absolute;
+		display: block;
+		top: 34px;
+		left: 210px;
+	}
+	.logo{	
+		border: whitesmoke solid;
+		padding-top:10px;	
+		padding-left: 4px;
+		width: 167px;
+		height: 42px;
+		
+		opacity: 1;
+	}
+
+
+	.barra-nav {
+        background: #283258;
+        padding: 1em;
+        margin: 0;
+
+        height: 100%;
+        width: 100%;
+        
+
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: -100% ;
+
+        transition: right 0.3s ease-out;
+    }
+    .menu-ativo .barra-nav {
+        right: 0;
+    }
+
+    .menu_mm{
+		width: 132px;
+		height: 16px;
+		text-align: left;
+		font: 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+    }
+    .menu_van{
+		width: 78px;
+		height: 16px;
+		text-align: left;
+		font: 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+    }
+    .menu_rec{
+		width: 64px;
+		height: 16px;
+		text-align: left;
+		font: 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+    }
+
+    .menu_vp{
+		width: 115px;
+		height: 16px;
+		text-align: left;
+		font: 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+    }
+    .menu_fc{
+		width: 100px;
+		height: 16px;
+		text-align: left;
+		font: 16px/22px Neuzeit Grotesk;
+		letter-spacing: 0.8px;
+		color: #FFFFFF;
+    }
+
+    .logo_menu{
+    	padding-top:20px;	
+		width: 167px;
+		height: 42px;
+    }
+}
