@@ -301,15 +301,26 @@ button:focus{
 .secao2{
 	top: 0px;
 	left: 0px;
-	width: 100%;
-  	
-  
-	background: #283258; 
+	width: 100vw;
+	height: 100vh;
+	background: #283258;
+
 	opacity: 1;
 	padding-bottom: 20px;
 
 }
 
+#sec2_texto{
+	height: 42vh;
+}
+
+.secao3{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
 
 
 
