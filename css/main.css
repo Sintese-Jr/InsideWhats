@@ -311,21 +311,21 @@ button:focus{
 
 
 .secao5{
-	top: 4455px;
+	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 660px;
-	background: #F8F8F9 0% 0% no-repeat padding-box;
+	
+	background: #FFFFFF ;
 	opacity: 1;
 }
 
 
 .secao7{
-	top: 6655px;
+	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 660px;
-	background: #F8F8F9 0% 0% no-repeat padding-box;
+	
+	background: #F8F8F9;
 	opacity: 1;
 }
 
@@ -334,13 +334,13 @@ button:focus{
 	left: 0px;
 	width: 100%;
 	height: 1099px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background: #FFFFFF;
 	opacity: 1;
 }
 
 footer{
 	height: 112px;
-	background: #283258 0% 0% no-repeat padding-box;
+	background: #283258;
 	border: 1px solid #283258;
 	opacity: 1;
 }
@@ -443,7 +443,6 @@ footer{
 #sub2_secao4{
 	
 	width: 601px;
-	height: 24px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
@@ -552,7 +551,7 @@ footer{
 	color: #283258;
 	opacity: 1;
 }
-
+/*      /////////      SECAO 6    ///////////   */   
 #sub_secao6{
 	padding-top: 80px;
 	top: 5873px;
@@ -926,11 +925,107 @@ footer{
 
 	/*seção5-mobile*/
 
+	#sub_secao5{
+		
+		width: 200px;
+		height: 18px;
+		text-align: left;
+		font: Bold 18px/26px Neuzeit Grotesk;
+		letter-spacing: 0.45px;
+		color: #283258;
+		opacity: 1;
+
+	}
+
+	#sub2_secao5{
+		
+		width: 290px;
+		height: 66px;
+		text-align: center;
+		font: Bold 24px/34px Neuzeit Grotesk;
+		letter-spacing: 0.6px;
+		color: #283258;
+		opacity: 1;
+	}
+
+
+	#secao5_titulo{
+		
+		width: 319px;
+		height: 132px;
+		text-align: left;
+		font: Bold 48px/48px Neuzeit Grotesk;
+		letter-spacing: 1.2px;
+		color: #283258;
+		opacity: 1;
+	}
+
+	#txt_his{
+		
+		width: 290px;
+		height: 387px;
+		text-align: left;
+		font: 20px/28px Neuzeit Grotesk;
+		letter-spacing: 0.5px;
+		color: #283258;
+		opacity: 1;
+	}
+
+	/* //////// SECAO 6 MOBILE ///////*/
+	#sub_secao6{
+		
+		width: 200px;
+		height: 18px;
+		text-align: left;
+		font: Bold 18px/26px Neuzeit Grotesk;
+		letter-spacing: 0.45px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+
+	#secao6_titulo{
+		
+		width: 330px;
+		height: 194px;
+		text-align: left;
+		font: Bold 48px/48px Neuzeit Grotesk;
+		letter-spacing: 1.2px;
+		color: #FFFFFF;
+		opacity: 1;
+
+	}
+
+	#txt_not{
+		
+		width: 301px;
+		height: 243px;
+		text-align: left;
+		font: 20px/28px Neuzeit Grotesk;
+		letter-spacing: 0.5px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+
+	footer{
+	height: 20px;
+	background: #283258;
+	border: 1px solid #283258;
+	opacity: 1;
+	}
+
+	.secao8{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	
+	background: #FFFFFF;
+	opacity: 1;
+	}
 
 
 }
 
-
+/*
 .secao4 .col-md-6 {
 	padding-left:0;
 }
@@ -943,3 +1038,4 @@ footer{
 .secao6 .container-fluid {
 	padding-right:0;
 }
+*/
