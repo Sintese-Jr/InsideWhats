@@ -101,7 +101,7 @@ button:focus{
 	font: Bold 2rem/1.4rem Neuzeit Grotesk;
 	color: #283258;
 }
-
+/*seção2*/
 #secao2_titulo{
 	padding-top:20px;
 	font: Bold 45px/48px Neuzeit Grotesk;
@@ -142,14 +142,15 @@ button:focus{
 }
 
 .secao2{
-	top: 1086px;
+	top: 0px;
 	left: 0px;
 	width: 100%;
-  height: 100vh;
-  min-height: fit-content;
-  z-index: 1000000;
-	background: #283258 0% 0% no-repeat padding-box;
+  	
+  
+	background: #283258 
 	opacity: 1;
+	padding-bottom: 20px;
+
 }
 
 .secao3{
@@ -231,10 +232,14 @@ footer{
 	opacity: 1
 }
 
-#secao3_titulo{
+/*CSS seção 3*/
+#paddingtopdiv{
 	padding-top: 80px;
-	top: 2356px;
-	left: 633px;
+
+}
+
+#secao3_titulo{
+	
 	width: 657px;
 	height: 65px;
 	font: Bold 45px/48px Neuzeit Grotesk;
@@ -243,9 +248,7 @@ footer{
 }
 
 #vantagens_text{
-	padding-top: 70px;
-	top: 2493px;
-	left: 623px;
+	
 	width: 674px;
 	height: 123px;
 	text-align: center;
@@ -267,10 +270,10 @@ footer{
 	opacity: 1;
 }
 
+
+/*CSS seção 4*/
 #sub_secao4{
-	padding-top: 150px;
-	top: 3649px;
-	left: 1111px;
+	
 	width: 250px;
 	height: 24px;
 	text-align: left;
@@ -281,22 +284,18 @@ footer{
 }
 
 #sub2_secao4{
-	padding-top: 50px;
-	top: 3843px;
-	left: 1111px;
+	
 	width: 601px;
 	height: 24px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #FFFFFF;
-	opacity: 0;
+	opacity: 1;
 }
 
 #secao4_titulo{
-	padding-top: 30px;
-	top: 3713px;
-	left: 1111px;
+	
 	width: 350px;
 	height: 63px;
 	font: Bold 45px/48px Neuzeit Grotesk;
@@ -305,9 +304,7 @@ footer{
 }
 
 #text_rec{
-	padding-top: 70px;
-	top: 3949px;
-	left: 1106px;
+
 	width: 518px;
 	height: 136px;
 	text-align: left;
@@ -342,6 +339,8 @@ footer{
 	opacity: 1;
 }
 
+/*/////SECAO4FIM////*/
+/*secao5*/
 #sub_secao5{
 	padding-top: 150px;
 	top: 4690px;
@@ -744,6 +743,163 @@ footer{
 		
 		opacity: 1;
     }
+
+    /*CSS seção 2-mobile*/
+
+	    #secao2_titulo{
+		padding-top:20px;
+		font: Bold 45px/48px Neuzeit Grotesk;
+		color:  #EADAB4 ;
+		opacity: 1;
+
+
+	}
+
+
+	#sub_sec2{
+		width: 184px;
+		height: 15px;
+		font: bold 14px/12px Neuzeit Grotesk;
+		font-weight: bold;
+
+		letter-spacing: 0.9px;
+		color: #FFFFFF;
+		opacity: 1;
+	}
+
+	#mobile_text{
+		width: 305px;
+		height: 181px;
+		text-align: left;
+		font: 14px/21px Neuzeit Grotesk;
+		letter-spacing: 0;
+		color: #FFFFFF;
+		opacity: 1;
+
+		
+	}
+
+	
+    /*CSS seção 3-mobile*/
+
+	#paddingtopdiv{
+		padding-top: 30px;
+
+	}
+
+	#secao3_titulo{
+		
+		width: 307px;
+		height: 30px;
+		font: Bold 30px/24px Neuzeit Grotesk;
+		color:  #283258;
+		opacity: 1;
+
+
+	}
+
+	#vantagens_text{
+		
+		width: 317px;
+		height: 85px;
+		text-align: center;
+		font: 14px/21px Neuzeit Grotesk;
+		letter-spacing: 0;
+		color: #283258;
+		opacity: 1;
+	}
+
+	#txt_van{
+		padding-top: 20px;
+		top: 2894px;
+		left: 209px;
+		width: 260px;
+		height: 123px;
+		text-align: center;
+		letter-spacing: 0.5px;
+		color: #283258;
+		opacity: 1;
+	}
+
+	/*seção4-mobile*/
+		#sub_secao4{
+		
+		width: 180px;
+		height: 18px;
+		text-align: left;
+		font: Bold 16px/18px Neuzeit Grotesk;
+		letter-spacing: 0.45px;
+		color: #FFFFFF;
+		opacity: 1;
+
+	}
+
+	#sub2_secao4{
+		
+		width: 298px;
+		height: 96px;
+		text-align: left;
+		font: Bold 24px/34px Neuzeit Grotesk;
+		letter-spacing: 0.6px;
+		color: #FFFFFF;
+		opacity: 1;
+
+	}
+
+	#secao4_titulo{
+		
+		width: 318px;
+		height: 123px;
+		text-align: left;
+		font: Bold 48px/48px Neuzeit Grotesk;
+		letter-spacing: 1.2px;
+		color:  #EADAB4;
+		opacity: 1;
+
+	}
+
+	#text_rec{
+
+		width: 291px;
+		height: 190px;
+		text-align: left;
+		font: 20px/28px Neuzeit Grotesk;
+		letter-spacing: 0.5px;
+		color: #FFFFFF;
+		opacity: 1;
+
+	}
+
+	#Love_1{
+		width: 12px;
+		height: 12px;
+		background: transparent 0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
+	#Love_2{
+		width: 24px;
+		height: 24px;
+		background:  0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
+	#Love_3{
+		width: 31px;
+		height: 31px;
+		background: transparent  0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
+	#Love_4{
+		width: 33px;
+		height: 33px;
+		background: transparent  0% 0% no-repeat padding-box;
+		opacity: 1;
+
+	}
+
+	/*seção5-mobile*/
+
+
+
 }
 
 

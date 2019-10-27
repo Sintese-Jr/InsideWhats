@@ -90,36 +90,46 @@
 
 
 <!--Segunda Secao a partir daqui-->
-<div class="secao2 noPadding" id="mobileMarketing">
+<div class="secao2 " id="mobileMarketing">
 
     <div class="container-fluid">
-        <!-- Eh aqui que eu divido a secao na metade, usando grid bootstrap "col-md..." -->
             <div class="row">
-                <div class="col-md-offset-1">
-                  <h3 id="sub_sec2">Somos uma plataforma</h3>
-                  <h2 id="secao2_titulo">Mobile Marketing</h2>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="row" style="border: solid red;">
+                    <div class="col-md-offset-1">
+                        <h3 id="sub_sec2">Somos uma plataforma</h3>
+                        <h2 id="secao2_titulo">Mobile Marketing</h2>
+                    </div>
+               
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-12 order-2 order-lg-1" style="border: 1px solid blue;">
-                    <p id="mobile_text">Já imaginou se fosse possível alcançar seus clientes e seguidores aos milhares,
-                        de forma instantânea, direto no celular? A boa notícia é que novas tecnologias de mobile
-                        marketing hoje da Insidewhats permitem essa façanha. Sonho de muitos profissionais de marketing
-                        digital, a revolução do WhatsApp está finalmente chegando às empresas.</p>
-                </div>
-                <div class="col-lg-6 col-12 order-1 order-lg-2" style="border: 1px solid red; position: relative;">
-                  <img src="img/desktop.png" class="img-fluid" style="padding-left: 20px">
-                  <img src="img/Mobile.png" class="img-fluid" style="position:absolute; left:1px; top:1px; z-index: 2; margin-top: 30%; margin-left: 10%; height: 45%">
-                  <div id="sombra"></div>     
-                  <!-- essas especificacoes no style sao pra poder colocar uma imagem sobreposta a outra, nao eh legal?? -->
-              </div>
-            </div>
+                <div class="row">
+                    <div class="d-block d-lg-none"  >
+                        <img src="img/desktop.png" class="img-fluid">
 
-            <!-- <div class="row">
-                <div class="col-md-offset-1">
-                    <button id="marketing_button">Veja nossa apresentação</button>
+                    </div>
                 </div>
-            </div> -->
+                <div class="row">
+                    <div class="col-md-offset-1">
+                          
+                          <p id="mobile_text">Já imaginou se fosse possível alcançar seus clientes e seguidores aos milhares, de forma instantânea, direto no celular? A boa notícia é que novas tecnologias de mobile marketing hoje da Insidewhats permitem essa façanha. Sonho de muitos profissionais de marketing digital, a revolução do WhatsApp está finalmente chegando às empresas.</p>
+                  
+                     
+                   
+                    </div>
+            
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-1">
+                         <button id="marketing_button">Veja nossa apresentação</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6 d-none d-lg-block">
+                 <img src="img/desktop.png" class="img-fluid" style="padding-left: 20px">
+                  <img src="img/Mobile.png" class="img-fluid" style="position:absolute; left:1px; top:1px; z-index: 2; margin-top: 30%; margin-left: 10%; height: 45%">
+            </div>
+        </div>
     </div>
 
 </div>
@@ -127,14 +137,14 @@
 <!--Aqui comeca a secao 3 -->
 <div class="secao3 noPadding" id="vantagens">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-offset-4 col-md-4 ">
-                <h2 id="secao3_titulo">Principais Vantagens</h2>
+        <div class="row paddingtopdiv" style="border: solid red;">
+            <div class="col-md-offset-4 offset-1 col-md-4 col-lg-6 col-sm-12 col-xs-12  ">
+                <p id="secao3_titulo">Principais Vantagens</p>
 
             </div>
 
         </div>
-        <div class="row">
+        <div class="row"style="border: solid green; padding-top: 10px;">
             <div class="col-md-offset-3">
                 <p id="vantagens_text">Para os usuários, uma das principais vantagens de usar o Whatsapp para se
                     comunicar com empresas são facilidades e comodidade para receber conteúdos e mensagens.</p>
@@ -165,29 +175,27 @@
 </div>
 
     <!-- Aqui comeca a secao 4 -->
-    <div class="secao4 noPadding" id="recursos">
+    <div class="secao4" id="recursos">
         <div class="container-fluid">
-            <div class="col-md-6">
-                <img src="img/Banner Emoji.png" class="img-fluid" style="left:0px;">
-                
+            <div class="row">
+            <div class="col-lg-6 col-md-6 d-none d-lg-block noPadding">
+                <img src="img/Banner Emoji.png" class="img-fluid">
             </div>
-            <div class="col-md-6 col">
-                <div class="row">
-                    <div style="width: 390px">
-                        <div class="rows col-md-offset-1">
-                            <h2 id="sub_secao4">Recursos InsideWhats</h2>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
+
+            <div class="row align-items-center" style="padding-top: 180px; border: 2px solid green;">
+                <div class="col-8 offset-1 ">
+                    <h2 id="sub_secao4">Recursos InsideWhats</h2>
+                
+                    <h1 id="secao4_titulo" style="border: 2px solid pink;">Libere os Emojis!</h1>
+                </div>
+                <div class="col-2 ">
+                    <div class="emojis justify-content-start" style="border: 1px solid magenta;">
+                        <div class="row justify-content-start"  >
+                            <img id="Love_4" src="img/Love.svg" class="img-fluid"  >
                         </div>
-                        <div class="rows col-md-offset-1 row">
-                            <h1 id="secao4_titulo">Libere os Emojis!</h1>
-                        </div>
-                    </div>
-                    <!-- div para organizar os emojis  -->
-                    <div class="emojis">
-                        <div class="row justify-content-start" >
-                            <img id="Love_4" src="img/Love.svg" class="img-fluid" >
-                        </div>
-                        <div class="row justify-content-end">
-                            <img id="Love_3" src="img/Love.svg" class="img-fluid" >
+                        <div class="row justify-content-end" style="padding-left: 40px;">
+                            <img id="Love_3" src="img/Love.svg" class="img-fluid"  >
                         </div>
                         <div class="row justify-content-start">
                             <img id="Love_2" src="img/Love.svg" class="img-fluid" >
@@ -197,34 +205,59 @@
                         </div>
                     </div>
                 </div>
-                <div class="rows col-md-offset-1">
+                
+            </div>
+            <div class="row">
+                <div class="d-block d-lg-none"  >
+                    <img src="img/Banner Emoji.png" class="img-fluid">
+
+                </div>
+            </div>
+            <div class="row" style="border: 2px solid yellow; ">
+                <div class="offset-1">
                     <h2 id="sub2_secao4">Emojis estão a seu favor na interação com seu cliente</h2>
+                <p id="text_rec">Estudos mostram que o cérebro humano é capaz de processar informações visuais 60 mil vezes mais rápido do que em texto. Não por acaso os Emojis são tão populares hoje em dia.</p>
                 </div>
-                <div class="rows col-md-offset-1">
-                    <p id="text_rec">Estudos mostram que o cérebro humano é capaz de processar informações visuais 60 mil vezes mais rápido do que em texto. Não por acaso os Emojis são tão populares hoje em dia.</p>
-                </div>
-
+                
+            </div>
+            
+            
+            </div>
+            
         </div>
-
+        </div>
     </div>
-</div>
 
 <!--Aqui comeca a secao 5! -->
-<div class="secao5 noPadding">
+<div class="secao5">
     <div class="container-fluid">
-        <div class="col-md-6">
-            <h3 id="sub_secao5">Recursos InsideWhats</h3>
-            <h1 id="secao5_titulo">Histórico rápido</h1>
-            <h3 id="sub2_secao5">Tudo fica registrado para que você possa consultar futuramente</h3>
-            <p id="txt_his">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
-                non providen At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                voluptatum</p>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                    <h3 id="sub_secao5">Recursos InsideWhats</h3>
+                    <h1 id="secao5_titulo">Histórico rápido</h1>
+                    <h3 id="sub2_secao5">Tudo fica registrado para que você possa consultar futuramente</h3>
+                </div>
+                <div class="row">
+                   <div class="d-block d-lg-none">
+                       <img src="img/Mockup Historico.png" class="img-fluid">
+                   </div>
+                </div>
+                <div class="row">
+                        <p id="txt_his">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                    voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non providen At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                    voluptatum</p>
+                </div>
+            
+            
 
+            </div>
+            <div class="col-lg-6 col-md-6 d-none d-lg-block">
+                <img src="img/Mockup Historico.png" class="img-fluid" style="padding-top: 160px">
+            </div>
         </div>
-        <div class="col-md-6">
-            <img src="img/Mockup Historico.png" class="img-fluid" style="padding-top: 160px">
-        </div>
+      
 
     </div>
 
