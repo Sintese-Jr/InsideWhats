@@ -144,13 +144,18 @@ button:focus{
 .secao2{
 	top: 0px;
 	left: 0px;
-	width: 100%;
+	width: 100vw;
+	height: 100vh;
   	
   
-	background: #283258 
+	background: #283258;
 	opacity: 1;
 	padding-bottom: 20px;
 
+}
+
+#sec2_texto{
+	height: 42vh;
 }
 
 .secao3{
