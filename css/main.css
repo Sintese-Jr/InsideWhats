@@ -10,8 +10,11 @@
 }
 
 body {
-    background-color: #283258;
+	background-color: #283258;
+	
 }
+
+
 
 /* Tira uma borda azul que fica nos botões quando clicados */
 button:focus{
@@ -953,13 +956,14 @@ footer{
 
 	#sub2_secao5{
 		
-		width: 100%;
+		max-width: 100%;
 		/* height: 66px; */
 		text-align: left;
 		font: Bold 24px/34px Neuzeit Grotesk;
 		letter-spacing: 0.6px;
 		color: #283258;
 		opacity: 1;
+		padding-right: 20px;
 	}
 
 
@@ -976,8 +980,9 @@ footer{
 
 	#txt_his{
 		
-		width: 100%;
+		max-width: 100%;
 		height: 340px;
+		padding-right: 20px;
 		text-align: left;
 		font: 20px/28px Neuzeit Grotesk;
 		letter-spacing: 0.5px;
