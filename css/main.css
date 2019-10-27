@@ -978,6 +978,49 @@ footer{
 		opacity: 1;
 	}
 
+	/* ////////////SECAO 7 //////////////*/
+
+	#secao7_titulo{
+
+		width: 186px;
+		height: 96px;
+		text-align: center;
+		font: Bold 48px/48px Neuzeit Grotesk;
+		letter-spacing: 1.2px;
+		color: #283258;
+		opacity: 1;
+	}
+
+	#txt_demo{
+		width: 327px;
+		height: 386px;
+		text-align: left;
+		font: 20px/28px Neuzeit Grotesk;
+		letter-spacing: 0.5px;
+		color: #283258;
+		opacity: 1;
+	}
+
+	#button_demo{
+		
+		width: 327px;
+		height: 56px;
+		background: #283258 0% 0%;
+		border-radius: 132px;
+		font: Bold 18px/26px Neuzeit Grotesk;
+		letter-spacing: 0.9px;
+		color: #FFFFFF;
+		border: none;
+
+	}
+
+	#Mockup{
+		margin-top: 8rem;
+		height: 46rem;
+		background: transparent 0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
+
 	footer{
 	height: 20px;
 	background: #283258;
