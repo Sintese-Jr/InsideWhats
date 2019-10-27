@@ -28,7 +28,7 @@ button:focus{
 /*				MENU				  */
 #logo{
     width: 280px;
-    height: 55px;
+    height: 70px;
 }
   
 @media (max-width: 800px){
@@ -45,50 +45,44 @@ button:focus{
 }
 
 .header-height{
-	height: 85px;
+	height: 100px;
 }
 
 .fixed{
 	position: fixed;
-	height: 80px;
+	height: 100px;
 	z-index: 1000000000;
 }
 
 .cabecalhoPrincipal-nav{
 	padding: 20px;
+	height: 100%;
+	border: green solid;
 }
 
 #MM{
 	padding-right: 30px;
-	top: 86px;
-	left: 1129px;
 	width: 148px;
 	height: 18px;
 	text-align: center;
 	font: 18px/26px Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
-	opacity: 1;
 }
 
 
 #Van{
 	padding-right: 30px;
-	top: 86px;
-	left: 1337px;
 	width: 88px;
 	height: 18px;
 	text-align: center;
 	font: 18px/26px Neuzeit Grotesk;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
-	opacity: 1;
 }
 
 #Rec{
 	padding-right: 30px;
-	top: 86px;
-	left: 1479px;
 	width: 72px;
 	height: 18px;
 	text-align: center;
@@ -99,16 +93,15 @@ button:focus{
 }
 
 #Cont{
-	align-self: center;
 	font-family: Neuzeit Grotesk;
-	width: 170px;
-	height: 50px;
 	background: none;
 	border: 1px solid #FFFFFF;
 	border-radius: 100px;
 	color: #FFFFFF;
 	font-size: 1.5rem;
 	font-weight: bold;
+	width: 170px;
+	height: 56px;
 }
 
 #Cont:hover{
