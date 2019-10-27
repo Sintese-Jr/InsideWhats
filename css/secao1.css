@@ -108,11 +108,6 @@
 	padding: 0 5px;
 	padding-bottom: 57px;
 }
-@media (max-width: 400px){
-	#secao1_titulo{
-		padding-top: 200px;
-	}
-}
 
 @media (max-width: 800px){
 	#secao1_titulo{
