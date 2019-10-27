@@ -92,14 +92,6 @@ button:focus{
 	background-color: #FFFFFF;
 	color: inherit;
 }
-#plataforma_text{
-	font-family: Neuzeit Grotesk;
-	text-align: left;
-	letter-spacing: 0.45px;
-	color: #FFFFFF;
-	opacity: 1;
-	margin-bottom: 60px;
-}
 
 #banner_button{
 	padding: 2rem 5rem;
@@ -139,7 +131,6 @@ button:focus{
 	color: #FFFFFF;
 	opacity: 1;
 }
-
 
 #noPadding{
 	padding: 0px;
@@ -649,16 +640,15 @@ footer{
 		top: 34px;
 		left: 210px;
 	}
-	.logo{
-	
-	padding-top:10px;	
-	position:absolute;
-	top: 22px;
-	left: -20px;
-	width: 167px;
-	height: 42px;
-	
-	opacity: 1;
+	.logo{	
+		padding-top:10px;	
+		position:absolute;
+		top: 22px;
+		left: -20px;
+		width: 167px;
+		height: 42px;
+		
+		opacity: 1;
 	}
 
 
