@@ -147,7 +147,7 @@ button:focus{
 	width: 100%;
   	
   
-	background: #283258 
+	background: #283258; 
 	opacity: 1;
 	padding-bottom: 20px;
 
@@ -286,7 +286,6 @@ footer{
 #sub2_secao4{
 	
 	width: 601px;
-	height: 24px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
