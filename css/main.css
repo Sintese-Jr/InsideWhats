@@ -301,8 +301,7 @@ button:focus{
 .secao2{
 	top: 0px;
 	left: 0px;
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
 	background: #283258;
 
 	opacity: 1;
@@ -566,37 +565,38 @@ footer{
 	opacity: 1;
 }
 /*      /////////      SECAO 6    ///////////   */   
+
 #sub_secao6{
-	padding-top: 80px;
+	padding-top: 30px;
 	top: 5873px;
 	left: 166px;
-	width: 240px;
+	width: 260px;
 	height: 24px;
 	text-align: left;
-	font: Bold 24px/34px Neuzeit Grotesk;
+	font: Bold 24px/24px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #FFFFFF;
 	opacity: 1;
 }
 
 #secao6_titulo{
-	padding-top: 80px;
-	top: 5937px;
+	padding-top: 50px;
+	top: 5800px;
 	left: 166px;
 	width: 690px;
 	height: 154px;
 	text-align: left;
-	font: Bold 72px/70px Neuzeit Grotesk;
-	letter-spacing: 1.8px;
+	font: Bold 45px/45px Neuzeit Grotesk;
+	letter-spacing: 1.7px;
 	color: #FFFFFF;
 	opacity: 1;
 }
 
 #txt_not{
-	padding-top: 130px;
-	top: 6139px;
+	padding-top: 30px;
+	top: 5800px;
 	left: 166px;
-	width: 643px;
+	width: 670px;
 	height: 110px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -789,6 +789,7 @@ footer{
 
 	    #secao2_titulo{
 		padding-top:20px;
+		padding-left: 15%;
 		font: Bold 45px/48px Neuzeit Grotesk;
 		color:  #EADAB4 ;
 		opacity: 1;
@@ -798,9 +799,10 @@ footer{
 
 
 	#sub_sec2{
-		width: 184px;
+		width: 195px;
 		height: 15px;
-		font: bold 14px/12px Neuzeit Grotesk;
+		padding-left: 15%;
+		font: bold 16px/16px Neuzeit Grotesk;
 		font-weight: bold;
 
 		letter-spacing: 0.9px;
@@ -812,14 +814,13 @@ footer{
 		width: 305px;
 		height: 181px;
 		text-align: left;
-		font: 14px/21px Neuzeit Grotesk;
+		font: 21px/21px Neuzeit Grotesk;
 		letter-spacing: 0;
 		color: #FFFFFF;
 		opacity: 1;
 
 		
 	}
-
 	
     /*CSS seção 3-mobile*/
 
@@ -988,10 +989,10 @@ footer{
 	/* //////// SECAO 6 MOBILE ///////*/
 	#sub_secao6{
 		
-		width: 200px;
+		width: 250px;
 		height: 18px;
 		text-align: left;
-		font: Bold 18px/26px Neuzeit Grotesk;
+		font: Bold 18px/24px Neuzeit Grotesk;
 		letter-spacing: 0.45px;
 		color: #FFFFFF;
 		opacity: 1;
@@ -999,22 +1000,31 @@ footer{
 
 	#secao6_titulo{
 		
-		width: 330px;
+		width: 400px;
 		height: 194px;
 		text-align: left;
-		font: Bold 48px/48px Neuzeit Grotesk;
+		font: Bold 44px/44px Neuzeit Grotesk;
 		letter-spacing: 1.2px;
 		color: #FFFFFF;
 		opacity: 1;
 
 	}
 
+	#balao_mobile{
+		z-index: 2;
+		top: 5800px;
+		left: 03%;
+		width: 24rem;
+		background: transparent;
+		opacity: 1;
+	}
+
 	#txt_not{
 		
-		width: 301px;
-		height: 243px;
+		width: 450px;
+		height: 250px;
 		text-align: left;
-		font: 20px/28px Neuzeit Grotesk;
+		font: 24px/30px Neuzeit Grotesk;
 		letter-spacing: 0.5px;
 		color: #FFFFFF;
 		opacity: 1;
