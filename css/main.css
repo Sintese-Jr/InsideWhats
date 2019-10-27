@@ -264,7 +264,7 @@ button:focus{
 /*				SEÇÃO 2 				*/
 #secao2_titulo{
 	padding-top:20px;
-	font: Bold 45px/48px Neuzeit Grotesk;
+	font: Bold 38px/42px Neuzeit Grotesk;
 	color:  #EADAB4 ;
 	opacity: 1;
 }
@@ -286,7 +286,7 @@ button:focus{
 #mobile_text{
 	height: 181px;
 	text-align: left;
-	font: 18px/36px Neuzeit Grotesk;
+	font: 18px/30px Neuzeit Grotesk;
 	letter-spacing: 0;
 	color: #FFFFFF;
 	opacity: 1;
@@ -304,8 +304,8 @@ button:focus{
 .secao2{
 	top: 0px;
 	left: 0px;
-	width: 100vw;
-	height: 100vh;
+	width: 95vw;
+	height: 120vh;
 	background: #283258;
 
 	opacity: 1;
@@ -314,7 +314,7 @@ button:focus{
 }
 
 #sec2_texto{
-	height: 42vh;
+	height: 38vh;
 }
 
 .secao3{
@@ -792,7 +792,7 @@ footer{
 
 	    #secao2_titulo{
 		padding-top:20px;
-		font: Bold 45px/48px Neuzeit Grotesk;
+		font: Bold 38px/45px Neuzeit Grotesk;
 		color:  #EADAB4 ;
 		opacity: 1;
 
@@ -815,7 +815,7 @@ footer{
 		width: 305px;
 		height: 181px;
 		text-align: left;
-		font: 14px/21px Neuzeit Grotesk;
+		font: 14px/18px Neuzeit Grotesk;
 		letter-spacing: 0;
 		color: #FFFFFF;
 		opacity: 1;
