@@ -641,9 +641,88 @@ footer{
 	opacity: 1;
 }
 
+<<<<<<< Updated upstream
 @media not all and (max-width: 600px) {
     .menu-abrir,
     .menu-fechar {
+=======
+
+
+
+@media(max-width: 800px){
+    #secao2_titulo{
+        text-align: center;
+        padding-top:20px;
+        font: Bold 38px/45px Neuzeit Grotesk;
+        color:  #EADAB4 ;
+        opacity: 1;
+    }
+
+
+    #sub_sec2 {
+        width: 184px;
+        height: 15px;
+        font: bold 14px/12px Neuzeit Grotesk;
+        font-weight: bold;
+
+        letter-spacing: 0.9px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    #mobile_text {
+        width: 100%;
+        height: 160px;
+        text-align: left;
+        justify-content: center;
+        font: 16px/18px Neuzeit Grotesk;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+
+
+    }
+
+
+    /*CSS seção 3-mobile*/
+    #paddingtopdiv {
+        padding-top: 30px;
+
+    }
+
+    #secao3_titulo {
+
+        width: 100%;
+        height: 30px;
+        font: Bold 30px/24px Neuzeit Grotesk;
+        color: #283258;
+        opacity: 1;
+    }
+
+    #vantagens_text {
+
+        width: 100%;
+        height: 85px;
+        text-align: center;
+        font: 14px/21px Neuzeit Grotesk;
+        letter-spacing: 0;
+        color: #283258;
+        opacity: 1;
+    }
+
+    #txt_van {
+        width: 100%;
+        height: 123px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #283258;
+        opacity: 1;
+
+    }
+
+    #mockupVideo {
+        height: 150vw;
+>>>>>>> Stashed changes
         display: none;
         background: transparent;
     }
