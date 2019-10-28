@@ -271,8 +271,6 @@ button:focus {
     }
 
 }
-
-
 /* FIM DO MENU!!! */
 
 
@@ -484,12 +482,12 @@ footer{
 
 #sub2_secao4 {
     width: 100%;
-    text-align: left;
+    text-align: center;
     font: Bold 19px/34px Neuzeit Grotesk;
     letter-spacing: 0.6px;
     color: #FFFFFF;
     opacity: 1;
-}
+}   
 
 #secao4_titulo {
 
@@ -952,9 +950,10 @@ video {
 
     /*seção4-mobile*/
     #sub_secao4 {
-
-        width: 180px;
-        height: 18px;
+        border: white solid;
+        padding: 0;
+        width: 100%;
+        height: 20px;
         text-align: left;
         font: Bold 16px/18px Neuzeit Grotesk;
         letter-spacing: 0.45px;
@@ -976,9 +975,8 @@ video {
     }
 
     #secao4_titulo {
+        width: 100%;
 
-        width: 318px;
-        height: 123px;
         text-align: left;
         font: Bold 48px/48px Neuzeit Grotesk;
         letter-spacing: 1.2px;
@@ -1194,6 +1192,68 @@ video {
     }
 }
 
+/*              FOOTER           */
+#logo-footer{
+    height: 100%;
+    width: 100%;
+}
+
+.footerPrincipal{
+    
+    align-items: center;
+    justify-content: start;
+    height: 100%; 
+    padding: 0;
+}
+
+.div-logo-footer{
+    height: 100%;
+}
+
+.logo-cape{
+    height: 30px; 
+    padding: 0;
+}
+
+@media (max-width: 600px){
+    .footerPrincipal{
+        flex-direction: column;
+        align-items: flex-start;
+
+        padding-bottom: 0;
+        height: 200px;
+
+    }
+    
+    .logo-cape{
+        height: 40px;
+    }
+    .div-logo-footer{
+        height: 90px;
+    }
+
+
+    .footerPrincipal-nav-link{
+        padding-bottom: 20px;
+    }
+
+    #CC{
+        padding-bottom: 20px;
+    }
+
+}
+
+.footerPrincipal-nav-link{
+    text-align:center;
+    font: Regular 14px/20px Neuzeit Grotesk;;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.footerPrincipal-nav-link:hover{
+    color:#FFFFFF;
+}
 /*
 .secao4 .col-md-6 {
 	padding-left:0;
