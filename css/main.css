@@ -100,7 +100,7 @@ button:focus{
 #Cont{
 	font-family: Neuzeit Grotesk;
 	background: none;
-	border: 1px solid #FFFFFF;
+	/*border: 1px solid #FFFFFF;*/
 	border-radius: 100px;
 	color: #FFFFFF;
 	font-size: 1.5rem;
@@ -354,13 +354,13 @@ button:focus{
 footer{
 	height: 112px;
 	background: #283258;
-	border: 1px solid #283258;
+	/*border: 1px solid #283258;*/
 }
 
 #marketing_button{
 	width: 30rem;
 	height: 5rem;
-	border: 1px solid #FFFFFF;
+	/*border: 1px solid #FFFFFF;*/
 	border-radius: 132px;
 	opacity: 1;
 	background: transparent;
@@ -615,7 +615,7 @@ footer{
 
 	top: 6890px;
 	left: 1012px;
-	width: 517px;
+	width: 100%;
 	height: 72px;
 	text-align: left;
 	font: Bold 52px/80px Neuzeit Grotesk;
@@ -624,12 +624,14 @@ footer{
 	opacity: 1;
 }
 
+
+
 #txt_demo{
 
 	padding: 30px;
 	top: 7009px;
 	left: 1019px;
-	width: 583px;
+	width: 90%;
 	height: 150px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -671,7 +673,7 @@ footer{
 
 /* 				SEÇÃO 8 			 */
 #borda_form{
-	border: 5px solid #283258;
+	/*border: 5px solid #283258;*/
 	padding: 20px;
 	font-size: 1em;
 	margin-bottom: 100px;
@@ -1043,7 +1045,7 @@ footer{
 	}
 
 	#txt_demo{
-		width: 327px;
+		width: 95%;
 		height: 386px;
 		text-align: left;
 		font: 20px/28px Neuzeit Grotesk;
@@ -1062,12 +1064,13 @@ footer{
 		letter-spacing: 0.9px;
 		color: #FFFFFF;
 		border: none;
+		margin-top: 2rem;
 
 	}
 
 	#Mockup{
-		margin-top: 8rem;
-		height: 46rem;
+		margin-top: 4rem;
+		height: 55rem;
 		background: transparent 0% 0% no-repeat padding-box;
 		opacity: 1;
 	}
@@ -1075,7 +1078,7 @@ footer{
 	footer{
 	height: 20px;
 	background: #283258;
-	border: 1px solid #283258;
+	/*border: 1px solid #283258;*/
 	opacity: 1;
 	}
 
@@ -1107,6 +1110,6 @@ footer{
 */
 
 
-body, div, header{
-	border: 1px solid #4cae4c;
+div{
+	border: 1px deeppink solid;
 }
