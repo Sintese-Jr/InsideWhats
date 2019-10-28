@@ -1,3 +1,5 @@
+
+
 @font-face {
 	font-family: 'Neuzeit Grotesk';
 	src: url("../fonts/NeuzeitGro.otf") format("opentype");
@@ -28,7 +30,7 @@ button:focus{
 /*				MENU				  */
 .head{
 	background: transparent;
-	transition: ease-in 3s;
+	transition: ease-in 5s;
 }
 
 .scrolled{
@@ -98,7 +100,7 @@ button:focus{
 #Cont{
 	font-family: Neuzeit Grotesk;
 	background: none;
-	border: 1px solid #FFFFFF;
+	/*border: 1px solid #FFFFFF;*/
 	border-radius: 100px;
 	color: #FFFFFF;
 	font-size: 1.5rem;
@@ -260,8 +262,8 @@ button:focus{
 
 /*				SEÇÃO 2 				*/
 #secao2_titulo{
-	padding-top:20px;
-	font: Bold 38px/42px Neuzeit Grotesk;
+	padding-top:50px;
+	font: Bold 50px/42px Neuzeit Grotesk;
 	color:  #EADAB4 ;
 	opacity: 1;
 }
@@ -283,7 +285,7 @@ button:focus{
 #mobile_text{
 	height: 181px;
 	text-align: left;
-	font: 18px/30px Neuzeit Grotesk;
+	font: 14px/30px Neuzeit Grotesk;
 	letter-spacing: 0;
 	color: #FFFFFF;
 	opacity: 1;
@@ -311,6 +313,7 @@ button:focus{
 
 #sec2_texto{
 	height: 42vh;
+    justify-content: left;
 }
 
 .secao3{
@@ -352,13 +355,13 @@ button:focus{
 footer{
 	height: 112px;
 	background: #283258;
-	border: 1px solid #283258;
+	/*border: 1px solid #283258;*/
 }
 
 #marketing_button{
 	width: 30rem;
 	height: 5rem;
-	border: 1px solid #FFFFFF;
+	/*border: 1px solid #FFFFFF;*/
 	border-radius: 132px;
 	opacity: 1;
 	background: transparent;
@@ -407,8 +410,9 @@ footer{
 
 #secao3_titulo{
 	
-	width: 657px;
+	width: 100%;
 	height: 65px;
+    text-align: center;
 	font: Bold 45px/48px Neuzeit Grotesk;
 	color:  #283258;
 	opacity: 1;
@@ -416,7 +420,7 @@ footer{
 
 #vantagens_text{
 	
-	width: 674px;
+	width: 100%;
 	height: 123px;
 	text-align: center;
 	font: 20px/32px Neuzeit Grotesk;
@@ -426,15 +430,16 @@ footer{
 }
 
 #txt_van{
-	padding-top: 20px;
-	top: 2894px;
-	left: 209px;
-	width: 260px;
+	width: 100%;
 	height: 123px;
 	text-align: center;
 	letter-spacing: 0.5px;
 	color: #283258;
 	opacity: 1;
+}
+
+#imageSec3{
+    height: 60%;
 }
 
 
@@ -452,7 +457,7 @@ footer{
 
 #sub2_secao4{
 	
-	width: 601px;
+	width: 500px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
@@ -471,7 +476,7 @@ footer{
 
 #text_rec{
 
-	width: 518px;
+	width: 500px;
 	height: 136px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -613,7 +618,7 @@ footer{
 
 	top: 6890px;
 	left: 1012px;
-	width: 517px;
+	width: 100%;
 	height: 72px;
 	text-align: left;
 	font: Bold 52px/80px Neuzeit Grotesk;
@@ -622,12 +627,14 @@ footer{
 	opacity: 1;
 }
 
+
+
 #txt_demo{
 
 	padding: 30px;
 	top: 7009px;
 	left: 1019px;
-	width: 583px;
+	width: 90%;
 	height: 150px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -669,7 +676,7 @@ footer{
 
 /* 				SEÇÃO 8 			 */
 #borda_form{
-	border: 5px solid #283258;
+	/*border: 5px solid #283258;*/
 	padding: 20px;
 	font-size: 1em;
 	margin-bottom: 100px;
@@ -699,6 +706,21 @@ footer{
 	letter-spacing: 0.6px;
 	color: #283258;
 	opacity: 1;
+}
+
+#imagemDesktopMobile{
+    width: 700px;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+
+#imagemDesktopMobileInMobile{
+    padding: 10px;
+}
+
+#divDesktopMobile{
+    width: 100%;
+    padding-top: 10px;
 }
 
 #forms_titulo{
@@ -785,6 +807,7 @@ footer{
 	/*CSS seção 2-mobile*/
 
 	    #secao2_titulo{
+            text-align: center;
 		padding-top:20px;
 		font: Bold 38px/45px Neuzeit Grotesk;
 		color:  #EADAB4 ;
@@ -806,10 +829,11 @@ footer{
 	}
 
 	#mobile_text{
-		width: 305px;
-		height: 181px;
+		width: 100%;
+		height: 160px;
 		text-align: left;
-		font: 14px/18px Neuzeit Grotesk;
+        justify-content: center;
+		font: 16px/18px Neuzeit Grotesk;
 		letter-spacing: 0;
 		color: #FFFFFF;
 		opacity: 1;
@@ -827,7 +851,7 @@ footer{
 
 	#secao3_titulo{
 
-		width: 307px;
+		width: 100%;
 		height: 30px;
 		font: Bold 30px/24px Neuzeit Grotesk;
 		color:  #283258;
@@ -838,7 +862,7 @@ footer{
 
 	#vantagens_text{
 		
-		width: 317px;
+		width: 100%;
 		height: 85px;
 		text-align: center;
 		font: 14px/21px Neuzeit Grotesk;
@@ -847,16 +871,13 @@ footer{
 		opacity: 1;
 	}
 
-	#txt_van{
-		padding-top: 20px;
-		top: 2894px;
-		left: 209px;
-		width: 260px;
-		height: 123px;
-		text-align: center;
-		letter-spacing: 0.5px;
-		color: #283258;
-		opacity: 1;
+    #txt_van{
+        width: 100%;
+        height: 123px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #283258;
+        opacity: 1;
 	}
 
 	/*seção4-mobile*/
@@ -874,7 +895,7 @@ footer{
 
 	#sub2_secao4{
 		
-		width: 298px;
+		width: 90%;
 		height: 96px;
 		text-align: left;
 		font: Bold 24px/34px Neuzeit Grotesk;
@@ -898,7 +919,7 @@ footer{
 
 	#text_rec{
 
-		width: 291px;
+		width: 90%;
 		height: 190px;
 		text-align: left;
 		font: 20px/28px Neuzeit Grotesk;
@@ -1041,7 +1062,7 @@ footer{
 	}
 
 	#txt_demo{
-		width: 327px;
+		width: 95%;
 		height: 386px;
 		text-align: left;
 		font: 20px/28px Neuzeit Grotesk;
@@ -1049,6 +1070,10 @@ footer{
 		color: #283258;
 		opacity: 1;
 	}
+
+    #sec2_texto{
+        justify-content: center;
+    }
 
 	#button_demo{
 		
@@ -1060,20 +1085,30 @@ footer{
 		letter-spacing: 0.9px;
 		color: #FFFFFF;
 		border: none;
+		margin-top: 2rem;
 
 	}
 
+    #botaoSec2{
+        justify-content: center;
+    }
+
 	#Mockup{
-		margin-top: 8rem;
-		height: 46rem;
+		margin-top: 4rem;
+		height: 55rem;
 		background: transparent 0% 0% no-repeat padding-box;
 		opacity: 1;
+	}
+
+	#secao6_titulo{
+		width: 311px;
+		padding-top: 0px;
 	}
 
 	footer{
 	height: 20px;
 	background: #283258;
-	border: 1px solid #283258;
+	/*border: 1px solid #283258;*/
 	opacity: 1;
 	}
 
@@ -1103,3 +1138,8 @@ footer{
 	padding-right:0;
 }
 */
+
+
+div{
+	border: 1px deeppink solid;
+}
