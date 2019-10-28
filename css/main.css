@@ -1,3 +1,7 @@
+div{
+    border: pink solid;
+}
+
 @font-face {
     font-family: 'Neuzeit Grotesk';
     src: url("../fonts/NeuzeitGro.otf") format("opentype");
@@ -844,14 +848,6 @@ video {
 
 @media (max-width: 800px) {
     /*CSS seção 2-mobile*/
-    #secao2_titulo {
-        text-align: center;
-        padding-top: 20px;
-        font: Bold 38px/45px Neuzeit Grotesk;
-        color: #EADAB4;
-        opacity: 1;
-
-@media(max-width: 800px){
     #secao2_titulo{
         text-align: center;
         padding-top:20px;
@@ -1175,6 +1171,7 @@ video {
 	}
 
 }
+
 @media (max-width: 600px) {
     .secao8 {
         height: 300%;
