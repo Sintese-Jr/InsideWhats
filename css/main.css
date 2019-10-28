@@ -652,9 +652,12 @@ footer{
     background: transparent;
     opacity: 1;
 }
-
+#secao7_botao{
+    justify-content: left;
+}
 #secao7_titulo {
-
+    padding-left: 20px;
+    padding-right: 20px;
     top: 6890px;
     left: 1012px;
     width: 100%;
@@ -668,12 +671,10 @@ footer{
 
 
 #txt_demo {
-
-    padding: 30px;
-    top: 7009px;
-    left: 1019px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 150px;
     width: 90%;
-    height: 150px;
     text-align: left;
     font: 20px/28px Neuzeit Grotesk;
     letter-spacing: 0.5px;
@@ -1104,9 +1105,9 @@ video {
     /* ////////////SECAO 7 //////////////*/
     #secao7_titulo {
 
-        width: 186px;
+        width: 215px;
         height: 96px;
-        text-align: center;
+        text-align: right;
         font: Bold 48px/48px Neuzeit Grotesk;
         letter-spacing: 1.2px;
         color: #283258;
@@ -1127,9 +1128,10 @@ video {
 
         justify-content: center;
     }
-
+    #secao7_botao{
+        justify-content: center;
+    }
     #button_demo {
-
         width: 327px;
         height: 56px;
         background: #283258 0% 0%;
