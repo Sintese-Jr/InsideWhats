@@ -10,11 +10,8 @@
 }
 
 body {
-	background-color: #283258;
-	
+    background-color: #283258;
 }
-
-
 
 /* Tira uma borda azul que fica nos botões quando clicados */
 button:focus{
@@ -264,7 +261,7 @@ button:focus{
 /*				SEÇÃO 2 				*/
 #secao2_titulo{
 	padding-top:20px;
-	font: Bold 38px/42px Neuzeit Grotesk;
+	font: Bold 45px/48px Neuzeit Grotesk;
 	color:  #EADAB4 ;
 	opacity: 1;
 }
@@ -286,7 +283,7 @@ button:focus{
 #mobile_text{
 	height: 181px;
 	text-align: left;
-	font: 18px/30px Neuzeit Grotesk;
+	font: 18px/36px Neuzeit Grotesk;
 	letter-spacing: 0;
 	color: #FFFFFF;
 	opacity: 1;
@@ -304,8 +301,7 @@ button:focus{
 .secao2{
 	top: 0px;
 	left: 0px;
-	width: 95vw;
-	height: 120vh;
+	width: 100%;
 	background: #283258;
 
 	opacity: 1;
@@ -314,7 +310,7 @@ button:focus{
 }
 
 #sec2_texto{
-	height: 38vh;
+	height: 42vh;
 }
 
 .secao3{
@@ -517,11 +513,11 @@ footer{
 
 /*				SEÇÃO 5				*/
 #sub_secao5{
-	/* padding-top: 150px; */
+	padding-top: 150px;
 	top: 4690px;
 	left: 166px;
-	width: 100%;
-	/* height: 24px; */
+	width: 240px;
+	height: 24px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
@@ -530,11 +526,11 @@ footer{
 }
 
 #sub2_secao5{
-	/* padding-top: 50px; */
+	padding-top: 50px;
 	top: 4869px;
 	left: 166px;
-	width: 100%;
-	/* height: 66px; */
+	width: 637px;
+	height: 66px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
@@ -544,11 +540,11 @@ footer{
 
 
 #secao5_titulo{
-	/* padding-top: 50px; */
+	padding-top: 50px;
 	top: 4754px;
 	left: 166px;
-	width: 100%;
-	/* height: 88px; */
+	width: 794px;
+	height: 88px;
 	text-align: left;
 	font: Bold 72px/70px Neuzeit Grotesk;
 	letter-spacing: 1.8px;
@@ -560,7 +556,7 @@ footer{
 	padding-top: 50px;
 	top: 4994px;
 	left: 166px;
-	width: 100%;
+	width: 683px;
 	height: 250px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -569,37 +565,38 @@ footer{
 	opacity: 1;
 }
 /*      /////////      SECAO 6    ///////////   */   
+
 #sub_secao6{
-	padding-top: 80px;
+	padding-top: 30px;
 	top: 5873px;
 	left: 166px;
-	width: 240px;
+	width: 260px;
 	height: 24px;
 	text-align: left;
-	font: Bold 24px/34px Neuzeit Grotesk;
+	font: Bold 24px/24px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
 	color: #FFFFFF;
 	opacity: 1;
 }
 
 #secao6_titulo{
-	padding-top: 80px;
-	top: 5937px;
+	padding-top: 50px;
+	top: 5800px;
 	left: 166px;
 	width: 690px;
 	height: 154px;
 	text-align: left;
-	font: Bold 72px/70px Neuzeit Grotesk;
-	letter-spacing: 1.8px;
+	font: Bold 45px/45px Neuzeit Grotesk;
+	letter-spacing: 1.7px;
 	color: #FFFFFF;
 	opacity: 1;
 }
 
 #txt_not{
-	padding-top: 130px;
-	top: 6139px;
+	padding-top: 30px;
+	top: 5800px;
 	left: 166px;
-	width: 643px;
+	width: 670px;
 	height: 110px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -792,18 +789,19 @@ footer{
 
 	    #secao2_titulo{
 		padding-top:20px;
-		font: Bold 38px/45px Neuzeit Grotesk;
+		padding-left: 15%;
+		font: Bold 45px/48px Neuzeit Grotesk;
 		color:  #EADAB4 ;
 		opacity: 1;
 
 
 	}
 
-
 	#sub_sec2{
-		width: 184px;
+		width: 195px;
 		height: 15px;
-		font: bold 14px/12px Neuzeit Grotesk;
+		padding-left: 15%;
+		font: bold 16px/16px Neuzeit Grotesk;
 		font-weight: bold;
 
 		letter-spacing: 0.9px;
@@ -815,14 +813,13 @@ footer{
 		width: 305px;
 		height: 181px;
 		text-align: left;
-		font: 14px/18px Neuzeit Grotesk;
+		font: 21px/21px Neuzeit Grotesk;
 		letter-spacing: 0;
 		color: #FFFFFF;
 		opacity: 1;
 
 		
 	}
-
 	
     /*CSS seção 3-mobile*/
 
@@ -944,8 +941,8 @@ footer{
 
 	#sub_secao5{
 		
-		width: 100%;
-		/* height: 18px; */
+		width: 200px;
+		height: 18px;
 		text-align: left;
 		font: Bold 18px/26px Neuzeit Grotesk;
 		letter-spacing: 0.45px;
@@ -956,14 +953,13 @@ footer{
 
 	#sub2_secao5{
 		
-		max-width: 100%;
-		/* height: 66px; */
-		text-align: left;
+		width: 290px;
+		height: 66px;
+		text-align: center;
 		font: Bold 24px/34px Neuzeit Grotesk;
 		letter-spacing: 0.6px;
 		color: #283258;
 		opacity: 1;
-		padding-right: 20px;
 	}
 
 
@@ -971,7 +967,7 @@ footer{
 		
 		width: 319px;
 		height: 132px;
-		text-align: center;
+		text-align: left;
 		font: Bold 48px/48px Neuzeit Grotesk;
 		letter-spacing: 1.2px;
 		color: #283258;
@@ -980,9 +976,8 @@ footer{
 
 	#txt_his{
 		
-		max-width: 100%;
-		height: 340px;
-		padding-right: 20px;
+		width: 290px;
+		height: 387px;
 		text-align: left;
 		font: 20px/28px Neuzeit Grotesk;
 		letter-spacing: 0.5px;
@@ -993,10 +988,10 @@ footer{
 	/* //////// SECAO 6 MOBILE ///////*/
 	#sub_secao6{
 		
-		width: 200px;
+		width: 250px;
 		height: 18px;
 		text-align: left;
-		font: Bold 18px/26px Neuzeit Grotesk;
+		font: Bold 18px/24px Neuzeit Grotesk;
 		letter-spacing: 0.45px;
 		color: #FFFFFF;
 		opacity: 1;
@@ -1004,64 +999,69 @@ footer{
 
 	#secao6_titulo{
 		
-		width: 330px;
+		width: 400px;
 		height: 194px;
 		text-align: left;
-		font: Bold 48px/48px Neuzeit Grotesk;
+		font: Bold 44px/44px Neuzeit Grotesk;
 		letter-spacing: 1.2px;
 		color: #FFFFFF;
 		opacity: 1;
 
+	}
+
+	#balao_mobile{
+		z-index: 2;
+		top: 5800px;
+		left: 03%;
+		width: 24rem;
+		background: transparent;
+		opacity: 1;
 	}
 
 	#txt_not{
 		
-		width: 301px;
-		height: 243px;
+		width: 450px;
+		height: 250px;
 		text-align: left;
-		font: 20px/28px Neuzeit Grotesk;
+		font: 24px/30px Neuzeit Grotesk;
 		letter-spacing: 0.5px;
 		color: #FFFFFF;
 		opacity: 1;
 	}
 
-	/* ////////////SECAO 7 //////////////*/
-
-	#secao7_titulo{
-
-		width: 186px;
-		height: 96px;
-		text-align: center;
-		font: Bold 48px/48px Neuzeit Grotesk;
-		letter-spacing: 1.2px;
-		color: #283258;
-		opacity: 1;
+	footer{
+	height: 20px;
+	background: #283258;
+	border: 1px solid #283258;
+	opacity: 1;
 	}
 
-	#txt_demo{
-		width: 327px;
-		height: 386px;
-		text-align: left;
-		font: 20px/28px Neuzeit Grotesk;
-		letter-spacing: 0.5px;
-		color: #283258;
-		opacity: 1;
+	.secao8{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	
+	background: #FFFFFF;
+	opacity: 1;
 	}
 
-	#button_demo{
-		
-		width: 327px;
-		height: 56px;
-		background: #283258 0% 0%;
-		border-radius: 132px;
-		font: Bold 18px/26px Neuzeit Grotesk;
-		letter-spacing: 0.9px;
-		color: #FFFFFF;
-		border: none;
 
-	}
+}
 
-	#Mockup{
+/*
+.secao4 .col-md-6 {
+	padding-left:0;
+}
+.secao4 .container-fluid {
+	padding-left:0;
+}
+.secao6 .col-md-6 {
+	padding-right:0;
+}
+.secao6 .container-fluid {
+	padding-right:0;
+}
+*/Mockup{
 		margin-top: 8rem;
 		height: 46rem;
 		background: transparent 0% 0% no-repeat padding-box;
