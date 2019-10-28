@@ -1,5 +1,5 @@
 div{
-    border: pink solid;
+    border: 1px pink solid;
 }
 
 @font-face {
@@ -12,7 +12,7 @@ div{
     src: url("../fonts/NeuzeitBold.otf") format("opentype");
     font-weight: bold;
 }
-#teste{
+#secao4Banner{
 	background: url("../img/Banner\ Emoji.png") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -360,7 +360,7 @@ button:focus {
 }
 .secao8{
 	width: 100%;
-	height: 165vh;
+	height: 210vh;
 	background: #FFFFFF;
 	opacity: 1;
 }
@@ -439,6 +439,14 @@ footer{
     text-align: center;
     font: 20px/32px Neuzeit Grotesk;
     letter-spacing: 0;
+    color: #283258;
+    opacity: 1;
+}
+
+.txt_icon{
+    text-align: center;
+    font: Bold 24px/34px Neuzeit Grotesk;
+    letter-spacing: 0.6px;
     color: #283258;
     opacity: 1;
 }
@@ -718,6 +726,11 @@ footer{
 	letter-spacing: 1.8px;
 	color: #283258;
 	opacity: 1;
+}
+
+#rowSecao7{
+    padding-bottom: 10%;
+    padding-top: 5%;
 }
 
 #mockupVideo {
@@ -1151,7 +1164,7 @@ video {
 	opacity: 1;
 	}
 	.secao8{
-		height: 180vh;
+		height: 250vh;
 	}
 
 	#menu_footer{
@@ -1256,6 +1269,6 @@ video {
 }
 */
 
-a, body, div, li, ul, nav{
-	border:  1px solid #2aabd2;
+footer{
+    border: red 1px solid;
 }
