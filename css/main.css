@@ -54,7 +54,6 @@ button:focus {
     justify-content: space-between;
     align-items: center;
 }
-
 .header-height {
     height: 100px;
 }
@@ -351,53 +350,51 @@ button:focus {
     background: #F8F8F9;
     opacity: 1;
 }
-
-.secao8 {
-    width: 100%;
-    height: 1200px;
-    background: #FFFFFF;
-    opacity: 1;
+.secao8{
+	width: 100%;
+	height: 165vh;
+	background: #FFFFFF;
+	opacity: 1;
 }
 
-footer {
-    height: 112px;
-    background: #283258;
-    /*border: 1px solid #283258;*/
+footer{
+	height: 112px;
+	background: #283258;
+	/*border: 1px solid #283258;*/
 }
 
-#marketing_button {
-    width: 30rem;
-    height: 5rem;
-    /*border: 1px solid #FFFFFF;*/
-    border-radius: 132px;
-    opacity: 1;
-    background: transparent;
-    font-family: Neuzeit Grotesk;
-    font-weight: bold;
-    color: #FFFFFF;
+#marketing_button{
+	width: 30rem;
+	height: 5rem;
+	/*border: 1px solid #FFFFFF;*/
+	border-radius: 132px;
+	opacity: 1;
+	background: transparent;
+	font-family: Neuzeit Grotesk;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#marketing_button:hover{
+	background-color: #FFFFFF;
+	color: #283258;
 }
 
-#marketing_button:hover {
-    background-color: #FFFFFF;
-    color: #283258;
+#img-desktop{
+	top: 1224px;
+	left: 1091px;
+	width: 530px;
+	height: 360px;
+	background: transparent url('../img/desktop.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
 }
 
-#img-desktop {
-    top: 1224px;
-    left: 1091px;
-    width: 530px;
-    height: 360px;
-    background: transparent url('../img/desktop.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-#img-mob {
-    top: 1470px;
-    left: 1110px;
-    width: 179px;
-    height: 362px;
-    background: transparent url('../img/Mobile.png') 0% 0% no-repeat padding-box;
-    opacity: 1
+#img-mob{
+	top: 1470px;
+	left: 1110px;
+	width: 179px;
+	height: 362px;
+	background: transparent url('../img/Mobile.png') 0% 0% no-repeat padding-box;
+	opacity: 1
 }
 
 /* FIM DA SEÇÃO 2!! */
@@ -699,39 +696,20 @@ footer {
     border-radius: 50%;
 
 }
-
-/* 				SEÇÃO 8 			 */
-#borda_form {
-    /*border: 5px solid #283258;*/
-    padding: 20px;
-    font-size: 1em;
-    margin-bottom: 100px;
+#borda_form{
+	border: 5px solid #283258;
+	padding: 20px;
+	font-size: 1em;
+	margin-bottom: 100px;
 }
 
-#secao8_titulo {
-    margin-top: 130px;
-    text-align: center;
-    font: Bold 3em/1em Neuzeit Grotesk;
-    letter-spacing: 1.8px;
-    color: #283258;
-    opacity: 1;
-}
-
-.icons-container {
-    padding: 40px 0px;
-}
-
-.icons-container img {
-    width: 50%;
-    height: 50%;
-}
-
-.txt_icon {
-    text-align: center;
-    font: Bold 1.3em/1em Neuzeit Grotesk;
-    letter-spacing: 0.6px;
-    color: #283258;
-    opacity: 1;
+#secao8_titulo{
+	margin-top: 100px;
+	text-align: center;
+	font: Bold 3em/1em Neuzeit Grotesk;
+	letter-spacing: 1.8px;
+	color: #283258;
+	opacity: 1;
 }
 
 #mockupVideo {
@@ -867,7 +845,13 @@ video {
         color: #EADAB4;
         opacity: 1;
 
-
+@media(max-width: 800px){
+    #secao2_titulo{
+        text-align: center;
+        padding-top:20px;
+        font: Bold 38px/45px Neuzeit Grotesk;
+        color:  #EADAB4 ;
+        opacity: 1;
     }
 
 
@@ -909,8 +893,6 @@ video {
         font: Bold 30px/24px Neuzeit Grotesk;
         color: #283258;
         opacity: 1;
-
-
     }
 
     #vantagens_text {
@@ -1162,17 +1144,31 @@ video {
         width: 311px;
         padding-top: 0px;
     }
+	footer{
+	height: 200px;
+	background: #283258;
+	/*border: 1px solid #283258;*/
+	opacity: 1;
+	}
+	.secao8{
+		height: 180vh;
+	}
 
-    footer {
-        height: 20px;
-        background: #283258;
-        /*border: 1px solid #283258;*/
-        opacity: 1;
-    }
+	#menu_footer{
+		display: block;
+	}
 
+	.logo_footer{
+		display: block;
+		top: 0px;
+		left: 50px;
+		width: 114px;
+		height: 29px;
+		background: transparent url("../img/logo\ footer.svg") 0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
 
 }
-
 @media (max-width: 600px) {
     .secao8 {
         height: 300%;
@@ -1196,9 +1192,3 @@ video {
 	padding-right:0;
 }
 */
-
-
-div {
-    border: 1px deeppink solid;
-
-}
