@@ -1,126 +1,125 @@
-
-
 @font-face {
-	font-family: 'Neuzeit Grotesk';
-	src: url("../fonts/NeuzeitGro.otf") format("opentype");
+    font-family: 'Neuzeit Grotesk';
+    src: url("../fonts/NeuzeitGro.otf") format("opentype");
 }
 
 @font-face {
-	font-family: 'Neuzeit Grotesk';
-	src: url("../fonts/NeuzeitBold.otf")format("opentype");
-	font-weight: bold;
+    font-family: 'Neuzeit Grotesk';
+    src: url("../fonts/NeuzeitBold.otf") format("opentype");
+    font-weight: bold;
 }
 
 body {
-	background-color: #283258;	
+    background-color: #283258;
 }
 
 /* Tira uma borda azul que fica nos botões quando clicados */
-button:focus{
-	outline: none;
+button:focus {
+    outline: none;
 }
+
 /*    GERAL  */
 
-.neg{
-	font-weight: bold;
-	font-family: Neuzeit Grotesk;
-	color: white;
+.neg {
+    font-weight: bold;
+    font-family: Neuzeit Grotesk;
+    color: white;
 }
 
 /*				MENU				  */
-.head{
-	background: transparent;
-	transition: ease-in 5s;
+.head {
+    background: transparent;
+    transition: ease-in 5s;
 }
 
-.scrolled{
-	background: linear-gradient(#283258 10%, #0000);
+.scrolled {
+    background: linear-gradient(#283258 10%, #0000);
 }
 
 
-#logo{
+#logo {
     width: 280px;
     height: 70px;
 }
-  
-@media (max-width: 800px){
-	#logo{
-		width: 167px;
-    	height: 42px;
-	}
+
+@media (max-width: 800px) {
+    #logo {
+        width: 167px;
+        height: 42px;
+    }
 }
 
-.cabecalhoPrincipal{
-	width: 100%;
-	justify-content: space-between;
-	align-items: center;
+.cabecalhoPrincipal {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-height{
-	height: 100px;
+.header-height {
+    height: 100px;
 }
 
-.cabecalhoPrincipal-nav{
-	padding: 20px;
-	height: 100%;
+.cabecalhoPrincipal-nav {
+    padding: 20px;
+    height: 100%;
 }
 
-#MM{
-	padding-right: 30px;
-	width: 148px;
-	height: 18px;
-	text-align: center;
-	font: 18px/26px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
-	color: #FFFFFF;
+#MM {
+    padding-right: 30px;
+    width: 148px;
+    height: 18px;
+    text-align: center;
+    font: 18px/26px Neuzeit Grotesk;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
 }
 
 
-#Van{
-	padding-right: 30px;
-	width: 88px;
-	height: 18px;
-	text-align: center;
-	font: 18px/26px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
-	color: #FFFFFF;
+#Van {
+    padding-right: 30px;
+    width: 88px;
+    height: 18px;
+    text-align: center;
+    font: 18px/26px Neuzeit Grotesk;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
 }
 
-#Rec{
-	padding-right: 30px;
-	width: 72px;
-	height: 18px;
-	text-align: center;
-	font: 18px/26px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
-	color: #FFFFFF;
-	opacity: 1;
+#Rec {
+    padding-right: 30px;
+    width: 72px;
+    height: 18px;
+    text-align: center;
+    font: 18px/26px Neuzeit Grotesk;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-#Cont{
-	font-family: Neuzeit Grotesk;
-	background: none;
-	/*border: 1px solid #FFFFFF;*/
-	border-radius: 100px;
-	color: #FFFFFF;
-	font-size: 1.5rem;
-	font-weight: bold;
-	width: 170px;
-	height: 56px;
+#Cont {
+    font-family: Neuzeit Grotesk;
+    background: none;
+    /*border: 1px solid #FFFFFF;*/
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 170px;
+    height: 56px;
 }
 
-#Cont:hover{
-	background-color: #FFFFFF;
-	color: inherit;
+#Cont:hover {
+    background-color: #FFFFFF;
+    color: inherit;
 }
 
-#banner_button{
-	padding: 2rem 5rem;
-	background-color: #FFFFFF;
-	border: none;
-	border-radius: 100px;
-	font: Bold 2rem/1.4rem Neuzeit Grotesk;
-	color: #283258;
+#banner_button {
+    padding: 2rem 5rem;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+    font: Bold 2rem/1.4rem Neuzeit Grotesk;
+    color: #283258;
 }
 
 @media not all and (max-width: 800px) {
@@ -129,46 +128,50 @@ button:focus{
         display: none;
         background: transparent;
     }
-    .barra-nav{
-    	display: none;
+
+    .barra-nav {
+        display: none;
     }
 }
 
-@media (max-width: 800px){
-	.cabecalhoPrincipal-nav{
-		display: none;
-		padding: 0px;
-	}
-	.menu-abrir{
-		width: 30px;
-		height: 30px;
-	}
-	.menu-fechar{
-		position:absolute;
-		display: block;
-		top: 34px;
-		left: 210px;
-	}
-	.logo{	
-		padding-top:10px;	
-		position:absolute;
-		top: 22px;
-		left: -20px;
-		width: 167px;
-		height: 42px;
-		
-		opacity: 1;
-	}
+@media (max-width: 800px) {
+    .cabecalhoPrincipal-nav {
+        display: none;
+        padding: 0px;
+    }
+
+    .menu-abrir {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-fechar {
+        position: absolute;
+        display: block;
+        top: 34px;
+        left: 210px;
+    }
+
+    .logo {
+        padding-top: 10px;
+        position: absolute;
+        top: 22px;
+        left: -20px;
+        width: 167px;
+        height: 42px;
+
+        opacity: 1;
+    }
 
 
-	.barra-nav {
+    .barra-nav {
         background: #283258;
         padding: 1em;
         margin: 0;
 
         height: 100%;
         width: 100%;
-        
+
 
         position: fixed;
         z-index: 100;
@@ -177,81 +180,85 @@ button:focus{
 
         transition: right 0.3s ease-out;
     }
+
     .menu-ativo .barra-nav {
         right: 0;
     }
 
-    .menu_mm{
-    	position: absolute;
-    	top: 214px;
-		left: 39px;
-		width: 132px;
-		height: 16px;
-		text-align: center;
-		font: 16px/22px Neuzeit Grotesk;
-		letter-spacing: 0.8px;
-		color: #FFFFFF;
-		opacity: 1;
-    }
-    .menu_van{
-    	position: absolute;
-    	top: 263px;
-		left: 39px;
-		width: 78px;
-		height: 16px;
-		text-align: center;
-		font: 16px/22px Neuzeit Grotesk;
-		letter-spacing: 0.8px;
-		color: #FFFFFF;
-		opacity: 1;
-    }
-    .menu_rec{
-    	position: absolute;
-    	top: 313px;
-		left: 39px;
-		width: 64px;
-		height: 16px;
-		text-align: center;
-		font: 16px/22px Neuzeit Grotesk;
-		letter-spacing: 0.8px;
-		color: #FFFFFF;
-		opacity: 1;
+    .menu_mm {
+        position: absolute;
+        top: 214px;
+        left: 39px;
+        width: 132px;
+        height: 16px;
+        text-align: center;
+        font: 16px/22px Neuzeit Grotesk;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        opacity: 1;
     }
 
-    .menu_vp{
-    	position: absolute;
-    	top: 362px;
-		left: 39px;
-		width: 115px;
-		height: 16px;
-		text-align: left;
-		font: 16px/22px Neuzeit Grotesk;
-		letter-spacing: 0.8px;
-		color: #FFFFFF;
-		opacity: 1;
-    }
-    .menu_fc{
-    	position: absolute;
-    	top: 412px;
-		left: 39px;
-		width: 100px;
-		height: 16px;
-		text-align: center;
-		font: 16px/22px Neuzeit Grotesk;
-		letter-spacing: 0.8px;
-		color: #FFFFFF;
-		opacity: 1;
+    .menu_van {
+        position: absolute;
+        top: 263px;
+        left: 39px;
+        width: 78px;
+        height: 16px;
+        text-align: center;
+        font: 16px/22px Neuzeit Grotesk;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        opacity: 1;
     }
 
-    .logo_menu{
-    	padding-top:10px;	
-		position:absolute;
-		top: 30px;
-		left: 30px;
-		width: 167px;
-		height: 42px;
-		
-		opacity: 1;
+    .menu_rec {
+        position: absolute;
+        top: 313px;
+        left: 39px;
+        width: 64px;
+        height: 16px;
+        text-align: center;
+        font: 16px/22px Neuzeit Grotesk;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .menu_vp {
+        position: absolute;
+        top: 362px;
+        left: 39px;
+        width: 115px;
+        height: 16px;
+        text-align: left;
+        font: 16px/22px Neuzeit Grotesk;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .menu_fc {
+        position: absolute;
+        top: 412px;
+        left: 39px;
+        width: 100px;
+        height: 16px;
+        text-align: center;
+        font: 16px/22px Neuzeit Grotesk;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .logo_menu {
+        padding-top: 10px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 167px;
+        height: 42px;
+
+        opacity: 1;
     }
 
 }
@@ -261,256 +268,265 @@ button:focus{
 
 
 /*				SEÇÃO 2 				*/
-#secao2_titulo{
-	padding-top:50px;
-	font: Bold 50px/42px Neuzeit Grotesk;
-	color:  #EADAB4 ;
-	opacity: 1;
+#secao2_titulo {
+    padding-top: 50px;
+    font: Bold 50px/42px Neuzeit Grotesk;
+    color: #EADAB4;
+    opacity: 1;
 }
 
 
-#sub_sec2{
-	font-family: Neuzeit Grotesk;
-	font-weight: bold;
-	padding-top: 100px;
-	top: 1357px;
-	left: 279px;
-	width: 343px;
-	height: 28px;
-	letter-spacing: 0.9px;
-	color: #FFFFFF;
-	opacity: 1;
+#sub_sec2 {
+    font-family: Neuzeit Grotesk;
+    font-weight: bold;
+    padding-top: 100px;
+    top: 1357px;
+    left: 279px;
+    width: 343px;
+    height: 28px;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-#mobile_text{
-	height: 181px;
-	text-align: left;
-	font: 14px/30px Neuzeit Grotesk;
-	letter-spacing: 0;
-	color: #FFFFFF;
-	opacity: 1;
+#mobile_text {
+    height: 181px;
+    text-align: left;
+    font: 14px/30px Neuzeit Grotesk;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-#noPadding{
-	padding: 0px;
-	max-width: 100%;
-}
-.noPadding{
-	padding: 0px;
-	max-width: 100%;
+#noPadding {
+    padding: 0px;
+    max-width: 100%;
 }
 
-.secao2{
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	background: #283258;
+.noPadding {
+    padding: 0px;
+    max-width: 100%;
+}
 
-	opacity: 1;
-	padding-bottom: 20px;
+.secao2 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #283258;
+
+    opacity: 1;
+    padding-bottom: 20px;
 
 }
 
-#sec2_texto{
-	height: 42vh;
+#sec2_texto {
+    height: 42vh;
     justify-content: left;
 }
 
-.secao3{
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	opacity: 1;
+.secao3 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 
+.secao5 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
 
-.secao5{
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	
-	background: #FFFFFF ;
-	opacity: 1;
+    background: #FFFFFF;
+    opacity: 1;
 }
 
 
-.secao7{
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	
-	background: #F8F8F9;
-	opacity: 1;
+.secao7 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    background: #F8F8F9;
+    opacity: 1;
 }
 
-.secao8{
-	width: 100%;
-	height: 1200px;
-	background: #FFFFFF;
-	opacity: 1;
+.secao8 {
+    width: 100%;
+    height: 1200px;
+    background: #FFFFFF;
+    opacity: 1;
 }
 
-footer{
-	height: 112px;
-	background: #283258;
-	/*border: 1px solid #283258;*/
+footer {
+    height: 112px;
+    background: #283258;
+    /*border: 1px solid #283258;*/
 }
 
-#marketing_button{
-	width: 30rem;
-	height: 5rem;
-	/*border: 1px solid #FFFFFF;*/
-	border-radius: 132px;
-	opacity: 1;
-	background: transparent;
-	font-family: Neuzeit Grotesk;
-	font-weight: bold;
-	color: #FFFFFF;
-}
-#marketing_button:hover{
-	background-color: #FFFFFF;
-	color: #283258;
+#marketing_button {
+    width: 30rem;
+    height: 5rem;
+    /*border: 1px solid #FFFFFF;*/
+    border-radius: 132px;
+    opacity: 1;
+    background: transparent;
+    font-family: Neuzeit Grotesk;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
-#img-desktop{
-	top: 1224px;
-	left: 1091px;
-	width: 530px;
-	height: 360px;
-	background: transparent url('../img/desktop.png') 0% 0% no-repeat padding-box;
-	opacity: 1;
+#marketing_button:hover {
+    background-color: #FFFFFF;
+    color: #283258;
 }
 
-#img-mob{
-	top: 1470px;
-	left: 1110px;
-	width: 179px;
-	height: 362px;
-	background: transparent url('../img/Mobile.png') 0% 0% no-repeat padding-box;
-	opacity: 1
+#img-desktop {
+    top: 1224px;
+    left: 1091px;
+    width: 530px;
+    height: 360px;
+    background: transparent url('../img/desktop.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
+
+#img-mob {
+    top: 1470px;
+    left: 1110px;
+    width: 179px;
+    height: 362px;
+    background: transparent url('../img/Mobile.png') 0% 0% no-repeat padding-box;
+    opacity: 1
+}
+
 /* FIM DA SEÇÃO 2!! */
 
 /*				SEÇÃO 3					*/
-.secao3{
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	opacity: 1;
+.secao3 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 
-#paddingtopdiv{
-	padding-top: 80px;
+#paddingtopdiv {
+    padding-top: 80px;
 
 }
 
-#secao3_titulo{
-	
-	width: 100%;
-	height: 65px;
+#secao3_titulo {
+
+    width: 100%;
+    height: 65px;
     text-align: center;
-	font: Bold 45px/48px Neuzeit Grotesk;
-	color:  #283258;
-	opacity: 1;
+    font: Bold 45px/48px Neuzeit Grotesk;
+    color: #283258;
+    opacity: 1;
 }
 
-#vantagens_text{
-	
-	width: 100%;
-	height: 123px;
-	text-align: center;
-	font: 20px/32px Neuzeit Grotesk;
-	letter-spacing: 0;
-	color: #283258;
-	opacity: 1;
+#vantagens_text {
+
+    width: 100%;
+    height: 123px;
+    text-align: center;
+    font: 20px/32px Neuzeit Grotesk;
+    letter-spacing: 0;
+    color: #283258;
+    opacity: 1;
 }
 
-#txt_van{
-	width: 100%;
-	height: 123px;
-	text-align: center;
-	letter-spacing: 0.5px;
-	color: #283258;
-	opacity: 1;
+#txt_van {
+    width: 100%;
+    height: 123px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #283258;
+    opacity: 1;
 }
 
-#imageSec3{
+#imageSec3 {
     height: 60%;
 }
 
 
 /*				SEÇÃO 4				*/
-#sub_secao4{
-	width: 100%;
-	padding-top: 20%;
-	padding-bottom: 5%;
-	height: 24px;
-	text-align: left;
-	font: Bold 24px/34px Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #FFFFFF;
-	opacity: 1;
+
+#sub_secao4 {
+
+    width: 100%;
+    height: 24px;
+    text-align: left;
+    font: Bold 24px/34px Neuzeit Grotesk;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 10%;
+
 }
 
-#sub2_secao4{
-	width: 100%;
-	text-align: left;
-	font: Bold 19px/34px Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #FFFFFF;
-	opacity: 1;
+#sub2_secao4 {
+    width: 100%;
+    text-align: left;
+    font: Bold 19px/34px Neuzeit Grotesk;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-#secao4_titulo{
-	
-	width: 100%;
-	font: Bold 57px/57px Neuzeit Grotesk;
-	color:  #EADAB4;
-	opacity: 1;
+#secao4_titulo {
+
+    width: 100%;
+    font: Bold 57px/57px Neuzeit Grotesk;
+    color: #EADAB4;
+    opacity: 1;
 }
 
-#rowSecao4{
-    padding-top: 15%;
+
+#rowSecao4 {
+    padding-top: 30%;
+
 }
 
-#text_rec{
+#text_rec {
 
-	width: 100%;
-	height: 136px;
-	text-align: left;
-	font: 20px/28px Neuzeit Grotesk;
-	letter-spacing: 0.5px;
-	color: #FFFFFF;
-	opacity: 1;
+    width: 100%;
+    height: 136px;
+    text-align: left;
+    font: 20px/28px Neuzeit Grotesk;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-#Love_1{
-	width: 19px;
-	height: 19px;
-	background: transparent 0% 0% no-repeat padding-box;
-	opacity: 1;
+#Love_1 {
+    width: 19px;
+    height: 19px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
-#Love_2{
-	width: 40px;
-	height: 40px;
-	background:  0% 0% no-repeat padding-box;
-	opacity: 1;
+
+#Love_2 {
+    width: 40px;
+    height: 40px;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
-#Love_3{
-	width: 52px;
-	height: 52px;
-	background: transparent  0% 0% no-repeat padding-box;
-	opacity: 1;
+
+#Love_3 {
+    width: 52px;
+    height: 52px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
-#Love_4{
-	width: 54px;
-	height: 54px;
-	background: transparent  0% 0% no-repeat padding-box;
-	opacity: 1;
+
+#Love_4 {
+    width: 54px;
+    height: 54px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 #secao4Loves{
 	width: 100%;
@@ -522,605 +538,648 @@ footer{
 
 
 /*				SEÇÃO 5				*/
-#sub_secao5{
-	/* padding-top: 150px; */
-	top: 4690px;
-	left: 166px;
-	width: 100%;
-	/* height: 24px; */
-	text-align: left;
-	font: Bold 24px/34px Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #283258;
-	opacity: 1;
+
+#sub_secao5 {
+    /* padding-top: 150px; */
+    top: 4690px;
+    left: 166px;
+    width: 100%;
+    /* height: 24px; */
+    text-align: left;
+    font: Bold 24px/34px Neuzeit Grotesk;
+    letter-spacing: 0.6px;
+    color: #283258;
+    opacity: 1;
 }
 
-#sub2_secao5{
-	/* padding-top: 50px; */
-	top: 4869px;
-	left: 166px;
-	width: 100%;
-	/* height: 66px; */
-	text-align: left;
-	font: Bold 24px/34px Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #283258;
-	opacity: 1;
-}
-
-
-#secao5_titulo{
-	/* padding-top: 50px; */
-	width: 100%;
-	/* height: 88px; */
-	text-align: left;
-	font: Bold 72px/72px Neuzeit Grotesk;
-	letter-spacing: 1.8px;
-	color: #283258;
-	opacity: 1;
-}
-
-#txt_his{
-	padding-right: 50px;
-	padding-top: 50px;
-	padding-bottom: 50px;;
-	width: 100%;
-	height: 300px;
-	text-align: left;
-	font: 22px/28px Neuzeit Grotesk;
-	letter-spacing: 0.5px;
-	color: #283258;
-	opacity: 1;
-}
-/*      /////////      SECAO 6    ///////////   */   
-#sub_secao6{
-	padding-top: 30px;
-	top: 5873px;
-	left: 166px;
-	width: 260px;
-	height: 24px;
-	text-align: left;
-	font: Bold 24px/24px Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #FFFFFF;
-	opacity: 1;
-}
-
-#secao6_titulo{
-	padding-top: 50px;
-	top: 5800px;
-	left: 166px;
-	width: 690px;
-	height: 154px;
-	text-align: left;
-	font: Bold 45px/45px Neuzeit Grotesk;
-	letter-spacing: 1.7px;
-	color: #FFFFFF;
-	opacity: 1;
-}
-
-#txt_not{
-	padding-top: 30px;
-	top: 5800px;
-	left: 166px;
-	width: 670px;
-	height: 110px;
-	text-align: left;
-	font: 20px/28px Neuzeit Grotesk;
-	letter-spacing: 0.5px;
-	color: #FFFFFF;
-	opacity: 1;
-}
-
-#balao{
-	padding-top: 55%;
-	left: 03%;
-	width: 24rem;
-	background: transparent;
-	opacity: 1;
-}
-
-#secao7_titulo{
-
-	top: 6890px;
-	left: 1012px;
-	width: 100%;
-	height: 72px;
-	text-align: left;
-	font: Bold 52px/80px Neuzeit Grotesk;
-	letter-spacing: 1.8px;
-	color: #283258;
-	opacity: 1;
+#sub2_secao5 {
+    /* padding-top: 50px; */
+    top: 4869px;
+    left: 166px;
+    width: 100%;
+    /* height: 66px; */
+    text-align: left;
+    font: Bold 24px/34px Neuzeit Grotesk;
+    letter-spacing: 0.6px;
+    color: #283258;
+    opacity: 1;
 }
 
 
-
-#txt_demo{
-
-	padding: 30px;
-	top: 7009px;
-	left: 1019px;
-	width: 90%;
-	height: 150px;
-	text-align: left;
-	font: 20px/28px Neuzeit Grotesk;
-	letter-spacing: 0.5px;
-	color: #283258;
-	opacity: 1;
+#secao5_titulo {
+    /* padding-top: 50px; */
+    top: 4754px;
+    left: 166px;
+    width: 100%;
+    /* height: 88px; */
+    text-align: left;
+    font: Bold 72px/70px Neuzeit Grotesk;
+    letter-spacing: 1.8px;
+    color: #283258;
+    opacity: 1;
 }
 
-#button_demo{
-	top: 7249px;
-	left: 1019px;
-	width: 258px;
-	height: 56px;
-	background: #283258 0% 0%;
-	border-radius: 132px;
-	font: Bold 18px/26px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
-	color: #FFFFFF;
-	border: none;
+#txt_his {
+    padding-top: 50px;
+    top: 4994px;
+    left: 166px;
+    width: 100%;
+    height: 250px;
+    text-align: left;
+    font: 20px/28px Neuzeit Grotesk;
+    letter-spacing: 0.5px;
+    color: #283258;
+    opacity: 1;
 }
 
-#Mockup{
-	margin-top: 8rem;
-	height: 46rem;
-	background: transparent 0% 0% no-repeat padding-box;
-	opacity: 1;
+/*      /////////      SECAO 6    ///////////   */
+#sub_secao6 {
+    padding-top: 30px;
+    top: 5873px;
+    left: 166px;
+    width: 260px;
+    height: 24px;
+    text-align: left;
+    font: Bold 24px/24px Neuzeit Grotesk;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-#sombra{
-	margin-bottom: 2%;
-	margin-left: 7%;
-	width: 13rem;
-	height: 1rem;
-	background: #262B3E  0% 0% no-repeat padding-box;;
-	opacity: 1;
-	filter: blur(3px);
-	border-radius: 50%;
+#secao6_titulo {
+    padding-top: 50px;
+    top: 5800px;
+    left: 166px;
+    width: 690px;
+    height: 154px;
+    text-align: left;
+    font: Bold 45px/45px Neuzeit Grotesk;
+    letter-spacing: 1.7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#txt_not {
+    padding-top: 30px;
+    top: 5800px;
+    left: 166px;
+    width: 670px;
+    height: 110px;
+    text-align: left;
+    font: 20px/28px Neuzeit Grotesk;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#balao {
+    padding-top: 55%;
+    left: 03%;
+    width: 24rem;
+    background: transparent;
+    opacity: 1;
+}
+
+#secao7_titulo {
+
+    top: 6890px;
+    left: 1012px;
+    width: 100%;
+    height: 72px;
+    text-align: left;
+    font: Bold 52px/80px Neuzeit Grotesk;
+    letter-spacing: 1.8px;
+    color: #283258;
+    opacity: 1;
+}
+
+
+#txt_demo {
+
+    padding: 30px;
+    top: 7009px;
+    left: 1019px;
+    width: 90%;
+    height: 150px;
+    text-align: left;
+    font: 20px/28px Neuzeit Grotesk;
+    letter-spacing: 0.5px;
+    color: #283258;
+    opacity: 1;
+}
+
+#button_demo {
+    top: 7249px;
+    left: 1019px;
+    width: 258px;
+    height: 56px;
+    background: #283258 0% 0%;
+    border-radius: 132px;
+    font: Bold 18px/26px Neuzeit Grotesk;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+    border: none;
+}
+
+#Mockup {
+    margin-top: 8rem;
+    height: 46rem;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#sombra {
+    margin-bottom: 2%;
+    margin-left: 7%;
+    width: 13rem;
+    height: 1rem;
+    background: #262B3E 0% 0% no-repeat padding-box;;
+    opacity: 1;
+    filter: blur(3px);
+    border-radius: 50%;
+
 }
 
 /* 				SEÇÃO 8 			 */
-#borda_form{
-	/*border: 5px solid #283258;*/
-	padding: 20px;
-	font-size: 1em;
-	margin-bottom: 100px;
+#borda_form {
+    /*border: 5px solid #283258;*/
+    padding: 20px;
+    font-size: 1em;
+    margin-bottom: 100px;
 }
 
-#secao8_titulo{
-	margin-top: 130px;
-	text-align: center;
-	font: Bold 3em/1em Neuzeit Grotesk;
-	letter-spacing: 1.8px;
-	color: #283258;
-	opacity: 1;
+#secao8_titulo {
+    margin-top: 130px;
+    text-align: center;
+    font: Bold 3em/1em Neuzeit Grotesk;
+    letter-spacing: 1.8px;
+    color: #283258;
+    opacity: 1;
 }
 
-.icons-container{
-	padding: 40px 0px;
+.icons-container {
+    padding: 40px 0px;
 }
 
-.icons-container img{
-	width: 50%;
-	height: 50%;
+.icons-container img {
+    width: 50%;
+    height: 50%;
 }
 
-.txt_icon{
-	text-align: center;
-	font: Bold 1.3em/1em Neuzeit Grotesk;
-	letter-spacing: 0.6px;
-	color: #283258;
-	opacity: 1;
+.txt_icon {
+    text-align: center;
+    font: Bold 1.3em/1em Neuzeit Grotesk;
+    letter-spacing: 0.6px;
+    color: #283258;
+    opacity: 1;
 }
 
-#imagemDesktopMobile{
+#mockupVideo {
+    background-image: url("../img/Mockup  PNG.png");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 3.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mockupVideoMobile {
+    display: none
+}
+
+video {
+    /*border: 2px solid purple;*/
+}
+
+#video {
+    padding: 0;
+    margin: 0;
+	width: 12vw;
+}
+
+#imagemDesktopMobile {
     width: 700px;
     padding-top: 0px;
     padding-right: 15px;
 }
 
-#imagemDesktopMobileInMobile{
+#imagemDesktopMobileInMobile {
     padding: 10px;
 }
 
-#divDesktopMobile{
+#divDesktopMobile {
     width: 100%;
     padding-top: 10px;
 }
 
-#forms_titulo{
-	margin: 40px 0px;
-	text-align: center;
-	font: Bold 3.5em/1.3em Neuzeit Grotesk;
-	letter-spacing: 1.8px;
-	color: #283258;
+#forms_titulo {
+    margin: 40px 0px;
+    text-align: center;
+    font: Bold 3.5em/1.3em Neuzeit Grotesk;
+    letter-spacing: 1.8px;
+    color: #283258;
 }
 
-#forms_txt{
-	margin: 60px 0px;
-	padding: 10px;
-	text-align: center;
-	font: Normal 1.5em/1.3em Neuzeit Grotesk;
-	letter-spacing: 0.8px;
-	color: #283258;
+#forms_txt {
+    margin: 60px 0px;
+    padding: 10px;
+    text-align: center;
+    font: Normal 1.5em/1.3em Neuzeit Grotesk;
+    letter-spacing: 0.8px;
+    color: #283258;
 
 }
 
-.form-group label{
-	/* background-color: tomato; */
-	font: Bold 0.9em/1.3em Neuzeit Grotesk;
-	color: #ccc;
+.form-group label {
+    /* background-color: tomato; */
+    font: Bold 0.9em/1.3em Neuzeit Grotesk;
+    color: #ccc;
 }
 
-.form-control{
-	/* para sobrescrever o bootstrap */
-	border: none;
-	border-radius: 0;
-	box-shadow: none;
-	
-	/* background: red; */
+.form-control {
+    /* para sobrescrever o bootstrap */
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
 
-	border-bottom: 2px solid #283258;
-	color: #283258;
-	padding: 0;
-	font: Bold 1em/1.3em Neuzeit Grotesk;
-	letter-spacing: 1px;
+    /* background: red; */
+
+    border-bottom: 2px solid #283258;
+    color: #283258;
+    padding: 0;
+    font: Bold 1em/1.3em Neuzeit Grotesk;
+    letter-spacing: 1px;
 }
 
-.form-control:focus{
-	box-shadow: none;
-	border-color: initial;
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: initial;
+
 }
 
-.button-container{
-	padding: 30px 0px;
+.button-container {
+    padding: 30px 0px;
 }
 
-#teste{
-		background: url("../img/Banner\ Emoji.png") no-repeat center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-#button_forms{
-	padding: 15px;
-	background: #283258 0% 0% padding-box;
-	border-radius: 132px;
-	border: none;
-	text-align: center;
-	font: Bold 1em/1.3em Neuzeit Grotesk;
-	letter-spacing: 0.9px;
-	color: #FFFFFF;
+#button_forms {
+    padding: 15px;
+    background: #283258 0% 0% padding-box;
+    border-radius: 132px;
+    border: none;
+    text-align: center;
+    font: Bold 1em/1.3em Neuzeit Grotesk;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
 }
 
-#CC{
-	top: 9845px;
-	left: 1261px;
-	width: 233px;
-	height: 12px;
-	text-align: left;
-	font: 10px/14px Neuzeit Grotesk;
-	letter-spacing: 0.25px;
-	color: #FFFFFF;
-	opacity: 1;
+#CC {
+    top: 9845px;
+    left: 1261px;
+    width: 233px;
+    height: 12px;
+    text-align: left;
+    font: 10px/14px Neuzeit Grotesk;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-.emojis{
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	width: 70px;
-	height: 150px;
-	padding-top: 18%;
+.emojis {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 70px;
+    height: 150px;
+    padding-top: 18%;
 }
 
-@media(max-width: 800px){
-	/*CSS seção 2-mobile*/
-
-	    #secao2_titulo{
-            text-align: center;
-		padding-top:20px;
-		font: Bold 38px/45px Neuzeit Grotesk;
-		color:  #EADAB4 ;
-		opacity: 1;
-
-
-	}
+@media (max-width: 800px) {
+    /*CSS seção 2-mobile*/
+    #secao2_titulo {
+        text-align: center;
+        padding-top: 20px;
+        font: Bold 38px/45px Neuzeit Grotesk;
+        color: #EADAB4;
+        opacity: 1;
 
 
-	#sub_sec2{
-		width: 184px;
-		height: 15px;
-		font: bold 14px/12px Neuzeit Grotesk;
-		font-weight: bold;
+    }
 
-		letter-spacing: 0.9px;
-		color: #FFFFFF;
-		opacity: 1;
-	}
 
-	#mobile_text{
-		width: 100%;
-		height: 160px;
-		text-align: left;
+    #sub_sec2 {
+        width: 184px;
+        height: 15px;
+        font: bold 14px/12px Neuzeit Grotesk;
+        font-weight: bold;
+
+        letter-spacing: 0.9px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    #mobile_text {
+        width: 100%;
+        height: 160px;
+        text-align: left;
         justify-content: center;
-		font: 16px/18px Neuzeit Grotesk;
-		letter-spacing: 0;
-		color: #FFFFFF;
-		opacity: 1;
+        font: 16px/18px Neuzeit Grotesk;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
 
-		
-	}
 
-	
+    }
+
+
     /*CSS seção 3-mobile*/
+    #paddingtopdiv {
+        padding-top: 30px;
 
-	#paddingtopdiv{
-		padding-top: 30px;
+    }
 
-	}
+    #secao3_titulo {
 
-	#secao3_titulo{
-
-		width: 100%;
-		height: 30px;
-		font: Bold 30px/24px Neuzeit Grotesk;
-		color:  #283258;
-		opacity: 1;
+        width: 100%;
+        height: 30px;
+        font: Bold 30px/24px Neuzeit Grotesk;
+        color: #283258;
+        opacity: 1;
 
 
-	}
+    }
 
-	#vantagens_text{
-		
-		width: 100%;
-		height: 85px;
-		text-align: center;
-		font: 14px/21px Neuzeit Grotesk;
-		letter-spacing: 0;
-		color: #283258;
-		opacity: 1;
-	}
+    #vantagens_text {
 
-    #txt_van{
+        width: 100%;
+        height: 85px;
+        text-align: center;
+        font: 14px/21px Neuzeit Grotesk;
+        letter-spacing: 0;
+        color: #283258;
+        opacity: 1;
+    }
+
+    #txt_van {
         width: 100%;
         height: 123px;
         text-align: center;
         letter-spacing: 0.5px;
         color: #283258;
         opacity: 1;
-	}
 
-	/*seção4-mobile*/
-		#sub_secao4{
-		
-		width: 100%;
-		height: 18px;
-		text-align: left;
-		font: Bold 16px/18px Neuzeit Grotesk;
-		letter-spacing: 0.45px;
-		color: #FFFFFF;
-		opacity: 1;
+    }
 
-	}
+    #mockupVideo {
+        height: 150vw;
+        display: none;
+    }
 
-	#sub2_secao4{
-		
-		width: 90%;
-		height: 96px;
-		text-align: left;
-		font: Bold 24px/34px Neuzeit Grotesk;
-		letter-spacing: 0.6px;
-		color: #FFFFFF;
-		opacity: 1;
+    #mockupVideoMobile {
+        background-image: url("../img/Mockup  PNG.png");
+        background-origin: padding-box;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 3.5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 150vw;
+    }
 
-	}
-	#rowSecao4{
-		padding-bottom: 10%;
-	}
-	#secao4_titulo{
-		width: 100%;
-		height: 123px;
-		text-align: left;
-		font: Bold 48px/48px Neuzeit Grotesk;
-		letter-spacing: 1.2px;
-		color:  #EADAB4;
-		opacity: 1;
+    /*seção4-mobile*/
+    #sub_secao4 {
 
-	}
-	#text_rec{
+        width: 180px;
+        height: 18px;
+        text-align: left;
+        font: Bold 16px/18px Neuzeit Grotesk;
+        letter-spacing: 0.45px;
+        color: #FFFFFF;
+        opacity: 1;
 
-		width: 100%;
-		height: 190px;
-		text-align: left;
-		font: 20px/28px Neuzeit Grotesk;
-		letter-spacing: 0.5px;
-		color: #FFFFFF;
-		opacity: 1;
+    }
 
-	}
+    #sub2_secao4 {
+
+        width: 90%;
+        height: 96px;
+        text-align: left;
+        font: Bold 24px/34px Neuzeit Grotesk;
+        letter-spacing: 0.6px;
+        color: #FFFFFF;
+        opacity: 1;
+
+    }
+
+    #secao4_titulo {
+
+        width: 318px;
+        height: 123px;
+        text-align: left;
+        font: Bold 48px/48px Neuzeit Grotesk;
+        letter-spacing: 1.2px;
+        color: #EADAB4;
+        opacity: 1;
+
+    }
+
+    #text_rec {
+
+        width: 90%;
+        height: 190px;
+        text-align: left;
+        font: 20px/28px Neuzeit Grotesk;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        opacity: 1;
+
+    }
 
 
-	#Love_4{
-		height: 100%;
+    #Love_4 {
+        height: 100%;
         width: 100%;
 
-	}
-	#secao4Loves{
-		width: 100%;
-		padding-top: 200%;
-		padding-right: 10px;
-		padding-bottom: 0%;
-	}
+    }
 
-	/*seção5-mobile*/
+    /*seção5-mobile*/
+    #sub_secao5 {
 
-	#sub_secao5{
-		
-		width: 100%;
-		height: 18px;
-		text-align: left;
-		font: bold 20px/26px Neuzeit Grotesk;
-		letter-spacing: 0.45px;
-		color: #283258;
-		opacity: 1;
+        width: 200px;
+        height: 18px;
+        text-align: left;
+        font: Bold 18px/26px Neuzeit Grotesk;
+        letter-spacing: 0.45px;
+        color: #283258;
+        opacity: 1;
 
-	}
+    }
 
-	#sub2_secao5{
-		
-		width: 100%;
-		height: 100px;
-		text-align: left;
-		font: Bold 22px/34px Neuzeit Grotesk;
-		letter-spacing: 0.6px;
-		color: #283258;
-		opacity: 1;
-	}
+    #sub2_secao5 {
+
+        width: 290px;
+        height: 66px;
+        text-align: center;
+        font: Bold 24px/34px Neuzeit Grotesk;
+        letter-spacing: 0.6px;
+        color: #283258;
+        opacity: 1;
+    }
+
+    #video {
+        height: 70vw;
+        width: auto;
+    }
 
 
-	#secao5_titulo{
-		
-		width: 50%;
-		text-align: left;
-		font: Bold 58px/58px Neuzeit Grotesk;
-		letter-spacing: 1.2px;
-		color: #283258;
-		opacity: 1;
-	}
+    #secao5_titulo {
 
-	#txt_his{
-		max-width: 100%;
-		height: 340px;
-		padding-right: 20px;
-		text-align: left;
-		font: 20px/28px Neuzeit Grotesk;
-		letter-spacing: 0.5px;
-		color: #283258;
-		opacity: 1;
-	}
+        width: 319px;
+        height: 132px;
+        text-align: center;
+        font: Bold 48px/48px Neuzeit Grotesk;
+        letter-spacing: 1.2px;
+        color: #283258;
+        opacity: 1;
+    }
 
-	/* //////// SECAO 6 MOBILE ///////*/
-	#sub_secao6{
-		
-		width: 250px;
-		height: 18px;
-		text-align: left;
-		font: Bold 18px/24px Neuzeit Grotesk;
-		letter-spacing: 0.45px;
-		color: #FFFFFF;
-		opacity: 1;
-	}
+    #txt_his {
 
-	#secao6_titulo{
-		
-		width: 400px;
-		height: 194px;
-		text-align: left;
-		font: Bold 44px/44px Neuzeit Grotesk;
-		letter-spacing: 1.2px;
-		color: #FFFFFF;
-		opacity: 1;
+        max-width: 100%;
+        height: 340px;
+        padding-right: 20px;
+        text-align: left;
+        font: 20px/28px Neuzeit Grotesk;
+        letter-spacing: 0.5px;
+        color: #283258;
+        opacity: 1;
+    }
 
-	}
+    /* //////// SECAO 6 MOBILE ///////*/
+    #sub_secao6 {
 
-	#balao_mobile{
-		z-index: 2;
-		top: 5800px;
-		left: 03%;
-		width: 24rem;
-		background: transparent;
-		opacity: 1;
-	}
+        width: 250px;
+        height: 18px;
+        text-align: left;
+        font: Bold 18px/24px Neuzeit Grotesk;
+        letter-spacing: 0.45px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
 
-	#txt_not{
-		
-		width: 301px;
-		height: 243px;
-		text-align: left;
-		font: 20px/28px Neuzeit Grotesk;
-		letter-spacing: 0.5px;
-		color: #FFFFFF;
-		opacity: 1;
-	}
+    #secao6_titulo {
 
-	/* ////////////SECAO 7 //////////////*/
+        width: 400px;
+        height: 194px;
+        text-align: left;
+        font: Bold 44px/44px Neuzeit Grotesk;
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+        opacity: 1;
 
-	#secao7_titulo{
+    }
 
-		width: 186px;
-		height: 96px;
-		text-align: center;
-		font: Bold 48px/48px Neuzeit Grotesk;
-		letter-spacing: 1.2px;
-		color: #283258;
-		opacity: 1;
-	}
+    #balao_mobile {
+        z-index: 2;
+        top: 5800px;
+        left: 03%;
+        width: 24rem;
+        background: transparent;
+        opacity: 1;
+    }
 
-	#txt_demo{
-		width: 95%;
-		height: 386px;
-		text-align: left;
-		font: 20px/28px Neuzeit Grotesk;
-		letter-spacing: 0.5px;
-		color: #283258;
-		opacity: 1;
-	}
+    #txt_not {
 
-    #sec2_texto{
+        width: 301px;
+        height: 243px;
+        text-align: left;
+        font: 20px/28px Neuzeit Grotesk;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    /* ////////////SECAO 7 //////////////*/
+    #secao7_titulo {
+
+        width: 186px;
+        height: 96px;
+        text-align: center;
+        font: Bold 48px/48px Neuzeit Grotesk;
+        letter-spacing: 1.2px;
+        color: #283258;
+        opacity: 1;
+    }
+
+    #txt_demo {
+        width: 95%;
+        height: 386px;
+        text-align: left;
+        font: 20px/28px Neuzeit Grotesk;
+        letter-spacing: 0.5px;
+        color: #283258;
+        opacity: 1;
+    }
+
+    #sec2_texto {
+
         justify-content: center;
     }
 
-	#button_demo{
-		
-		width: 327px;
-		height: 56px;
-		background: #283258 0% 0%;
-		border-radius: 132px;
-		font: Bold 18px/26px Neuzeit Grotesk;
-		letter-spacing: 0.9px;
-		color: #FFFFFF;
-		border: none;
-		margin-top: 2rem;
+    #button_demo {
 
-	}
+        width: 327px;
+        height: 56px;
+        background: #283258 0% 0%;
+        border-radius: 132px;
+        font: Bold 18px/26px Neuzeit Grotesk;
+        letter-spacing: 0.9px;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 2rem;
 
-    #botaoSec2{
+    }
+
+    #botaoSec2 {
         justify-content: center;
     }
 
-	#Mockup{
-		margin-top: 4rem;
-		height: 55rem;
-		background: transparent 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
+    #Mockup {
+        margin-top: 4rem;
+        height: 55rem;
+        background: transparent 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
 
-	#secao6_titulo{
-		width: 311px;
-		padding-top: 0px;
-	}
+    #secao6_titulo {
+        width: 311px;
+        padding-top: 0px;
+    }
 
-	footer{
-	height: 20px;
-	background: #283258;
-	/*border: 1px solid #283258;*/
-	opacity: 1;
-	}
+    footer {
+        height: 20px;
+        background: #283258;
+        /*border: 1px solid #283258;*/
+        opacity: 1;
+    }
 
 
 }
 
-@media (max-width: 600px){
-	.secao8{
-		height: 300%;
-		width: 100%;
-	
-		background: #FFFFFF;
-	}
+@media (max-width: 600px) {
+    .secao8 {
+        height: 300%;
+        width: 100%;
+
+        background: #FFFFFF;
+    }
 }
 
 /*
@@ -1139,9 +1198,7 @@ footer{
 */
 
 
-div{
-	border: 1px deeppink solid;
-}
-img{
-	border: 1px #0000FF solid;
+div {
+    border: 1px deeppink solid;
+
 }
