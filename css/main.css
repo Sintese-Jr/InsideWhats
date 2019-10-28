@@ -410,8 +410,9 @@ footer{
 
 #secao3_titulo{
 	
-	width: 657px;
+	width: 100%;
 	height: 65px;
+    text-align: center;
 	font: Bold 45px/48px Neuzeit Grotesk;
 	color:  #283258;
 	opacity: 1;
@@ -419,7 +420,7 @@ footer{
 
 #vantagens_text{
 	
-	width: 674px;
+	width: 100%;
 	height: 123px;
 	text-align: center;
 	font: 20px/32px Neuzeit Grotesk;
@@ -429,15 +430,16 @@ footer{
 }
 
 #txt_van{
-	padding-top: 20px;
-	top: 2894px;
-	left: 209px;
-	width: 260px;
+	width: 100%;
 	height: 123px;
 	text-align: center;
 	letter-spacing: 0.5px;
 	color: #283258;
 	opacity: 1;
+}
+
+#imageSec3{
+    height: 60%;
 }
 
 
@@ -849,7 +851,7 @@ footer{
 
 	#secao3_titulo{
 
-		width: 307px;
+		width: 100%;
 		height: 30px;
 		font: Bold 30px/24px Neuzeit Grotesk;
 		color:  #283258;
@@ -860,7 +862,7 @@ footer{
 
 	#vantagens_text{
 		
-		width: 317px;
+		width: 100%;
 		height: 85px;
 		text-align: center;
 		font: 14px/21px Neuzeit Grotesk;
@@ -869,16 +871,13 @@ footer{
 		opacity: 1;
 	}
 
-	#txt_van{
-		padding-top: 20px;
-		top: 2894px;
-		left: 209px;
-		width: 260px;
-		height: 123px;
-		text-align: center;
-		letter-spacing: 0.5px;
-		color: #283258;
-		opacity: 1;
+    #txt_van{
+        width: 100%;
+        height: 123px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #283258;
+        opacity: 1;
 	}
 
 	/*seção4-mobile*/
