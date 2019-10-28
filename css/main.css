@@ -31,11 +31,11 @@ button:focus{
 /*				MENU				  */
 .head{
 	background: transparent;
-	transition: ease-in 3s;
+	transition: ease-in 0.3s;
 }
 
 .scrolled{
-	background: linear-gradient(#283258 10%, #0000);
+	background-color: #283258;
 }
 
 
@@ -256,8 +256,6 @@ button:focus{
     }
 
 }
-
-
 /* FIM DO MENU!!! */
 
 
@@ -765,8 +763,6 @@ footer{
 }
 
 #CC{
-	top: 9845px;
-	left: 1261px;
 	width: 233px;
 	height: 12px;
 	text-align: left;
@@ -1085,6 +1081,26 @@ footer{
 	}
 }
 
+
+#logo-footer{
+	height: 50px;
+	width: 90px;
+}
+.menu-footer{
+	display: none;
+}
+
+@media (max-width: 800px){
+	.menu-footer{
+		display: block;
+		padding-top: 50px;
+	}
+
+	.nav-footer{
+		display: none;
+	}
+
+}
 /*
 .secao4 .col-md-6 {
 	padding-left:0;
