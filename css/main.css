@@ -1115,3 +1115,7 @@ footer{
 	padding-right:0;
 }
 */
+
+a, body, div, li, ul, nav{
+	border:  1px solid #2aabd2;
+}
