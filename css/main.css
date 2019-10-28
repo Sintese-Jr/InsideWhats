@@ -8,7 +8,13 @@
     src: url("../fonts/NeuzeitBold.otf") format("opentype");
     font-weight: bold;
 }
-
+#teste{
+	background: url("../img/Banner\ Emoji.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 body {
     background-color: #283258;
 }
