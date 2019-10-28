@@ -1,3 +1,5 @@
+
+
 @font-face {
 	font-family: 'Neuzeit Grotesk';
 	src: url("../fonts/NeuzeitGro.otf") format("opentype");
@@ -31,7 +33,7 @@ button:focus{
 /*				MENU				  */
 .head{
 	background: transparent;
-	transition: ease-in 3s;
+	transition: ease-in 5s;
 }
 
 .scrolled{
@@ -456,7 +458,7 @@ footer{
 
 #sub2_secao4{
 	
-	width: 601px;
+	width: 500px;
 	text-align: left;
 	font: Bold 24px/34px Neuzeit Grotesk;
 	letter-spacing: 0.6px;
@@ -475,7 +477,7 @@ footer{
 
 #text_rec{
 
-	width: 518px;
+	width: 500px;
 	height: 136px;
 	text-align: left;
 	font: 20px/28px Neuzeit Grotesk;
@@ -878,7 +880,7 @@ footer{
 
 	#sub2_secao4{
 		
-		width: 298px;
+		width: 90%;
 		height: 96px;
 		text-align: left;
 		font: Bold 24px/34px Neuzeit Grotesk;
@@ -902,7 +904,7 @@ footer{
 
 	#text_rec{
 
-		width: 291px;
+		width: 90%;
 		height: 190px;
 		text-align: left;
 		font: 20px/28px Neuzeit Grotesk;
@@ -1099,3 +1101,8 @@ footer{
 	padding-right:0;
 }
 */
+
+
+body, div, header{
+	border: 1px solid #4cae4c;
+}
