@@ -273,10 +273,8 @@ button:focus {
 
 /*				SEÇÃO 2 				*/
 #secao2_titulo {
-    padding-top: 50px;
     font: Bold 50px/42px Neuzeit Grotesk;
     color: #EADAB4;
-    opacity: 1;
 }
 
 
@@ -284,17 +282,14 @@ button:focus {
     font-family: Neuzeit Grotesk;
     font-weight: bold;
     padding-top: 100px;
-    top: 1357px;
-    left: 279px;
     width: 343px;
-    height: 28px;
     letter-spacing: 0.9px;
     color: #FFFFFF;
     opacity: 1;
 }
 
 #mobile_text {
-    height: 181px;
+    min-height: 181px;
     text-align: left;
     font: 14px/30px Neuzeit Grotesk;
     letter-spacing: 0;
@@ -317,14 +312,13 @@ button:focus {
     left: 0px;
     width: 100%;
     background: #283258;
-
+    min-height: 100vh;
     opacity: 1;
     padding-bottom: 20px;
 
 }
 
 #sec2_texto {
-    height: 42vh;
     justify-content: left;
 }
 
@@ -338,8 +332,6 @@ button:focus {
 
 
 .secao5 {
-    top: 0px;
-    left: 0px;
     width: 100%;
 
     background: #FFFFFF;
@@ -371,7 +363,7 @@ footer{
 #marketing_button{
 	width: 30rem;
 	height: 5rem;
-	/*border: 1px solid #FFFFFF;*/
+	border: 1px solid #FFFFFF;
 	border-radius: 132px;
 	opacity: 1;
 	background: transparent;
@@ -496,14 +488,15 @@ footer{
 
 
 #rowSecao4 {
-    padding-top: 30%;
+    padding-top: 15%;
 
 }
 
 #text_rec {
 
     width: 100%;
-    height: 136px;
+    min-height: 136px;
+    padding-bottom: 30%;
     text-align: left;
     font: 20px/28px Neuzeit Grotesk;
     letter-spacing: 0.5px;
@@ -594,7 +587,7 @@ footer{
     top: 4994px;
     left: 166px;
     width: 100%;
-    height: 250px;
+    min-height: 250px;
     text-align: left;
     font: 20px/28px Neuzeit Grotesk;
     letter-spacing: 0.5px;
@@ -858,7 +851,6 @@ video {
 @media (max-width: 800px) {
     /*CSS seção 2-mobile*/
     #secao2_titulo{
-        text-align: center;
         padding-top:20px;
         font: Bold 38px/45px Neuzeit Grotesk;
         color:  #EADAB4 ;
@@ -879,7 +871,7 @@ video {
 
     #mobile_text {
         width: 100%;
-        height: 160px;
+        min-height: 160px;
         text-align: left;
         justify-content: center;
         font: 16px/18px Neuzeit Grotesk;
@@ -1046,7 +1038,7 @@ video {
     #txt_his {
 
         max-width: 100%;
-        height: 340px;
+        min-height: 340px;
         padding-right: 20px;
         text-align: left;
         font: 20px/28px Neuzeit Grotesk;
