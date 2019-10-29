@@ -2,10 +2,13 @@ document.querySelector('.menu-abrir').onclick = function() {
     document.documentElement.classList.add('menu-ativo');
 };
 
+document.querySelector('.menu-fechar').onclick = fecharMenu
 
-document.querySelector('.menu-fechar').onclick = function() {
+function fecharMenu(){
     document.documentElement.classList.remove('menu-ativo');
-};
+}
+
+$(".menu-principal a").on('click', fecharMenu);
 
 $(document).ready(function(){
     // Add smooth scrolling to all links
