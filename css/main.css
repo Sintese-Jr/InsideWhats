@@ -596,6 +596,18 @@ footer{
 }
 
 /*      /////////      SECAO 6    ///////////   */
+.secao6{
+    height: 100vh;
+}
+
+#secao6_container{
+    height: 100%;
+}
+
+#secao6_row{
+    height: 100%;
+}
+
 #sub_secao6 {
     padding-top: 30px;
     top: 5873px;
@@ -642,6 +654,21 @@ footer{
     background: transparent;
     opacity: 1;
 }
+
+#secao6Banner{
+    background-image: url("../img/BannerNotificacao.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+/*  /////////////// Secao 7 ////////////////// */
+
 #secao7_botao{
     justify-content: left;
 }
