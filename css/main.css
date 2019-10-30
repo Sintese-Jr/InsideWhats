@@ -1075,6 +1075,10 @@ video {
     }
 
     /* //////// SECAO 6 MOBILE ///////*/
+    .secao6{
+        height: auto;
+        padding-bottom: 30px;
+    }
     #sub_secao6 {
 
         width: 250px;
