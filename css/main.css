@@ -1,3 +1,12 @@
+<<<<<<< Updated upstream
+=======
+.secao6 div{
+    border: solid pink 1px;
+}
+/*{
+    border: solid green 1px;
+}*/
+>>>>>>> Stashed changes
 @font-face {
 	font-family: 'Neuzeit Grotesk';
 	src: url("../fonts/NeuzeitGro.otf") format("opentype");
@@ -8,7 +17,17 @@
 	src: url("../fonts/NeuzeitBold.otf")format("opentype");
 	font-weight: bold;
 }
+<<<<<<< Updated upstream
 
+=======
+#secao6banner{
+    background: url("../img/BannerNotificacao.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+>>>>>>> Stashed changes
 body {
     background-color: #283258;
 }
@@ -193,10 +212,24 @@ button:focus{
 	opacity: 1;
 }
 
+<<<<<<< Updated upstream
 .secao4{
+=======
+.secao2 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #283258;
+    height: 100vh;
+    opacity: 1;
+    padding-bottom: 20px;
+
+}
+>>>>>>> Stashed changes
 
 }
 
+<<<<<<< Updated upstream
 .secao5{
 	top: 4455px;
 	left: 0px;
@@ -204,10 +237,20 @@ button:focus{
 	height: 660px;
 	background: #F8F8F9 0% 0% no-repeat padding-box;
 	opacity: 1;
+=======
+.secao3 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+>>>>>>> Stashed changes
 }
 
 .secao6{
 
+<<<<<<< Updated upstream
 }
 .secao7{
 	top: 6655px;
@@ -216,6 +259,28 @@ button:focus{
 	height: 660px;
 	background: #F8F8F9 0% 0% no-repeat padding-box;
 	opacity: 1;
+=======
+.secao5 {
+    width: 100%;
+
+    height: 100vh;
+    background: #F8F8F9;
+    opacity: 1;
+}
+
+.secao6{
+    width: 100%;
+    height: 100vh;
+}
+
+.secao7 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: #F8F8F9;
+    opacity: 1;
+>>>>>>> Stashed changes
 }
 
 .secao8{
