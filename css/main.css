@@ -1,14 +1,20 @@
 
 @font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url("../fonts/NeuzeitGro.otf") format("opentype");
+    font-family: 'NeuzeitGro-Reg';
+    src: url("../fonts/NeuzeitGro-Reg.otf");
 }
 
 @font-face {
-    font-family: 'Neuzeit Grotesk';
-    src: url("../fonts/NeuzeitBold.otf") format("opentype");
-    font-weight: bold;
+    font-family: 'NeuzeitGro-Lig';
+    src: url("../fonts/NeuzeitGro-Lig.otf");
 }
+
+@font-face {
+    font-family: 'NeuzeitGro-Bol';
+    src: url("../fonts/NeuzeitGro-Bol.otf");
+}
+
+
 #secao4Banner{
 	background: url("../img/Banner\ Emoji.png") no-repeat center center;
 	-webkit-background-size: cover;
@@ -29,8 +35,8 @@ button:focus {
 
 .neg {
     font-weight: bold;
-    font-family: Neuzeit Grotesk;
-    color: white;
+    font-family: NeuzeitGro-Bol;
+    
 }
 
 /*				MENU				  */
@@ -70,49 +76,6 @@ button:focus {
     height: 100%;
 }
 
-#MM {
-    padding-right: 30px;
-    width: 148px;
-    height: 18px;
-    text-align: center;
-    font: 18px/26px Neuzeit Grotesk;
-    letter-spacing: 0.9px;
-    color: #FFFFFF;
-}
-
-
-#Van {
-    padding-right: 30px;
-    width: 88px;
-    height: 18px;
-    text-align: center;
-    font: 18px/26px Neuzeit Grotesk;
-    letter-spacing: 0.9px;
-    color: #FFFFFF;
-}
-
-#Rec {
-    padding-right: 30px;
-    width: 72px;
-    height: 18px;
-    text-align: center;
-    font: 18px/26px Neuzeit Grotesk;
-    letter-spacing: 0.9px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-#Cont {
-    font-family: Neuzeit Grotesk;
-    background: none;
-    /*border: 1px solid #FFFFFF;*/
-    border-radius: 100px;
-    color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 170px;
-    height: 56px;
-}
 
 #Cont:hover {
     background-color: #FFFFFF;
@@ -273,14 +236,14 @@ button:focus {
 
 /*				SEÇÃO 2 				*/
 #secao2_titulo {
-    font: Bold 50px/42px Neuzeit Grotesk;
+    font: 50px/42px NeuzeitGro-Bol;
     color: #EADAB4;
 }
 
 
 #sub_sec2 {
-    font-family: Neuzeit Grotesk;
-    font-weight: bold;
+    font-family: 'NeuzeitGro-Bol';
+    
     padding-top: 100px;
     width: 343px;
     letter-spacing: 0.9px;
@@ -289,10 +252,12 @@ button:focus {
 }
 
 #mobile_text {
+    font-family: 'NeuzeitGro-Lig';
     min-height: 181px;
     text-align: left;
-    font: 14px/30px Neuzeit Grotesk;
-    letter-spacing: 0;
+    
+    letter-spacing: 1px;
+    font-size: 12px;
     color: #FFFFFF;
     opacity: 1;
 }

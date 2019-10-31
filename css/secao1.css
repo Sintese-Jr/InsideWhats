@@ -5,13 +5,12 @@
 
 #MM{
 	padding-right: 30px;
-	top: 86px;
-	left: 1129px;
-	width: 148px;
-	height: 18px;
+	font-family: 'NeuzeitGro-Reg', sans-serif;
+	
 	text-align: center;
-	font: 18px/26px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
+	font-size: 12px;
+	letter-spacing: 1.8px;
+	text-decoration: none;
 	color: #FFFFFF;
 	opacity: 1;
 }
@@ -19,13 +18,12 @@
 
 #Van{
 	padding-right: 30px;
-	top: 86px;
-	left: 1337px;
-	width: 88px;
-	height: 18px;
+	font-family: 'NeuzeitGro-Reg', sans-serif;
+	
 	text-align: center;
-	font: 18px/26px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
+	font-size: 12px;
+	letter-spacing: 1.8px;
+	text-decoration: none;
 	color: #FFFFFF;
 	opacity: 1;
 }
@@ -33,28 +31,28 @@
 
 #Rec{
 	padding-right: 30px;
-	top: 86px;
-	left: 1479px;
-	width: 72px;
-	height: 18px;
+	font-family: 'NeuzeitGro-Reg', sans-serif;
+	
 	text-align: center;
-	font: 18px/26px Neuzeit Grotesk;
-	letter-spacing: 0.9px;
+	font-size: 12px;
+	letter-spacing: 1.8px;
+	text-decoration: none;
 	color: #FFFFFF;
 	opacity: 1;
 }
 
 
 #Cont{
-	font-family: Neuzeit Grotesk;
-	width: 170px;
-	height: 56px;
+	font-family: NeuzeitGro-Bol;
+	width: 120px;
+	height: 36px;
 	background: none;
 	border: 1px solid #FFFFFF;
 	border-radius: 100px;
 	color: #FFFFFF;
-	font-size: 1.5rem;
-	font-weight: bold;
+	font-size: 1rem;
+	
+	letter-spacing: 1.5px;
 }
 
 #Cont:hover{
@@ -64,13 +62,17 @@
 
 
 .cabecalhoPrincipal-nav{
-	padding: 20px;
+	padding: 10px;
 }
 
 
 #logo{
-    width: 280px;
-    height: 55px;
+    width: 250px;
+    height: 45px;
+
+}
+#div_logo{
+	padding-right: 100px;
 }
   
 @media (max-width: 800px){
@@ -102,11 +104,12 @@
 
 #secao1_titulo{
 	text-align: left;
-	font: Bold 80px Neuzeit Grotesk;
+	font: 50px NeuzeitGro-Bol;
 	letter-spacing: 0.9px;
 	color: #FFFFFF;
-	padding: 0 5px;
-	padding-bottom: 57px;
+	padding-left: 85px;
+	padding-bottom: 17px;
+	padding-top: 100px;
 }
 
 @media (max-width: 800px){
@@ -118,30 +121,39 @@
 }
 
 #plataforma_text{
-	font-size: 19px;
-	font-family: Neuzeit Grotesk;
+
+	font-size: 12px;
+	font-family: 'NeuzeitGro-Reg', sans-serif;
 	text-align: left;
-	letter-spacing: 0.45px;
+	letter-spacing: 1px;
 	color: white;
 	margin-bottom: 60px;
-	padding: 0 5px;
+	padding-left: 85px;
 }
 
 .neg{
 	font-weight: bold;
-	font-family: Neuzeit Grotesk;
-	color: white;
+	font-family: NeuzeitGro-Bol;
+	
 }
 
+#div_botao{
+	padding-left: 105px;
+}
 
 #banner_button{
 	padding: 2rem 5rem;
-	height: 56px;
+	height: 46px;
+	width: 250px;
 	background-color: #FFFFFF;
 	border: none;
 	border-radius: 100px;
-	font: Bold 2rem/1.4rem Neuzeit Grotesk;
+	font-family: NeuzeitGro-Reg;
+	font-size: 1.45rem;
+	
+	letter-spacing: 1.5px;
 	color: #283258;
+
 }
 
 
