@@ -497,13 +497,12 @@ footer{
 /*				SEÇÃO 5				*/
 
 #sub_secao5 {
-    /* padding-top: 150px; */
-    top: 4690px;
-    left: 166px;
+    padding-top: 150px;
+    
     width: 100%;
     /* height: 24px; */
     text-align: left;
-    font: Bold 24px/34px Neuzeit Grotesk;
+    font: 17px/34px NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #283258;
     opacity: 1;
@@ -511,12 +510,11 @@ footer{
 
 #sub2_secao5 {
     /* padding-top: 50px; */
-    top: 4869px;
-    left: 166px;
+   
     width: 100%;
     /* height: 66px; */
     text-align: left;
-    font: Bold 24px/34px Neuzeit Grotesk;
+    font:  17px NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #283258;
     opacity: 1;
@@ -525,28 +523,30 @@ footer{
 
 #secao5_titulo {
     /* padding-top: 50px; */
-    top: 4754px;
-    left: 166px;
+
+    
     width: 100%;
     /* height: 88px; */
     text-align: left;
-    font: Bold 72px/70px Neuzeit Grotesk;
+    font: 50px/42px NeuzeitGro-Bol;
     letter-spacing: 1.8px;
     color: #283258;
     opacity: 1;
 }
 
 #txt_his {
-    padding-top: 50px;
-    top: 4994px;
-    left: 166px;
-    width: 100%;
-    min-height: 250px;
+    
+    padding-top: 20px;
+    font-family: 'NeuzeitGro-Lig';
+    
     text-align: left;
-    font: 20px/28px Neuzeit Grotesk;
-    letter-spacing: 0.5px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    font-size: 12px;
+
     color: #283258;
     opacity: 1;
+   
 }
 
 /*      /////////      SECAO 6    ///////////   */
