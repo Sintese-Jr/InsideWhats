@@ -1,4 +1,6 @@
-
+div{
+    border: solid 1px pink;
+}
 @font-face {
     font-family: 'NeuzeitGro-Reg';
     src: url("../fonts/NeuzeitGro-Reg.otf");
@@ -238,13 +240,17 @@ button:focus {
 #secao2_titulo {
     font: 50px/42px NeuzeitGro-Bol;
     color: #EADAB4;
+    padding-left: 63px;
+    padding-bottom: 20px;
+
 }
 
 
 #sub_sec2 {
     font-family: 'NeuzeitGro-Bol';
-    
+    padding-left: 65px;
     padding-top: 100px;
+    padding-bottom: 20px;
     width: 343px;
     letter-spacing: 0.9px;
     color: #FFFFFF;
@@ -255,11 +261,17 @@ button:focus {
     font-family: 'NeuzeitGro-Lig';
     min-height: 181px;
     text-align: left;
-    
+    padding-left: 65px;
+    padding-top: 30px;
+    line-height: 200%;
     letter-spacing: 1px;
     font-size: 12px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+#botaoSec2{
+    padding-left: 95px;
 }
 
 #noPadding {
@@ -335,6 +347,7 @@ footer{
 	font-family: Neuzeit Grotesk;
 	font-weight: bold;
 	color: #FFFFFF;
+
 }
 #marketing_button:hover{
 	background-color: #FFFFFF;
@@ -366,6 +379,7 @@ footer{
     top: 0px;
     left: 0px;
     width: 100%;
+    height: 110vh;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -381,7 +395,7 @@ footer{
     width: 100%;
     height: 65px;
     text-align: center;
-    font: Bold 45px/48px Neuzeit Grotesk;
+    font:  45px/48px NeuzeitGro-Bol;
     color: #283258;
     opacity: 1;
 }
@@ -391,7 +405,8 @@ footer{
     width: 100%;
     height: 123px;
     text-align: center;
-    font: 20px/32px Neuzeit Grotesk;
+    font: 12px NeuzeitGro-Reg;
+    line-height: 180%;
     letter-spacing: 0;
     color: #283258;
     opacity: 1;
