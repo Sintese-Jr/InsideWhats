@@ -22,7 +22,7 @@ div{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+    background-size: cover;
 }
 body {
     background-color: #283258;
@@ -432,7 +432,10 @@ footer{
 
 /*				SEÇÃO 4				*/
 .secao4{
-    min-height: 100vh;
+    height: 100vh;
+}
+#secao4_container, #secao4_row{
+    height: 100%;
 }
 #sub_secao4 {
 
@@ -921,6 +924,10 @@ video {
     }
 
     /*seção4-mobile*/
+    .secao4{
+        height: auto;
+    }
+
     #sub_secao4 {
        
         padding: 0;
