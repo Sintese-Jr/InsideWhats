@@ -265,13 +265,13 @@ button:focus {
     padding-top: 30px;
     line-height: 200%;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 11px;
     color: #FFFFFF;
     opacity: 1;
 }
 
 #botaoSec2{
-    padding-left: 95px;
+    padding-left: 98px;
 }
 
 #noPadding {
@@ -332,14 +332,15 @@ footer{
 }
 
 #marketing_button{
-	width: 30rem;
+	width: 25rem;
 	height: 5rem;
 	border: 1px solid #FFFFFF;
 	border-radius: 132px;
 	opacity: 1;
 	background: transparent;
-	font-family: Neuzeit Grotesk;
+	font-family: NeuzeitGro-Bol;
 	font-weight: bold;
+    letter-spacing: 1px;
 	color: #FFFFFF;
 
 }
@@ -399,7 +400,7 @@ footer{
     width: 100%;
     height: 123px;
     text-align: center;
-    font: 12px NeuzeitGro-Reg;
+    font: 12px NeuzeitGro-Lig;
     line-height: 180%;
     letter-spacing: 0;
     color: #283258;
@@ -415,8 +416,23 @@ footer{
 }
 
 #txt_van {
-
-    width: 100%;
+    font-family: 'NeuzeitGro-Lig';
+    font-size: 11px;
+    width: 90%;
+    padding-left: 15%;
+    
+    height: 123px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #283258;
+    opacity: 1;
+}
+#txt_van3{
+    font-family: 'NeuzeitGro-Lig';
+    font-size: 11px;
+    width: 90%;
+    padding-left: 10%;
+   
     height: 123px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -425,8 +441,15 @@ footer{
 }
 
 #imageSec3 {
-    height: 60%;
-    width: 60%;
+    height: 55%;
+    width: 55%;
+    align-self: center;
+}
+
+.colunassec3{
+
+  padding-left: 1;
+  padding-right: 1;
 }
 
 
@@ -439,7 +462,7 @@ footer{
     width: 100%;
     height: 24px;
     text-align: left;
-    font: 24px/34px NeuzeitGro-Bol;
+    font: 17px/34px NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #FFFFFF;
     opacity: 1;
@@ -564,40 +587,36 @@ footer{
 
 
 #sub_secao6 {
-    padding-top: 30px;
-    top: 5873px;
-    left: 166px;
-    width: 260px;
-    height: 24px;
+    padding-top: 150px;
+    
+    width: 100%;
+    /* height: 24px; */
     text-align: left;
-    font: Bold 24px/24px Neuzeit Grotesk;
+    font: 17px/34px NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #FFFFFF;
     opacity: 1;
 }
 
 #secao6_titulo {
-    padding-top: 50px;
-    top: 5800px;
-    left: 166px;
-    width: 690px;
-    height: 154px;
+    
+   
+     width: 100%;
+    /* height: 88px; */
     text-align: left;
-    font: Bold 45px/45px Neuzeit Grotesk;
-    letter-spacing: 1.7px;
+    font: 50px/42px NeuzeitGro-Bol;
+    letter-spacing: 1.8px;
     color: #FFFFFF;
     opacity: 1;
 }
 
 #txt_not {
     padding-top: 30px;
-    top: 5800px;
-    left: 166px;
-    width: 670px;
-    height: 110px;
+    line-height: 150%;   
     text-align: left;
-    font: 20px/28px Neuzeit Grotesk;
-    letter-spacing: 0.5px;
+    font-family: 'NeuzeitGro-Lig';
+    font-size: 12px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     opacity: 1;
 }
