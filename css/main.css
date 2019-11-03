@@ -1,6 +1,6 @@
- div{
+div{
     border: solid 1px pink;
- }
+}
 @font-face {
     font-family: 'NeuzeitGro-Reg';
     src: url("../fonts/NeuzeitGro-Reg.otf");
@@ -22,7 +22,7 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+    background-size: cover;
 }
 body {
     background-color: #283258;
@@ -461,7 +461,10 @@ footer{
 
 /*				SEÇÃO 4				*/
 .secao4{
-    min-height: 100vh;
+    height: 100vh;
+}
+#secao4_container, #secao4_row{
+    height: 100%;
 }
 #sub_secao4 {
 
@@ -513,6 +516,15 @@ footer{
 
 }
 
+#br_secao4{
+        display: none;
+}
+
+#Loves_div{
+    padding-top: 13%;
+    padding-left: 0px; 
+    left: -10px;
+}
 
 #secao4Loves{
 	width: 50%;
@@ -952,30 +964,59 @@ video {
 
         width: 100%;
         height: 30px;
-        font: Bold 30px/24px Neuzeit Grotesk;
+        font:  38px/24px NeuzeitGro-Bol;
         color: #283258;
         opacity: 1;
     }
 
     #vantagens_text {
 
-        width: 100%;
+        width: 90%;
         height: 85px;
+        margin-left: 3%;
         text-align: center;
-        font: 14px/21px Neuzeit Grotesk;
+        font: 14px/21px NeuzeitGro-Lig;
         letter-spacing: 0;
         color: #283258;
         opacity: 1;
+        border: solid 1px green;
     }
 
     #txt_van {
-        width: 100%;
+        
         height: 123px;
         text-align: center;
         letter-spacing: 0.5px;
         color: #283258;
         opacity: 1;
 
+        font-family: 'NeuzeitGro-Lig';
+        font-size: 17px;
+        width: 90%;
+        padding-left: 10%;
+        margin-top: 5%;
+        border: solid 1px green;
+    }
+
+    #txt_van3{
+    font-family: 'NeuzeitGro-Lig';
+    font-size: 17px;
+    width: 90%;
+    padding-left: 10%;
+   
+    height: 123px;
+    text-align: center;
+    letter-spacing: 0.5px;
+     margin-top: 5%;
+        border: solid 1px green;
+    color: #283258;
+    opacity: 1;
+    }
+
+    #imageSec3 {
+    height: 45%;
+    width: 45%;
+    
     }
 
     #mockupVideo {
@@ -998,13 +1039,21 @@ video {
     }
 
     /*seção4-mobile*/
+    .secao4{
+        height: auto;
+    }
+    #rowSecao4 {
+    margin-left: 5%;
+    padding-bottom: 10%;
+    }
+
     #sub_secao4 {
        
         padding: 0;
         width: 100%;
         height: 20px;
         text-align: left;
-        font: Bold 16px/18px Neuzeit Grotesk;
+        font:  16px/18px NeuzeitGro-Bol;
         letter-spacing: 0.45px;
         color: #FFFFFF;
         opacity: 1;
@@ -1016,7 +1065,7 @@ video {
         width: 90%;
         height: 96px;
         text-align: left;
-        font: Bold 24px/34px Neuzeit Grotesk;
+        font:  24px/34px NeuzeitGro-Bol;
         letter-spacing: 0.6px;
         color: #FFFFFF;
         opacity: 1;
@@ -1027,7 +1076,7 @@ video {
         width: 100%;
         padding-right: 0px;
         text-align: left;
-        font: Bold 48px/48px Neuzeit Grotesk;
+        font:  48px/48px NeuzeitGro-Bol;
         letter-spacing: 1.2px;
         color: #EADAB4;
         opacity: 1;
@@ -1045,13 +1094,25 @@ video {
         opacity: 1;
 
     }
+    #Loves_div{
 
-
-    #Love_4 {
-        height: 100%;
-        width: 100%;
-
+    padding-top: 8%;
+    padding-left: 0px;
+    padding-right: 0px; 
+    left: 13%;
     }
+
+    #br_secao4{
+        display: block;
+    }
+
+    #secao4Loves{
+    width: 95%;
+    
+    border: solid 1px green;
+    }
+
+   
 
     /*seção5-mobile*/
     .secao5{
