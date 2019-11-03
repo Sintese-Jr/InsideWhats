@@ -73,13 +73,11 @@
 }
 #div_logo{
 	padding-right: 100px;
+	margin-left: 11%;
 }
   
-@media (max-width: 800px){
-	#logo{
-		width: 167px;
-    	height: 42px;
-	}
+#info_mobile{
+	display: none;
 }
 
 .logo{	
@@ -110,14 +108,6 @@
 	padding-left: 85px;
 	padding-bottom: 17px;
 	padding-top: 100px;
-}
-
-@media (max-width: 800px){
-	#secao1_titulo{
-		font:Bold 45px Neuzeit Grotesk;
-		letter-spacing: 0.45px;
-		color: white;
-	}
 }
 
 #plataforma_text{
@@ -155,6 +145,73 @@
 	color: #283258;
 
 }
+
+
+
+@media (max-width: 800px){
+	#secao1_titulo{
+		text-align: left;
+		font: 45px NeuzeitGro-Bol;
+		letter-spacing: 0.45px;
+		color: #FFFFFF;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		padding-top: 0px;
+	}
+	#plataforma_text{
+	width: 90%;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: 'NeuzeitGro-Reg';
+	text-align: left;
+	letter-spacing: 1px;
+	color: white;
+	margin-bottom: 20px;
+	
+	}
+	#div_botao{
+	padding-left: 25px;
+	margin-top: 30px;
+	}
+
+	#banner_button{
+	padding: 2rem 5rem;
+	height: 46px;
+	width: 200px;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 100px;
+	font-family: NeuzeitGro-Reg;
+	font-size: 1.45rem;
+	
+	letter-spacing: 1.5px;
+	color: #283258;
+
+	}
+	
+
+	.secao1{
+		height: 100vh;
+	}
+
+	#logo{
+		width: 187px;
+    	height: 62px;
+	}
+
+	#div_logo{
+	padding-right: 0px;
+	margin-left: 0%;
+	}
+
+	#Icone_Menu{
+		
+	}
+	#info_mobile{
+	display: block;
+	}
+}
+
 
 
 @media (orientation: landscape) {
