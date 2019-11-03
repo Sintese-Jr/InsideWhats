@@ -465,21 +465,21 @@ footer{
 #sub_secao4 {
 
     width: 100%;
-    height: 24px;
+    
     text-align: left;
     font: 17px/34px NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #FFFFFF;
     opacity: 1;
-    padding-top: 10%;
+    padding-top: 20%;
 
 }
 
 #sub2_secao4 {
     width: 100%;
     text-align: center;
-    font: 16px/34px NeuzeitGro-Bol;
-    letter-spacing: 0.6px;
+    font: 15px NeuzeitGro-Bol;
+    letter-spacing: 0.8px;
     color: #FFFFFF;
     opacity: 1;
 }   
@@ -499,7 +499,7 @@ footer{
 }
 
 #text_rec {
-
+    padding-top: 7%;
     font-family: 'NeuzeitGro-Lig';
     min-height: 181px;
     text-align: left;
@@ -514,9 +514,9 @@ footer{
 
 
 #secao4Loves{
-	width: 80%;
-	padding-right: 10px;
-	padding-bottom: 20%;
+	width: 50%;
+	
+    border: solid 1px green;
 }
 
 /*/////SECAO4FIM////*/
@@ -1001,7 +1001,7 @@ video {
 
     #secao4_titulo {
         width: 100%;
-
+        padding-right: 0px;
         text-align: left;
         font: Bold 48px/48px Neuzeit Grotesk;
         letter-spacing: 1.2px;
@@ -1226,7 +1226,7 @@ video {
 
 
 #logo-footer{
-    padding-top: 5%;
+    
     
 }
 
