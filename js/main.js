@@ -1,4 +1,4 @@
-document.querySelector('.menu-abrir').onclick = function() {
+/*document.querySelector('.menu-abrir').onclick = function() {
     document.documentElement.classList.add('menu-ativo');
 };
 
@@ -8,7 +8,7 @@ function fecharMenu(){
     document.documentElement.classList.remove('menu-ativo');
 }
 
-$(".menu-principal a").on('click', fecharMenu);
+$(".menu-principal a").on('click', fecharMenu);*/
 
 $(document).ready(function(){
     // Add smooth scrolling to all links
