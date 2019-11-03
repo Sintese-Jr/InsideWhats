@@ -1,6 +1,6 @@
-div{
+ div{
     border: solid 1px pink;
-}
+ }
 @font-face {
     font-family: 'NeuzeitGro-Reg';
     src: url("../fonts/NeuzeitGro-Reg.otf");
@@ -66,7 +66,7 @@ button:focus {
 
 .cabecalhoPrincipal {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 .header-height {
@@ -247,14 +247,17 @@ button:focus {
 
 
 #sub_sec2 {
-    font-family: 'NeuzeitGro-Bol';
+    
     padding-left: 65px;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    width: 343px;
-    letter-spacing: 0.9px;
+    padding-top: 90px;
+    padding-bottom: 5px;
+    
+    letter-spacing: 0.6px;
     color: #FFFFFF;
     opacity: 1;
+
+    font: 20px NeuzeitGro-Bol;
+   
 }
 
 #mobile_text {
@@ -333,14 +336,14 @@ footer{
 }
 
 #marketing_button{
-	width: 25rem;
-	height: 5rem;
+	width: 20rem;
+	height: 4rem;
 	border: 1px solid #FFFFFF;
 	border-radius: 132px;
 	opacity: 1;
 	background: transparent;
 	font-family: NeuzeitGro-Bol;
-	
+	font-size: 11px;
     letter-spacing: 1px;
 	color: #FFFFFF;
 
@@ -409,12 +412,13 @@ footer{
 }
 
 .txt_icon{
+    margin-top: 10%;
     text-align: center;
     font: 14px NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #283258;
     opacity: 1;
-    border: solid 1px yellow;
+    
 }
 
 #txt_van {
@@ -513,16 +517,18 @@ footer{
 #secao4Loves{
 	width: 50%;
 	
-    border: solid 1px green;
+    
 }
 
 /*/////SECAO4FIM////*/
 
 
 /*				SEÇÃO 5				*/
-
+#subsec5_row{
+    margin-top: 30%;
+}
 #sub_secao5 {
-    padding-top: 150px;
+    /*padding-top: 150px;*/
     
     width: 100%;
     /* height: 24px; */
@@ -587,9 +593,12 @@ footer{
     height: 100%;
 }
 
+#subsec6_row{
+    margin-top: 30%;
+}
 
 #sub_secao6 {
-    padding-top: 150px;
+    /*padding-top: 150px;*/
     
     width: 100%;
     /* height: 24px; */
@@ -737,7 +746,7 @@ footer{
 #imagesec8{
     width: 52%;
     height: 52%;
-    border: solid 1px green;
+    
 }
 
 #rowSecao7{
@@ -878,19 +887,22 @@ video {
 
 @media (max-width: 800px) {
     /*CSS seção 2-mobile*/
+    .secao2{
+        height: auto;
+    }
     #secao2_titulo{
-        padding-top:20px;
-        font: Bold 38px/45px Neuzeit Grotesk;
+        padding-top:15px;
+        padding-left: 10px;
+        font:  38px/45px NeuzeitGro-Bol;
         color:  #EADAB4 ;
         opacity: 1;
     }
 
 
     #sub_sec2 {
-        width: 184px;
-        height: 15px;
-        font: bold 14px/12px Neuzeit Grotesk;
-        font-weight: bold;
+        
+        font: bold 14px/12px NeuzeitGro-Bol;
+        padding-left: 10px;
 
         letter-spacing: 0.9px;
         color: #FFFFFF;
@@ -898,20 +910,39 @@ video {
     }
 
     #mobile_text {
+        padding-left: 0px;
         width: 100%;
         min-height: 160px;
         text-align: left;
         justify-content: center;
-        font: 16px/18px Neuzeit Grotesk;
-        letter-spacing: 0;
+        font: 13px/18px NeuzeitGro-Lig;
+        letter-spacing: 0.8px;
         color: #FFFFFF;
         opacity: 1;
+        margin-bottom: 50px;
 
+
+    }
+
+    #marketing_button{
+    width: 25rem;
+    height: 5rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 132px;
+    opacity: 1;
+    background: transparent;
+    font-family: NeuzeitGro-Bol;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
 
     }
 
 
     /*CSS seção 3-mobile*/
+    .secao3{
+        height: auto;
+    }
     #paddingtopdiv {
         padding-top: 30px;
 
@@ -1023,6 +1054,9 @@ video {
     }
 
     /*seção5-mobile*/
+    .secao5{
+        height: auto;
+    }
     #sub_secao5 {
 
         width: 200px;
@@ -1124,6 +1158,9 @@ video {
     }
 
     /* ////////////SECAO 7 //////////////*/
+    .secao7{
+        height: auto;
+    }
     #secao7_titulo {
 
         width: 215px;
@@ -1167,6 +1204,7 @@ video {
 
     #botaoSec2 {
         justify-content: center;
+        padding-left: 0px;
     }
 
     #Mockup {
@@ -1213,6 +1251,10 @@ video {
 
         background: #FFFFFF;
     }
+    #borda_form{
+        border: none;
+    }
+
 }
 
 /*              FOOTER           */
@@ -1266,6 +1308,7 @@ video {
     #Crights{
         padding-bottom: 20px;
     }
+
 
 }
 
