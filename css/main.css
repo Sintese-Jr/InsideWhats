@@ -314,8 +314,7 @@ button:focus {
 
 
 .secao7 {
-    top: 0px;
-    left: 0px;
+    
     width: 100%;
     height: 100vh;
     background: #F8F8F9;
@@ -1056,10 +1055,17 @@ video {
         height: 20px;
         text-align: left;
         font:  16px/18px NeuzeitGro-Bol;
-        letter-spacing: 0.45px;
+        letter-spacing: 1px;
         color: #FFFFFF;
         opacity: 1;
 
+    }
+
+    #row_sub2sec4{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 10%;
+        border: solid 1px green;
     }
 
     #sub2_secao4 {
@@ -1085,23 +1091,28 @@ video {
 
     }
 
+    #row_txtsec4{
+        margin-left: 5%;
+        padding-bottom: 30%;
+    }
+
     #text_rec {
 
         width: 90%;
         height: 190px;
         text-align: left;
-        font: 20px/28px Neuzeit Grotesk;
-        letter-spacing: 0.5px;
+        font: 20px/28px NeuzeitGro-Lig;
+        letter-spacing: 2px;
         color: #FFFFFF;
         opacity: 1;
 
     }
     #Loves_div{
 
-    padding-top: 8%;
+    padding-top: 7%;
     padding-left: 0px;
     padding-right: 0px; 
-    left: 13%;
+    left: 11%;
     }
 
     #br_secao4{
@@ -1109,9 +1120,9 @@ video {
     }
 
     #secao4Loves{
-    width: 95%;
+    width: 90%;
     
-    border: solid 1px green;
+    
     }
 
    
@@ -1125,22 +1136,29 @@ video {
         width: 200px;
         height: 18px;
         text-align: left;
-        font: Bold 18px/26px Neuzeit Grotesk;
+        font: 18px/26px NeuzeitGro-Bol;
         letter-spacing: 0.45px;
         color: #283258;
         opacity: 1;
 
     }
 
+    #row_sub2sec5{
+        padding: 0;
+        padding-bottom: 10%;
+    }
+
     #sub2_secao5 {
 
         width: 290px;
-        height: 66px;
-        text-align: center;
-        font: Bold 24px/34px Neuzeit Grotesk;
+        
+        text-align: left;
+        font:  24px/34px NeuzeitGro-Bol;
         letter-spacing: 0.6px;
         color: #283258;
         opacity: 1;
+        margin-top: 0;
+        border: solid 1px green;
     }
 
     #video {
@@ -1154,10 +1172,18 @@ video {
         width: 319px;
         height: 132px;
         text-align: left;
-        font: Bold 48px/48px Neuzeit Grotesk;
+        font:  48px/48px NeuzeitGro-Bol;
         letter-spacing: 1.2px;
         color: #283258;
         opacity: 1;
+        border: solid 1px green;
+    }
+
+    #row_imgmockupsec5{
+        border: solid 1px green;
+        margin-right: 1%;
+        margin-left: -10%;
+        padding-bottom: 10%;
     }
 
     #txt_his {
@@ -1166,56 +1192,57 @@ video {
         min-height: 340px;
         padding-right: 20px;
         text-align: left;
-        font: 20px/28px Neuzeit Grotesk;
+        font: 22px/28px NeuzeitGro-Lig;
         letter-spacing: 0.5px;
         color: #283258;
         opacity: 1;
+        font-weight: bold;
+        padding-bottom: 20%;
     }
 
     /* //////// SECAO 6 MOBILE ///////*/
     .secao6{
         height: auto;
-        padding-bottom: 30px;
+        
     }
     #sub_secao6 {
 
-        width: 250px;
-        height: 18px;
+        
+        padding-left: 9.5%;
         text-align: left;
-        font: Bold 18px/24px Neuzeit Grotesk;
-        letter-spacing: 0.45px;
+        font:  18px/24px NeuzeitGro-Bol;
+        letter-spacing: 2px;
         color: #FFFFFF;
         opacity: 1;
     }
 
     #secao6_titulo {
-
-        width: 400px;
-        height: 194px;
+        padding-left: 9%;
+        width: 355px;
+        padding-top: 0px;
         text-align: left;
-        font: Bold 44px/44px Neuzeit Grotesk;
+        font:  44px/44px NeuzeitGro-Bol;
         letter-spacing: 1.2px;
         color: #FFFFFF;
         opacity: 1;
+        border: solid 1px green;
+        padding-bottom: 10%;
 
     }
 
-    #balao_mobile {
-        z-index: 2;
-        top: 5800px;
-        left: 03%;
-        width: 24rem;
-        background: transparent;
-        opacity: 1;
+    
+    #div_txt_not{
+        padding-bottom: 30%;
+        margin-top: 10%;
     }
 
     #txt_not {
 
-        width: 301px;
-        height: 243px;
+        padding-left: 10%;
         text-align: left;
-        font: 20px/28px Neuzeit Grotesk;
-        letter-spacing: 0.5px;
+        font: 22px/28px NeuzeitGro-Lig;
+        line-height: 150%;
+        letter-spacing: 1px;
         color: #FFFFFF;
         opacity: 1;
     }
@@ -1224,12 +1251,14 @@ video {
     .secao7{
         height: auto;
     }
+    #secao7_container{
+    height: auto;
+    }
     #secao7_titulo {
 
-        width: 215px;
-        height: 96px;
-        text-align: right;
-        font: Bold 48px/48px Neuzeit Grotesk;
+       
+        text-align: center;
+        font:  48px/48px NeuzeitGro-Bol;
         letter-spacing: 1.2px;
         color: #283258;
         opacity: 1;
@@ -1237,9 +1266,9 @@ video {
 
     #txt_demo {
         width: 95%;
-        height: 386px;
+        
         text-align: left;
-        font: 20px/28px Neuzeit Grotesk;
+        font: 20px/28px NeuzeitGro-Lig;
         letter-spacing: 0.5px;
         color: #283258;
         opacity: 1;
@@ -1277,10 +1306,7 @@ video {
         opacity: 1;
     }
 
-    #secao6_titulo {
-        width: 311px;
-        padding-top: 0px;
-    }
+   
 	footer{
 	height: 200px;
 	background: #283258;
