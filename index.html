@@ -189,7 +189,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 align-items-end">
                     <div class="row" id="rowSecao4">
-                        <div class="col-md-7 col-xs-6 offset-1 d-flex align-items-end flex-column" style="padding: 0">
+                        <div class="col-md-7 col-xs-6 offset-2 d-flex align-items-end flex-column" style="padding: 0">
                             <h2 id="sub_secao4">Recursos InsideWhats</h2>
                             <h1 class="mt-auto" id="secao4_titulo">Libere os Emojis!</h1>
                         </div>
@@ -204,13 +204,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="offset-1">
+                        <div class="offset-2">
                             <h2 id="sub2_secao4">Emojis estão a seu favor na interação com seu cliente</h2>
 
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-offset-1 col-lg-7 col-md-7 col-sm-12 col-xs-12" style="padding:0;">
+                        <div class="col-md-offset-2 col-lg-7 col-md-7 col-sm-12 col-xs-12" style="padding:0;">
                             <p id="text_rec">Estudos mostram que o cérebro humano é capaz de processar informações
                                 visuais 60 mil vezes mais rápido do que em texto. Não por acaso os Emojis são tão
                                 populares hoje em dia.</p>
@@ -305,8 +305,8 @@
 
     <!--   //////////   secao 7   /////////-->
     <div class="secao7" id="veja_pratica">
-        <div class="container-fluid">
-            <div class="row justify-content-center" style="padding-top: 50px;">
+        <div class="container-fluid d-flex align-items-center" style="border: solid 1px green;" id="secao7_container">
+            <div class="row justify-content-center" >
                 <div class="col-lg-6 col-md-6" id="mockupVideo">
                     <video width="180" autoplay loop muted preload="auto" id="video">
                         <source src="video.mp4" type="video/mp4">
@@ -318,13 +318,16 @@
                     </div>
 
                     <div class="row order-1 justify-content-left">
-                        <p id="txt_demo">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" style="padding:0;">
+                         <p id="txt_demo">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                             praesentium
 
                             voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
                             cupiditate non providen <br/><br/> At vero eos et accusamus et iusto odio dignissimos ducimus qui
                             blanditiis
-                            praesentium voluptatum</p>
+                            praesentium voluptatum</p>   
+                        </div>
+                        
                     </div>
                     <div class="row order-lg-6" id="secao7_botao">
                         <button id="button_demo">Ver demonstração</button>
@@ -356,16 +359,16 @@
             </div>
             <div class="row justify-content-md-center" id="rowSecao7">
                 <div class="col-md-2">
-                    <img src="img/Icon 1.svg" class="img-fluid rounded mx-auto d-block">
+                    <img src="img/Icon 1.svg" class="img-fluid rounded mx-auto d-block" id="imagesec8">
                     <h4 class="txt_icon">Envio de arquivos</h4>
                 </div>
                 <div class="col-md-2">
-                    <img src="img/Icon 2.svg" class="img-fluid rounded mx-auto d-block">
+                    <img src="img/Icon 2.svg" class="img-fluid rounded mx-auto d-block" id="imagesec8">
                     <h4 class="txt_icon">Análises</h4>
                 </div>
                 <div class=" col-md-2">
-                    <img src="img/Icon 3.svg" class="img-fluid rounded mx-auto d-block">
-                    <h4 class="txt_icon">Suporte especializado</h4>
+                    <img src="img/Icon 3.svg" class="img-fluid rounded mx-auto d-block" id="imagesec8">
+                    <h4 class="txt_icon">Suporte<br>especializado</h4>
                 </div>
             </div>
 
@@ -407,9 +410,12 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-12 button-container">
-                                <button class="col-md-12" type="submit" id="button_forms">Enviar Mensagem
-                                </button>
+                            <div class="col-md-12 button-container ">
+                                <div class="d-flex justify-content-center">
+                                   <button  type="submit" id="button_forms">Enviar Mensagem
+                                </button> 
+                                </div>
+                                
                             </div>
                         </form>
 
@@ -420,23 +426,23 @@
     </div>
 </div>
 
-<footer class="container-fluid col-md-12 ">
-    <div class="row justify-content-center " style="height: 100px;">
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 div-logo-footer">
-            <nav class="navbar d-flex align-items-center"  style="height: 100%;">
-                <a class="navbar-brand logo-cape" href="#">
-                    <img id="logo-footer" class="" src="img/IW_logo_SVG.svg">
+<footer class="container-fluid d-flex align-items-center " style="border: solid 1px green;">
+    <div class="row justify-content-center " style="height: 40px; width: 100%; border: solid 2px orange;">
+        <div class=" offset-2 col-lg-1 col-md-1 col-sm-2 col-xs-12 div-logo-footer">
+            <nav>
+                <a  href="#">
+                    <img class="img-fluid rounded mx-auto d-block" id="logo-footer"  src="img/logo footer.svg" style="border: 2px solid brown;">
                 </a>
             </nav>
         </div>
-        <nav class="col-lg-5 col-md-5 col-sm-7 col-xs-10 footerPrincipal d-flex">
-        <a class="footerPrincipal-nav-link" href="#mobileMarketing">Mobile Marketing</a>
-            <a class="footerPrincipal-nav-link" href="#vantagens">Vantagens</a>
-            <a class="footerPrincipal-nav-link" href="#recursos">Recursos</a>
-            <a class="footerPrincipal-nav-link" href="#borda_form">Contato</a>
+        <nav class="col-lg-4 col-md-4 col-sm-7 col-xs-10 footerPrincipal d-flex" style="border: solid 1px purple;">
+        <a class="footerPrincipal-nav-link" style="text-decoration: none;" href="#mobileMarketing">Mobile Marketing</a>
+            <a class="footerPrincipal-nav-link" style="text-decoration: none;" href="#vantagens">Vantagens</a>
+            <a class="footerPrincipal-nav-link" style="text-decoration: none;" href="#recursos">Recursos</a>
+            <a class="footerPrincipal-nav-link" style="text-decoration: none;" href="#borda_form">Fale Conosco</a>
         </nav>
         <div class="col-lg-3 col-md-2 col-sm-2 col-xs-11  d-flex align-items-center">
-            <a id="CC">&copy;2019 - InsideWhats - Todos os direitos reservados</a>
+            <a id="Crights">&copy;2019 - InsideWhats - Todos os direitos reservados</a>
         </div>
     </div>
 </footer>

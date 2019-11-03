@@ -323,10 +323,11 @@ button:focus {
 	height: 210vh;
 	background: #FFFFFF;
 	opacity: 1;
+
 }
 
 footer{
-	height: 112px;
+	height: 80px;
 	background: #283258;
 	/*border: 1px solid #283258;*/
 }
@@ -339,7 +340,7 @@ footer{
 	opacity: 1;
 	background: transparent;
 	font-family: NeuzeitGro-Bol;
-	font-weight: bold;
+	
     letter-spacing: 1px;
 	color: #FFFFFF;
 
@@ -409,10 +410,11 @@ footer{
 
 .txt_icon{
     text-align: center;
-    font: 24px/34px NeuzeitGro-Bol;
+    font: 14px NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #283258;
     opacity: 1;
+    border: solid 1px yellow;
 }
 
 #txt_van {
@@ -643,18 +645,20 @@ footer{
 
 /*  /////////////// Secao 7 ////////////////// */
 
+#secao7_container{
+    height: 100vh;
+}
 #secao7_botao{
-    justify-content: left;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 #secao7_titulo {
-    padding-left: 20px;
-    padding-right: 20px;
-    top: 6890px;
-    left: 1012px;
-    width: 100%;
-    height: 72px;
+    padding-top: 50px;
+    padding-left: 30px;
+     width: 100%;
+    /* height: 88px; */
     text-align: left;
-    font: Bold 52px/80px Neuzeit Grotesk;
+    font: 50px/42px NeuzeitGro-Bol;
     letter-spacing: 1.8px;
     color: #283258;
     opacity: 1;
@@ -662,28 +666,39 @@ footer{
 
 
 #txt_demo {
-    padding-left: 20px;
-    padding-right: 20px;
-    min-height: 150px;
-    width: 90%;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'NeuzeitGro-Lig';
+    
     text-align: left;
-    font: 20px/28px Neuzeit Grotesk;
-    letter-spacing: 0.5px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    font-size: 12px;
+
     color: #283258;
     opacity: 1;
 }
 
 #button_demo {
-    top: 7249px;
-    left: 1019px;
-    width: 258px;
-    height: 56px;
+    
+
     background: #283258 0% 0%;
     border-radius: 132px;
-    font: Bold 18px/26px Neuzeit Grotesk;
-    letter-spacing: 0.9px;
+    
+    
     color: #FFFFFF;
     border: none;
+
+    width: 18rem;
+    height: 4rem;
+    
+    
+    opacity: 1;
+    
+    font-family: NeuzeitGro-Bol;
+    
+    letter-spacing: 1px;
+   
 }
 
 #Mockup {
@@ -714,19 +729,25 @@ footer{
 #secao8_titulo{
 	margin-top: 100px;
 	text-align: center;
-	font: Bold 3em/1em Neuzeit Grotesk;
+	font:  3em/1em NeuzeitGro-Bol;
 	letter-spacing: 1.8px;
 	color: #283258;
 	opacity: 1;
 }
+#imagesec8{
+    width: 52%;
+    height: 52%;
+    border: solid 1px green;
+}
 
 #rowSecao7{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     padding-top: 5%;
 }
 
 #mockupVideo {
-    background-image: url("../img/Mockup  PNG.png");
+
+    background-image: url("../img/Mobilebordapng.png");
     background-origin: padding-box;
     background-repeat: no-repeat;
     background-size: contain;
@@ -770,16 +791,20 @@ video {
 #forms_titulo {
     margin: 40px 0px;
     text-align: center;
-    font: Bold 3.5em/1.3em Neuzeit Grotesk;
+    font:  3em/1em NeuzeitGro-Bol;
     letter-spacing: 1.8px;
     color: #283258;
+
+    
+    
+    
 }
 
 #forms_txt {
-    margin: 60px 0px;
+    margin: 40px 0px;
     padding: 10px;
     text-align: center;
-    font: Normal 1.5em/1.3em Neuzeit Grotesk;
+    font:  1.5em/1.3em NeuzeitGro-Lig;
     letter-spacing: 0.8px;
     color: #283258;
 
@@ -815,6 +840,7 @@ video {
 
 .button-container {
     padding: 30px 0px;
+
 }
 
 #button_forms {
@@ -823,18 +849,19 @@ video {
     border-radius: 132px;
     border: none;
     text-align: center;
-    font: Bold 1em/1.3em Neuzeit Grotesk;
+    font: 1em/1.3em NeuzeitGro-Bol;
     letter-spacing: 0.9px;
     color: #FFFFFF;
+    width: 20rem;
+    height: 4rem;
 }
 
-#CC {
-    top: 9845px;
-    left: 1261px;
-    width: 233px;
-    height: 12px;
+#Crights {
+   
+    
+    
     text-align: left;
-    font: 10px/14px Neuzeit Grotesk;
+    font: 8px/14px NeuzeitGro-Lig;
     letter-spacing: 0.25px;
     color: #FFFFFF;
     opacity: 1;
@@ -926,7 +953,7 @@ video {
     }
 
     #mockupVideoMobile {
-        background-image: url("../img/Mockup  PNG.png");
+        background-image: url("../img/Mobilebordapng.png");
         background-origin: padding-box;
         background-repeat: no-repeat;
         background-size: contain;
@@ -1189,9 +1216,11 @@ video {
 }
 
 /*              FOOTER           */
+
+
 #logo-footer{
-    height: 100%;
-    width: 100%;
+    padding-top: 5%;
+    
 }
 
 .footerPrincipal{
@@ -1200,14 +1229,15 @@ video {
     justify-content: start;
     height: 100%; 
     padding: 0;
+
 }
 
 .div-logo-footer{
-    height: 100%;
+    
 }
 
 .logo-cape{
-    height: 30px; 
+    height: 20px; 
     padding: 0;
 }
 
@@ -1233,19 +1263,23 @@ video {
         padding-bottom: 20px;
     }
 
-    #CC{
+    #Crights{
         padding-bottom: 20px;
     }
 
 }
 
 .footerPrincipal-nav-link{
+    
     text-align:center;
-    font: Regular 14px/20px Neuzeit Grotesk;;
+    font: 9px NeuzeitGro-Lig;
     letter-spacing: 0.7px;
     color: #FFFFFF;
     padding-right: 30px;
+    
 }
+
+
 
 .footerPrincipal-nav-link:hover{
     color:#FFFFFF;
