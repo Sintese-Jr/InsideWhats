@@ -1,6 +1,4 @@
-div{
-    border: solid 1px pink;
-}
+
 @font-face {
     font-family: 'NeuzeitGro-Reg';
     src: url("../fonts/NeuzeitGro-Reg.otf");
@@ -865,7 +863,7 @@ video {
 }
 
 #button_forms {
-    padding: 15px;
+    
     background: #283258 0% 0% padding-box;
     border-radius: 132px;
     border: none;
@@ -904,7 +902,7 @@ video {
     }
     #secao2_titulo{
         padding-top:15px;
-        padding-left: 10px;
+        padding-left: 5%;
         font:  38px/45px NeuzeitGro-Bol;
         color:  #EADAB4 ;
         opacity: 1;
@@ -914,7 +912,7 @@ video {
     #sub_sec2 {
         
         font: bold 14px/12px NeuzeitGro-Bol;
-        padding-left: 10px;
+        padding-left: 5%;
 
         letter-spacing: 0.9px;
         color: #FFFFFF;
@@ -967,19 +965,21 @@ video {
         font:  38px/24px NeuzeitGro-Bol;
         color: #283258;
         opacity: 1;
+        padding-bottom: 18%;
     }
 
     #vantagens_text {
 
         width: 90%;
-        height: 85px;
+        
         margin-left: 3%;
         text-align: center;
         font: 14px/21px NeuzeitGro-Lig;
         letter-spacing: 0;
         color: #283258;
         opacity: 1;
-        border: solid 1px green;
+
+        
     }
 
     #txt_van {
@@ -995,7 +995,7 @@ video {
         width: 90%;
         padding-left: 10%;
         margin-top: 5%;
-        border: solid 1px green;
+        
     }
 
     #txt_van3{
@@ -1008,7 +1008,7 @@ video {
     text-align: center;
     letter-spacing: 0.5px;
      margin-top: 5%;
-        border: solid 1px green;
+     
     color: #283258;
     opacity: 1;
     }
@@ -1066,7 +1066,7 @@ video {
         width: 80%;
         margin-left: 5%;
         margin-top: 10%;
-        border: solid 1px green;
+        
     }
 
     #sub2_secao4 {
@@ -1159,7 +1159,7 @@ video {
         color: #283258;
         opacity: 1;
         margin-top: 0;
-        border: solid 1px green;
+        
     }
 
     #video {
@@ -1177,11 +1177,11 @@ video {
         letter-spacing: 1.2px;
         color: #283258;
         opacity: 1;
-        border: solid 1px green;
+        
     }
 
     #row_imgmockupsec5{
-        border: solid 1px green;
+        
         margin-right: 1%;
         margin-left: -10%;
         padding-bottom: 10%;
@@ -1226,7 +1226,7 @@ video {
         letter-spacing: 1.2px;
         color: #FFFFFF;
         opacity: 1;
-        border: solid 1px green;
+        
         padding-bottom: 10%;
 
     }
@@ -1255,21 +1255,28 @@ video {
     #secao7_container{
     height: auto;
     }
-    #secao7_titulo {
 
-       
+    #row_sec7titulo{
+        padding: 0;
+    }
+    #secao7_titulo {
+        padding-left: 0px;
+        width: 100%;
         text-align: center;
-        font:  48px/48px NeuzeitGro-Bol;
+        font:  52px/48px NeuzeitGro-Bol;
         letter-spacing: 1.2px;
         color: #283258;
         opacity: 1;
+        
     }
 
     #txt_demo {
         width: 95%;
+        padding-bottom: 30%;
         
         text-align: left;
-        font: 20px/28px NeuzeitGro-Lig;
+        font: 22px/28px NeuzeitGro-Lig;
+        font-weight: bold;
         letter-spacing: 0.5px;
         color: #283258;
         opacity: 1;
@@ -1281,13 +1288,14 @@ video {
     }
     #secao7_botao{
         justify-content: center;
+        padding-left: 0px;
     }
     #button_demo {
-        width: 327px;
-        height: 56px;
+        width: 347px;
+        height: 66px;
         background: #283258 0% 0%;
         border-radius: 132px;
-        font: Bold 18px/26px Neuzeit Grotesk;
+        font: 18px/26px NeuzeitGro-Bol;
         letter-spacing: 0.9px;
         color: #FFFFFF;
         border: none;
@@ -1309,28 +1317,37 @@ video {
 
    
 	footer{
-	height: 200px;
+	height: 100px;
 	background: #283258;
-	/*border: 1px solid #283258;*/
+	
+    padding: 0;
+    margin:0;
 	opacity: 1;
+    align-items: flex-start;
+    display: flex;
 	}
-	.secao8{
-		height: 250vh;
-	}
+    #ordem1{
+        order: 1;
+        margin-left: 5%;
+        margin-top: 3%;
+        justify-content: center;
+    }
+    #ordem2{
+        order: 2;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    #ordem3{
+        order: 3;
+    }
+	
 
-	#menu_footer{
-		display: block;
-	}
 
-	.logo_footer{
-		display: block;
-		top: 0px;
-		left: 50px;
-		width: 114px;
-		height: 29px;
-		background: transparent url("../img/logo\ footer.svg") 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
+
+
 
 }
 
@@ -1344,6 +1361,32 @@ video {
     #borda_form{
         border: none;
     }
+
+    #secao8_titulo{
+    margin-top: 100px;
+    text-align: center;
+    font:  3.5em/1em NeuzeitGro-Bol;
+    letter-spacing: 1.8px;
+    color: #283258;
+    opacity: 1;
+    }
+    #imagesec8{
+        width: 50%;
+        height: 50%;
+        
+        
+    }
+    .txt_icon{
+    margin-top: 10%;
+    text-align: center;
+    font: 20px NeuzeitGro-Bol;
+    letter-spacing: 0.6px;
+    color: #283258;
+    opacity: 1;
+    
+    
+    }
+
 
 }
 
@@ -1368,39 +1411,11 @@ video {
     
 }
 
-.logo-cape{
-    height: 20px; 
-    padding: 0;
+#row_navbarfooter{
+    height: 40px; 
+    width: 100%;
 }
 
-@media (max-width: 600px){
-    .footerPrincipal{
-        flex-direction: column;
-        align-items: flex-start;
-
-        padding-bottom: 0;
-        height: 200px;
-
-    }
-    
-    .logo-cape{
-        height: 40px;
-    }
-    .div-logo-footer{
-        height: 90px;
-    }
-
-
-    .footerPrincipal-nav-link{
-        padding-bottom: 20px;
-    }
-
-    #Crights{
-        padding-bottom: 20px;
-    }
-
-
-}
 
 .footerPrincipal-nav-link{
     
@@ -1417,6 +1432,45 @@ video {
 .footerPrincipal-nav-link:hover{
     color:#FFFFFF;
 }
+
+
+@media (max-width: 600px){
+    .footerPrincipal{
+       display: none;
+
+    }
+    
+
+    .div-logo-footer{
+        
+    }
+
+
+    .footerPrincipal-nav-link{
+       display: none;
+    }
+
+    #Crights{
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        
+        text-align: left;
+        font: 11px/14px NeuzeitGro-Lig;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    #row_navbarfooter{
+        padding-top: 0px;
+    height: 32px; 
+    width: 100%;
+    }
+
+}
+
+
 /*
 .secao4 .col-md-6 {
 	padding-left:0;
