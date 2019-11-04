@@ -43,14 +43,15 @@ button:focus {
 
 /*				MENU				  */
 .head {
-    height: 0;
+    position: fixed;
+    z-index: inherit 1000;
     background: transparent;
     transition: ease-in 5s;
 }
-/* 
+
 .scrolled {
     background: linear-gradient(#283258 10%, #0000);
-} */
+}
 
 
 #logo {
@@ -110,6 +111,13 @@ button:focus {
     .cabecalhoPrincipal-nav {
         display: none;
         padding: 0px;
+    }
+
+    .head{
+        position: relative;
+        z-index: inherit 0;
+        height: 0;
+
     }
 
     .menu-abrir {
