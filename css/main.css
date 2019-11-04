@@ -960,8 +960,8 @@ video {
     #secao3_titulo {
 
         width: 100%;
-        height: 30px;
-        font:  38px/24px NeuzeitGro-Bol;
+        height: 70px;
+        font:  38px/38px NeuzeitGro-Bol;
         color: #283258;
         opacity: 1;
         padding-bottom: 18%;
@@ -1305,6 +1305,7 @@ video {
     #botaoSec2 {
         justify-content: center;
         padding-left: 0px;
+        padding-bottom: 10%;
     }
 
     #Mockup {
