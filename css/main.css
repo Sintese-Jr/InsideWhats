@@ -43,13 +43,14 @@ button:focus {
 
 /*				MENU				  */
 .head {
+    height: 0;
     background: transparent;
     transition: ease-in 5s;
 }
-
+/* 
 .scrolled {
     background: linear-gradient(#283258 10%, #0000);
-}
+} */
 
 
 #logo {
