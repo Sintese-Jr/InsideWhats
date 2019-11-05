@@ -33,6 +33,8 @@ button:focus {
 
 /*    GERAL  */
 
+
+
 .neg {
     font-weight: bold;
     font-family: NeuzeitGro-Bol;
@@ -47,6 +49,7 @@ button:focus {
 
 .scrolled {
     background: linear-gradient(#283258 10%, #0000);
+    z-index: inherit 1000;
 }
 
 
@@ -725,6 +728,9 @@ footer{
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+#demo_mobile{
+    display: none;
+}
 
 #sombra {
     margin-bottom: 2%;
@@ -762,7 +768,7 @@ footer{
     padding-bottom: 5%;
     padding-top: 5%;
 }
-
+/*excluir ppp*/
 #mockupVideo {
 
     background-image: url("../img/Mobilebordapng.png");
@@ -776,15 +782,15 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
-#mockupVideoMobile {
+/*excluir*/
+#mockupVideoMobile2 {
     display: none
 }
 
 video {
     /*border: 2px solid purple;*/
 }
-
+/*EXCLUIR CASO DE CERTO*/
 #video {
     padding: 0;
     margin: 0;
@@ -1022,7 +1028,15 @@ video {
         height: 150vw;
         display: none;
     }
+    #demo_Desktop{
+        display: none;
+    }
+    #demo_mobile{
+        height: 100vh;
+        display: block;
 
+    }
+    /*excluir*/
     #mockupVideoMobile {
         background-image: url("../img/Mobilebordapng.png");
         background-origin: padding-box;
@@ -1084,7 +1098,7 @@ video {
         width: 100%;
         padding-right: 0px;
         text-align: left;
-        font:  48px/48px NeuzeitGro-Bol;
+        font:  42px/48px NeuzeitGro-Bol;
         letter-spacing: 1.2px;
         color: #EADAB4;
         opacity: 1;

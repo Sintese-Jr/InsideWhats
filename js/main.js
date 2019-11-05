@@ -44,3 +44,14 @@ $(function() {
         }
     });
 });
+
+document.getElementById('button_demo').onclick = function (){
+    if(window.innerWidth <= 800){
+        document.getElementById('videodemo_mobile').play(); 
+        window.location.href = "#demo_mobile"; 
+    }else{
+        document.getElementById('videodemo').play();  
+    }
+
+    
+};
