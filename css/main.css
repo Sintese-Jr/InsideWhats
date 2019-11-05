@@ -43,6 +43,8 @@ button:focus {
 
 /*				MENU				  */
 .head {
+    position: fixed;
+    z-index: inherit 1000;
     background: transparent;
     transition: ease-in 5s;
 }
@@ -110,6 +112,13 @@ button:focus {
     .cabecalhoPrincipal-nav {
         display: none;
         padding: 0px;
+    }
+
+    .head{
+        position: relative;
+        z-index: inherit 0;
+        height: 0;
+
     }
 
     .menu-abrir {
