@@ -22,7 +22,10 @@
 <body>
 <div class="wrapper">
     <!-- menu  -->
-    <div class="container-fluid head">
+
+    <div class="container-fluid fixed-top head ">
+
+
         <div class="row header-height">
             <header class="container-fluid col-12" style="padding-top: 25px;">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-md-offset-1" id="div_logo" style="height: 100%;">
@@ -285,7 +288,7 @@
 
                     </div>
                     <div class="row justify-content-left" >
-                        <h4 id="secao6_titulo">Suas mensagens no momento certo!</h4>
+                        <h4 id="secao6_titulo">Suas mensagens no momento<br id="br_secao4"> certo!</h4>
                     </div>
                     <div class="row">
                         <div class="d-block d-lg-none">
@@ -319,10 +322,14 @@
     <div class="secao7" id="veja_pratica">
         <div class="container-fluid d-flex align-items-center"  id="secao7_container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6" id="mockupVideo">
-                    <video width="180" autoplay loop muted preload="auto" id="video">
-                        <source src="video.mp4" type="video/mp4">
-                    </video>
+                <div class="col-lg-6 col-md-6" >
+                    <div class="row justify-content-center" id="demo_Desktop">
+                        
+                        <img  src="img/Mobilebordapng.png" style=" height: 450px; position: absolute; ">
+                        <video id="videodemo" width="254" height="438"  loop muted preload="auto"  style="padding: 0; padding-top: 12px; ">
+                            <source src="video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 d-flex flex-column">
                     <div class="row justify-content-center" id="row_sec7titulo">
@@ -342,12 +349,16 @@
                         
                     </div>
                     <div class="row order-lg-6" id="secao7_botao">
-                        <button id="button_demo">Ver demonstração</button>
+                        
+                          <button id="button_demo">Ver demonstração</button>  
+                        
+                        
                     </div>
-                    <div class="row justify-content-center">
-                        <div id="mockupVideoMobile">
-                            <video width="180" autoplay loop muted preload="auto" id="video">
-                                <source src="video.mp4" type="video/mp4">
+                    <div class="row" >
+                        <div id="demo_mobile" style="max-width: 100%; border: solid 1px yellow;">
+                            <img  src="img/Mobilebordapng.png" style=" max-width: 90vw; height: 90vh; position: absolute; margin-left: 10%; margin-top: 10%; ">
+                            <video id="videodemo_mobile" width="100%" height="87%"  loop muted preload="auto"  style="padding: 0;  margin-left: 0%; margin-top: 13%; ">
+                                <source src="video2.mp4" type="video/mp4">
                             </video>
                         </div>
 
