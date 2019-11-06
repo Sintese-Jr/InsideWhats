@@ -211,7 +211,7 @@
 	}
 	#info_mobile{
 	display: block;
-	
+	margin-left: -15%;
 	}
 
 	
@@ -222,7 +222,7 @@
 @media (orientation: landscape) {
 	.secao1 {
 		background: url('../img/background.png') no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		background-origin: padding-box;
 		background-position: initial;
 	}
