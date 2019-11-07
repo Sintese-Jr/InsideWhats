@@ -380,6 +380,16 @@ footer{
 	opacity: 1
 }
 
+@media (min-width: 1300px){
+    #secao2_titulo{
+        font: 5rem NeuzeitGro-Bol;
+    }
+
+    #sub_sec2{
+        font: 2.5rem   NeuzeitGro-Bol;
+    }
+}
+
 /* FIM DA SEÇÃO 2!! */
 
 /*				SEÇÃO 3					*/
