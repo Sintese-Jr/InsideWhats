@@ -740,6 +740,9 @@ footer{
 #demo_mobile{
     display: none;
 }
+#row_demomob{
+    display: none;
+}
 
 #sombra {
     margin-bottom: 2%;
@@ -1045,6 +1048,10 @@ video {
         display: block;
 
     }
+    #row_demomob{
+        display: block;
+    }
+
     /*excluir*/
     #mockupVideoMobile {
         background-image: url("../img/Mobilebordapng.png");
@@ -1153,6 +1160,9 @@ video {
     /*seção5-mobile*/
     .secao5{
         height: auto;
+    }
+    #row_sec5{
+        max-width: 100%;
     }
     #sub_secao5 {
 
@@ -1311,9 +1321,11 @@ video {
     #secao7_botao{
         justify-content: center;
         padding-left: 0px;
+        
+
     }
     #button_demo {
-        width: 347px;
+        width: 90%;
         height: 66px;
         background: #283258 0% 0%;
         border-radius: 132px;
@@ -1351,7 +1363,7 @@ video {
 	}
     #ordem1{
         order: 1;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 3%;
         justify-content: center;
     }
@@ -1361,7 +1373,7 @@ video {
         justify-content: center;
         margin-right: 0px;
         margin-top: 3%;
-        margin-left: 5%;
+        margin-left: 6%;
     }
     #ordem3{
         order: 3;
