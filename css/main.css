@@ -746,7 +746,7 @@ footer {
 #borda_form {
     border: 0.7440476190476191vh solid #283258;
     padding: 2.9761904761904763vh;
-    font-size: 1em;
+    font-size: 2.4132730015082955vh;
     margin-bottom: 14.880952380952381vh;
 }
 
@@ -756,12 +756,6 @@ footer {
     background: #FFFFFF;
     opacity: 1;
 
-}
-
-@media (min-width: 1920px) {
-    .secao8 {
-        height: 140vh;
-    }
 }
 
 #secao8_titulo {
@@ -831,22 +825,24 @@ footer {
 #forms_titulo {
     margin: 5.9523809523809526vh 0;
     text-align: center;
-    font: 3em/1em NeuzeitGro-Bol;
+    font: 6vh NeuzeitGro-Bol;
     letter-spacing: 0.26785714285714285vh;
     color: #283258;
 }
 
 #forms_txt {
-    margin: 5.9523809523809526vh 0;
+    margin: 3.9523809523809526vh ;
     padding: 1.4880952380952381vh;
     text-align: center;
-    font: 1.5em/1.3em NeuzeitGro-Lig;
+    font: 3vh/4vh NeuzeitGro-Lig;
     letter-spacing: 0.11904761904761904vh;
     color: #283258;
+
 }
 
 .form-group label {
-    font: Bold 0.9em/1.3em Neuzeit Grotesk;
+    padding: 1vh 0;
+    font: Bold 2.171945701357466vh/3.1372549019607843vh Neuzeit Grotesk;
     color: #ccc;
 }
 
@@ -856,12 +852,11 @@ footer {
     border-radius: 0;
     box-shadow: none;
 
-    /* background: red; */
 
     border-bottom: 0.2976190476190476vh solid #283258;
     color: #283258;
     padding: 0;
-    font: Bold 1em/1.3em Neuzeit Grotesk;
+    font: Bold 2.4132730015082955vh/3.1372549019607843vh Neuzeit Grotesk;
     letter-spacing: 0.1488095238095238vh;
 }
 
