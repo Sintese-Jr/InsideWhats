@@ -394,16 +394,16 @@ footer {
 
 
 #paddingtopdiv {
-    padding-top: 80px;
+    padding-top: 12.066365007541478vh;
 
 }
 
 #secao3_titulo {
 
     width: 100%;
-    height: 65px;
+    height: 9.803921568627452vh;
     text-align: center;
-    font: 45px/48px NeuzeitGro-Bol;
+    font: 6.787330316742081vh/7.239819004524887vh NeuzeitGro-Bol;
     color: #283258;
     opacity: 1;
 }
@@ -411,9 +411,9 @@ footer {
 #vantagens_text {
 
     width: 100%;
-    height: 123px;
+    height: 18.552036199095024vh;
     text-align: center;
-    font: 12px NeuzeitGro-Lig;
+    font: 1.8099547511312217vh NeuzeitGro-Lig;
     line-height: 180%;
     letter-spacing: 0;
     color: #283258;
@@ -423,7 +423,7 @@ footer {
 .txt_icon {
     margin-top: 10%;
     text-align: center;
-    font: 14px NeuzeitGro-Bol;
+    font: 2.1116138763197587vh NeuzeitGro-Bol;
     letter-spacing: 0.6px;
     color: #283258;
     opacity: 1;
@@ -432,11 +432,11 @@ footer {
 
 #txt_van {
     font-family: 'NeuzeitGro-Lig';
-    font-size: 11px;
+    font-size: 1.6591251885369533vh;
     width: 90%;
     padding-left: 15%;
 
-    height: 123px;
+    height: 18.552036199095024vh;
     text-align: center;
     letter-spacing: 0.5px;
     color: #283258;
@@ -445,11 +445,11 @@ footer {
 
 #txt_van3 {
     font-family: 'NeuzeitGro-Lig';
-    font-size: 11px;
+    font-size: 1.6591251885369533vh;
     width: 90%;
     padding-left: 10%;
 
-    height: 123px;
+    height: 18.552036199095024vh;
     text-align: center;
     letter-spacing: 0.5px;
     color: #283258;
@@ -460,6 +460,13 @@ footer {
     height: 55%;
     width: 55%;
     align-self: center;
+}
+
+@media (min-width: 1300px){
+    #imageSec3{
+        height: 80%;
+        width: 80%;
+    }
 }
 
 .colunassec3 {
