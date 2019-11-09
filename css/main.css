@@ -248,63 +248,63 @@ button:focus {
 
 /*				SEÇÃO 2 				*/
 #secao2_titulo {
-    font: 50px/42px NeuzeitGro-Bol;
+    font: 7.440476190476191vh/ 6.25vh NeuzeitGro-Bol;
     color: #EADAB4;
-    padding-left: 63px;
-    padding-bottom: 20px;
+    padding-left:  9.375vh;
+    padding-bottom: 2.9761904761904763vh;
 
 }
 
 
 #sub_sec2 {
 
-    padding-left: 65px;
-    padding-top: 90px;
-    padding-bottom: 5px;
+    padding-left: 9.672619047619047vh;
+    padding-top:  13.392857142857142vh;
+    padding-bottom: 0.7440476190476191vh;
 
-    letter-spacing: 0.6px;
+    letter-spacing: 0.08928571428571429vh;
     color: #FFFFFF;
     opacity: 1;
 
-    font: 20px NeuzeitGro-Bol;
+    font: 2.9761904761904763vh NeuzeitGro-Bol;
 
 }
 
 #mobile_text {
     font-family: 'NeuzeitGro-Lig';
-    min-height: 181px;
+    min-height: 26.93452380952381vh;
     text-align: left;
-    padding-left: 65px;
-    padding-top: 30px;
+    padding-left: 9.672619047619047vh;
+    padding-top: 4.464285714285714vh;
     line-height: 200%;
-    letter-spacing: 1px;
-    font-size: 11px;
+    letter-spacing: 0.1488095238095238vh;
+    font-size: 1.6369047619047619vh;
     color: #FFFFFF;
     opacity: 1;
 }
 
 #botaoSec2 {
-    padding-left: 98px;
+    padding-left:  14.583333333333334vh;
 }
 
 #noPadding {
-    padding: 0px;
+    padding: 0;
     max-width: 100%;
 }
 
 .noPadding {
-    padding: 0px;
+    padding: 0;
     max-width: 100%;
 }
 
 .secao2 {
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     background: #283258;
     min-height: 100vh;
     opacity: 1;
-    padding-bottom: 20px;
+    padding-bottom: 2.9761904761904763vh;
 
 }
 
@@ -338,7 +338,7 @@ button:focus {
 }
 
 footer {
-    height: 80px;
+    height: 11.904761904761905vh;
     background: #283258;
     /*border: 1px solid #283258;*/
 }
@@ -592,7 +592,7 @@ footer {
 
 #txt_his {
 
-    padding-top: 20px;
+    padding-top: 2.9761904761904763vh;
     font-family: 'NeuzeitGro-Lig';
 
     text-align: left;
@@ -703,7 +703,7 @@ footer {
 
 #txt_demo {
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 2.9761904761904763vh;
     font-family: 'NeuzeitGro-Lig';
 
     text-align: left;
@@ -766,7 +766,7 @@ footer {
 
 #borda_form {
     border: 5px solid #283258;
-    padding: 20px;
+    padding: 2.9761904761904763vh;
     font-size: 1em;
     margin-bottom: 100px;
 }
@@ -838,7 +838,7 @@ video {
 }
 
 #forms_titulo {
-    margin: 40px 0px;
+    margin: 5.9523809523809526vh 0px;
     text-align: center;
     font: 3em/1em NeuzeitGro-Bol;
     letter-spacing: 1.8px;
@@ -848,7 +848,7 @@ video {
 }
 
 #forms_txt {
-    margin: 40px 0px;
+    margin: 5.9523809523809526vh 0px;
     padding: 10px;
     text-align: center;
     font: 1.5em/1.3em NeuzeitGro-Lig;
@@ -1097,7 +1097,7 @@ video {
 
         padding: 0;
         width: 100%;
-        height: 20px;
+        height: 2.9761904761904763vh;
         text-align: left;
         font: 16px/18px NeuzeitGro-Bol;
         letter-spacing: 1px;
@@ -1146,7 +1146,7 @@ video {
         width: 90%;
         height: 190px;
         text-align: left;
-        font: 20px/28px NeuzeitGro-Lig;
+        font: 2.9761904761904763vh/28px NeuzeitGro-Lig;
         letter-spacing: 2px;
         color: #FFFFFF;
         opacity: 1;
@@ -1240,7 +1240,7 @@ video {
 
         max-width: 100%;
         min-height: 340px;
-        padding-right: 20px;
+        padding-right: 2.9761904761904763vh;
         text-align: left;
         font: 22px/28px NeuzeitGro-Lig;
         letter-spacing: 0.5px;
@@ -1438,7 +1438,7 @@ video {
     .txt_icon {
         margin-top: 10%;
         text-align: center;
-        font: 20px NeuzeitGro-Bol;
+        font: 2.9761904761904763vh NeuzeitGro-Bol;
         letter-spacing: 0.6px;
         color: #283258;
         opacity: 1;
@@ -1471,7 +1471,7 @@ video {
 }
 
 #row_navbarfooter {
-    height: 40px;
+    height: 5.9523809523809526vh;
     width: 100%;
 }
 
