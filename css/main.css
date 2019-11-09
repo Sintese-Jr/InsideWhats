@@ -344,15 +344,15 @@ footer {
 }
 
 #marketing_button {
-    width: 20rem;
-    height: 4rem;
-    border: 1px solid #FFFFFF;
-    border-radius: 132px;
+    width: 28.61904761904762vh;
+    height:  6.523809523809524vh;
+    border: 0.1488095238095238vh solid #FFFFFF;
+    border-radius: 19.642857142857142vh;
     opacity: 1;
     background: transparent;
     font-family: NeuzeitGro-Bol;
-    font-size: 11px;
-    letter-spacing: 1px;
+    font-size: 1.6369047619047619vh;
+    letter-spacing: 0.1488095238095238vh;
     color: #FFFFFF;
 
 }
@@ -457,15 +457,15 @@ footer {
 }
 
 #imageSec3 {
-    height: 55%;
-    width: 55%;
+    height: 65%;
+    width: 65%;
     align-self: center;
 }
 
 @media (min-width: 1300px){
     #imageSec3{
-        height: 80%;
-        width: 80%;
+        height: 65%;
+        width: 65%;
     }
 }
 
