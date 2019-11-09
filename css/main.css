@@ -889,11 +889,14 @@ footer {
     border-radius: 19.642857142857142vh;
     border: none;
     text-align: center;
-    font: 1em/1.3em NeuzeitGro-Bol;
+
+    font: 1.8099547511312217vh/3.0165912518853695vh NeuzeitGro-Bol;
+
     letter-spacing: 0.13392857142857142vh;
+
     color: #FFFFFF;
-    width: 20rem;
-    height: 4rem;
+    width: 30.165912518853695vh;
+    height: 6.033182503770739vh;
 }
 
 #Crights {
