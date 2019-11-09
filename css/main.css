@@ -664,7 +664,7 @@ footer {
 
 #secao7_botao {
     padding-left: 0.1488095238095238vh;
-    padding-top: 0.1488095238095238vh;
+    padding-top: 5.1488095238095238vh;
 }
 
 #secao7_titulo {
@@ -713,6 +713,8 @@ footer {
     font: Bold 1.7vh NeuzeitGro-Bol;
 
     letter-spacing: 0.1488095238095238vh;
+
+    /*padding-top: 4.761904761904762vh;*/
 
 }
 
@@ -865,6 +867,10 @@ footer {
     box-shadow: none;
     border-color: initial;
 
+}
+
+#videodemo{
+    height: 80.7797619047619vh;
 }
 
 .button-container {
@@ -1338,7 +1344,7 @@ footer {
         letter-spacing: 0.9px;
         color: #FFFFFF;
         border: none;
-        margin-top: 2rem;
+        margin-top: 4.761904761904762vh;
 
     }
 
