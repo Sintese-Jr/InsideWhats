@@ -329,13 +329,7 @@ button:focus {
     opacity: 1;
 }
 
-.secao8 {
-    width: 100%;
-    height: 210vh;
-    background: #FFFFFF;
-    opacity: 1;
 
-}
 
 footer {
     height: 11.904761904761905vh;
@@ -776,6 +770,20 @@ footer {
     padding: 2.9761904761904763vh;
     font-size: 1em;
     margin-bottom:  14.880952380952381vh;
+}
+
+.secao8 {
+    width: 100%;
+    height: 180vh;
+    background: #FFFFFF;
+    opacity: 1;
+
+}
+
+@media (min-width: 1920px){
+    .secao8 {
+        height: 140vh;
+    }
 }
 
 #secao8_titulo {
