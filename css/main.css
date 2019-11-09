@@ -911,11 +911,11 @@ video {
     border-radius: 132px;
     border: none;
     text-align: center;
-    font: 1em/1.3em NeuzeitGro-Bol;
+    font: 16px/20px NeuzeitGro-Bol;
     letter-spacing: 0.9px;
     color: #FFFFFF;
-    width: 20rem;
-    height: 4rem;
+    width: 320px;
+    height: 64px;
 }
 
 #Crights {
