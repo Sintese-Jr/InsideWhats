@@ -462,7 +462,7 @@ footer {
     align-self: center;
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1920px){
     #imageSec3{
         height: 65%;
         width: 65%;
@@ -490,8 +490,8 @@ footer {
     width: 100%;
 
     text-align: left;
-    font: 17px/34px NeuzeitGro-Bol;
-    letter-spacing: 0.6px;
+    font: 2.5641025641025643vh/5.128205128205129vh NeuzeitGro-Bol;
+    letter-spacing: 0.09049773755656108vh;
     color: #FFFFFF;
     opacity: 1;
     padding-top: 20%;
@@ -501,8 +501,8 @@ footer {
 #sub2_secao4 {
     width: 100%;
     text-align: center;
-    font: 15px NeuzeitGro-Bol;
-    letter-spacing: 0.8px;
+    font: 2.262443438914027vh NeuzeitGro-Bol;
+    letter-spacing: 0.12066365007541478vh;
     color: #FFFFFF;
     opacity: 1;
 }
@@ -510,7 +510,7 @@ footer {
 #secao4_titulo {
 
     width: 100%;
-    font: 50px/42px NeuzeitGro-Bol;
+    font: 7.541478129713424vh/6.334841628959276vh NeuzeitGro-Bol;
     color: #EADAB4;
     opacity: 1;
 }
@@ -524,12 +524,12 @@ footer {
 #text_rec {
     padding-top: 7%;
     font-family: 'NeuzeitGro-Lig';
-    min-height: 181px;
+    min-height: 27.300150829562593vh;
     text-align: left;
 
     line-height: 200%;
-    letter-spacing: 1px;
-    font-size: 12px;
+    letter-spacing: 0.15082956259426847vh;
+    font-size: 1.8099547511312217vh;
     color: #FFFFFF;
     opacity: 1;
 
@@ -542,7 +542,7 @@ footer {
 #Loves_div {
     padding-top: 13%;
     padding-left: 0px;
-    left: -10px;
+    left: -1.5082956259426847vh;
 }
 
 #secao4Loves {
