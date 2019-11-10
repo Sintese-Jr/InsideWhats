@@ -372,16 +372,6 @@ footer {
     opacity: 1
 }
 
-@media (min-width: 1300px){
-    #secao2_titulo{
-        font: 5rem NeuzeitGro-Bol;
-    }
-
-    #sub_sec2{
-        font: 2.5rem   NeuzeitGro-Bol;
-    }
-}
-
 /* FIM DA SEÇÃO 2!! */
 
 /*				SEÇÃO 3					*/
@@ -614,8 +604,8 @@ footer {
     height: 100%;
 }
 
-#subsec6_row{
-    margin-top: 0%;
+#subsec6_row {
+    margin-top: 30%;
 }
 
 #sub_secao6 {
@@ -674,7 +664,7 @@ footer {
 
 #secao7_botao {
     padding-left: 0.1488095238095238vh;
-    padding-top: 5.1488095238095238vh;
+    padding-top: 0.1488095238095238vh;
 }
 
 #secao7_titulo {
@@ -723,8 +713,6 @@ footer {
     font: Bold 1.7vh NeuzeitGro-Bol;
 
     letter-spacing: 0.1488095238095238vh;
-
-    /*padding-top: 4.761904761904762vh;*/
 
 }
 
@@ -877,10 +865,6 @@ footer {
     box-shadow: none;
     border-color: initial;
 
-}
-
-#videodemo{
-    height: 80.7797619047619vh;
 }
 
 .button-container {
@@ -1354,7 +1338,7 @@ footer {
         letter-spacing: 0.9px;
         color: #FFFFFF;
         border: none;
-        margin-top: 4.761904761904762vh;
+        margin-top: 2rem;
 
     }
 
