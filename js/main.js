@@ -10,9 +10,9 @@ function fecharMenu(){
 
 $(".menu-principal a").on('click', fecharMenu);*/
 
-$(document).ready(function(){
+$(document).ready(function () {
     // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
+    $("a").on('click', function (event) {
 
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
@@ -26,7 +26,7 @@ $(document).ready(function(){
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 700, function(){
+            }, 700, function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
             });
@@ -34,24 +34,24 @@ $(document).ready(function(){
     });
 });
 
-$(function() {
-    $(window).on("scroll", function() {
-        if($(window).scrollTop() > 40) {
+$(function () {
+    $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 40) {
             $(".head").addClass("scrolled");
         } else {
             //remove the background property so it comes transparent again (defined in your css)
-           $(".head").removeClass("scrolled");
+            $(".head").removeClass("scrolled");
         }
     });
 });
 
-document.getElementById('button_demo').onclick = function (){
-    if(window.innerWidth <= 800){
-        document.getElementById('videodemo_mobile').play(); 
-        window.location.href = "#demo_mobile"; 
-    }else{
-        document.getElementById('videodemo').play();  
+document.getElementById('button_demo').onclick = function () {
+    if (window.innerWidth <= 800) {
+        document.getElementById('videodemo_mobile').play();
+        window.location.href = "#demo_mobile";
+    } else {
+        document.getElementById('videodemo').play();
     }
 
-    
+
 };
