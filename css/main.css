@@ -548,7 +548,7 @@ button:focus {
 #sub_secao5 {
     width: 100%;
     text-align: left;
-    font: 2.380952380952381vh/5.059523809523809vh NeuzeitGro-Bol;
+    font: 2.3vh/5.059523809523809vh NeuzeitGro-Bol;
     letter-spacing: 0.08928571428571429vh;
     color: #283258;
     opacity: 1;
@@ -557,29 +557,38 @@ button:focus {
 #sub2_secao5 {
     width: 100%;
     text-align: left;
-    font: 2.5297619047619047vh NeuzeitGro-Bol;
+    font: 2.6vh NeuzeitGro-Bol;
     letter-spacing: 0.08928571428571429vh;
     color: #283258;
     opacity: 1;
 }
 
+@media (min-width: 1920px){
+    #sub_secao5 {
+        padding-bottom: 2vh; 
+    }
+
+    #sub2_secao5 {
+        padding-top: 4.5vh;
+    }
+}
 
 #secao5_titulo {
     width: 100%;
     text-align: left;
-    font: 7.440476190476191vh/6.25vh NeuzeitGro-Bol;
+    font: 8vh/6.25vh NeuzeitGro-Bol;
     letter-spacing: 0.26785714285714285vh;
     color: #283258;
     opacity: 1;
 }
 
 #txt_his {
-    padding-top: 2.9761904761904763vh;
+    padding-top: 5vh;
     font-family: 'NeuzeitGro-Lig';
     text-align: left;
     line-height: 150%;
     letter-spacing: 0.1488095238095238vh;
-    font-size: 1.7857142857142858vh;
+    font-size: 2.3vh;
     color: #283258;
     opacity: 1;
 
@@ -1446,9 +1455,6 @@ footer {
     justify-content: start;
     height: 100%;
     padding: 0;
-}
-
-.div-logo-footer {
 }
 
 #row_navbarfooter {
