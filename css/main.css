@@ -608,14 +608,14 @@ button:focus {
 }
 
 #subsec6_row {
-    margin-top: 30%;
+    margin-top: 0;
 }
 
 #sub_secao6 {
     width: 100%;
     text-align: left;
     font: 2.5297619047619047vh/ 5.059523809523809vh NeuzeitGro-Bol;
-    letter-spacing: 0.08928571428571429vh;
+    letter-spacing: 0.12vh;
     color: #FFFFFF;
     opacity: 1;
 }
@@ -623,7 +623,7 @@ button:focus {
 #secao6_titulo {
     width: 100%;
     text-align: left;
-    font: 7.440476190476191vh/6.25vh NeuzeitGro-Bol;
+    font: 7vh/8vh NeuzeitGro-Bol;
     letter-spacing: 0.26785714285714285vh;
     color: #FFFFFF;
     opacity: 1;
@@ -631,10 +631,10 @@ button:focus {
 
 #txt_not {
     padding-top: 4.464285714285714vh;
-    line-height: 150%;
+    line-height: 200%;
     text-align: left;
     font-family: 'NeuzeitGro-Lig';
-    font-size: 1.7857142857142858vh;
+    font-size: 2.3vh;
     letter-spacing: 0.1488095238095238vh;
     color: #FFFFFF;
     opacity: 1;
