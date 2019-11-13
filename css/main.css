@@ -248,7 +248,7 @@ button:focus {
 
 /*				SEÇÃO 2 				*/
 #secao2_titulo {
-    font: 7.440476190476191vh/ 6.25vh NeuzeitGro-Bol;
+    font: 8vh/ 6.25vh NeuzeitGro-Bol;
     color: #EADAB4;
     padding-left: 9.375vh;
     padding-bottom: 2.9761904761904763vh;
@@ -259,14 +259,14 @@ button:focus {
 #sub_sec2 {
 
     padding-left: 9.672619047619047vh;
-    padding-top: 13.392857142857142vh;
-    padding-bottom: 0.7440476190476191vh;
+    padding-top:0vh;
+    padding-bottom: 1vh;
 
     letter-spacing: 0.08928571428571429vh;
     color: #FFFFFF;
     opacity: 1;
 
-    font: 2.9761904761904763vh NeuzeitGro-Bol;
+    font: 4vh/7vh NeuzeitGro-Bol;
 
 }
 
@@ -276,14 +276,15 @@ button:focus {
     text-align: left;
     padding-left: 9.672619047619047vh;
     padding-top: 4.464285714285714vh;
-    line-height: 200%;
-    letter-spacing: 0.1488095238095238vh;
-    font-size: 1.6369047619047619vh;
+    line-height: 4vh;
+    letter-spacing: 0.12vh;
+    font-size: 2.5vh;
     color: #FFFFFF;
     opacity: 1;
 }
 
 #botaoSec2 {
+    padding-top: 5vh;
     padding-left: 14.583333333333334vh;
 }
 
@@ -312,28 +313,6 @@ button:focus {
     justify-content: left;
 }
 
-
-.secao5 {
-    width: 100%;
-    height: 100vh;
-    background: #F8F8F9;
-    opacity: 1;
-}
-
-
-.secao7 {
-
-    width: 100%;
-    height: 100vh;
-    background: #F8F8F9;
-    opacity: 1;
-}
-
-
-footer {
-    height: 11.904761904761905vh;
-    background: #283258;
-}
 
 #marketing_button {
     width: 28.61904761904762vh;
@@ -547,6 +526,13 @@ footer {
 
 
 /*				SEÇÃO 5				*/
+.secao5 {
+    width: 100%;
+    height: 100vh;
+    background: #F8F8F9;
+    opacity: 1;
+}
+
 #subsec5_row {
     margin-top: 30%;
 }
@@ -657,6 +643,14 @@ footer {
 }
 
 /*  /////////////// Secao 7 ////////////////// */
+
+.secao7 {
+
+    width: 100%;
+    height: 100vh;
+    background: #F8F8F9;
+    opacity: 1;
+}
 
 #secao7_container {
     height: 100vh;
@@ -810,7 +804,7 @@ footer {
 #imagemDesktopMobile {
     width: 104.16666666666667vh;
     padding-top: 0;
-    padding-right: 2.232142857142857vh;
+    /* padding-right: 2.232142857142857vh; */
 }
 
 #imagemDesktopMobileInMobile {
@@ -1432,8 +1426,12 @@ footer {
 
 }
 /*              FOOTER           */
-#logo-footer {
+
+footer {
+    height: 11.904761904761905vh;
+    background: #283258;
 }
+
 .footerPrincipal {
     align-items: center;
     justify-content: start;
