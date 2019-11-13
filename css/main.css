@@ -472,7 +472,7 @@ button:focus {
 }
 
 #sub2_secao4 {
-    padding-top: 5vh;
+    padding-top: 1vh;
     width: 100%;
     text-align: center;
     font: 2.3vh NeuzeitGro-Bol;
@@ -492,12 +492,19 @@ button:focus {
     #secao4_titulo {
         font: 6.8vh NeuzeitGro-Bol;
     }
+    
+    #rowSecao4 {
+        padding-top: 100%;
+    }
+
+    #sub2_secao4 {
+        padding-top: 6vh;
+    }
 }
 
 
 #rowSecao4 {
     padding-top: 15%;
-
 }
 
 #text_rec {
@@ -675,7 +682,7 @@ button:focus {
 
 #secao7_botao {
     padding-left: 0.1488095238095238vh;
-    padding-top: 0.1488095238095238vh;
+    padding-top: 7vh;
 }
 
 #secao7_titulo {
@@ -683,7 +690,7 @@ button:focus {
     padding-left: 0.1488095238095238vh;
     width: 100%;
     text-align: left;
-    font: 7.440476190476191vh/ 6.25vh NeuzeitGro-Bol;
+    font: 8vh/ 6.25vh NeuzeitGro-Bol;
     letter-spacing: 0.26785714285714285vh;
     color: #283258;
     opacity: 1;
@@ -692,20 +699,19 @@ button:focus {
 
 #txt_demo {
     padding-left: 0.1488095238095238vh;
-    padding-top: 2.9761904761904763vh;
+    padding-top: 7vh;
     font-family: 'NeuzeitGro-Lig';
 
     text-align: left;
     line-height: 150%;
     letter-spacing: 0.1488095238095238vh;
-    font-size: 1.7857142857142858vh;
+    font-size: 2.3vh;
 
     color: #283258;
     opacity: 1;
 }
 
 #button_demo {
-
 
     background: #283258 0% 0%;
     border-radius: 19.642857142857142vh;
