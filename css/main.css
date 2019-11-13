@@ -277,8 +277,8 @@ button:focus {
     padding-left: 9.672619047619047vh;
     padding-top: 4.464285714285714vh;
     line-height: 4vh;
-    letter-spacing: 0.12vh;
-    font-size: 2.5vh;
+    letter-spacing: 0.11vh;
+    font-size: 2.3vh;
     color: #FFFFFF;
     opacity: 1;
 }
@@ -315,15 +315,17 @@ button:focus {
 
 
 #marketing_button {
-    width: 28.61904761904762vh;
+    width: 30vh;
     height: 6.523809523809524vh;
     border: 0.1488095238095238vh solid #FFFFFF;
     border-radius: 19.642857142857142vh;
     opacity: 1;
     background: transparent;
-    font-family: NeuzeitGro-Bol;
-    font-size: 1.6369047619047619vh;
-    letter-spacing: 0.1488095238095238vh;
+
+    font: 2vh Neuzeit Grotesk;
+    /* font-family: NeuzeitGro-Bol;
+    font-size: 2vh; */
+    letter-spacing: 0.20vh;
     color: #FFFFFF;
 
 }
@@ -372,9 +374,9 @@ button:focus {
 #secao3_titulo {
 
     width: 100%;
-    height: 9.803921568627452vh;
+    height: 15vh;
     text-align: center;
-    font: 6.787330316742081vh/7.239819004524887vh NeuzeitGro-Bol;
+    font: 8vh/9vh NeuzeitGro-Bol;
     color: #283258;
     opacity: 1;
 }
@@ -384,7 +386,7 @@ button:focus {
     width: 100%;
     height: 18.552036199095024vh;
     text-align: center;
-    font: 1.8099547511312217vh NeuzeitGro-Lig;
+    font: 2.3vh NeuzeitGro-Lig;
     line-height: 180%;
     letter-spacing: 0;
     color: #283258;
@@ -403,7 +405,7 @@ button:focus {
 
 #txt_van {
     font-family: 'NeuzeitGro-Lig';
-    font-size: 1.6591251885369533vh;
+    font-size: 1.84vh;
     width: 90%;
     padding-left: 15%;
 
@@ -416,7 +418,7 @@ button:focus {
 
 #txt_van3 {
     font-family: 'NeuzeitGro-Lig';
-    font-size: 1.6591251885369533vh;
+    font-size: 1.84vh;
     width: 90%;
     padding-left: 10%;
 
@@ -435,8 +437,8 @@ button:focus {
 
 @media (min-width: 1920px) {
     #imageSec3 {
-        height: 65%;
-        width: 65%;
+        height: 70%;
+        width: 70%;
     }
 }
 
@@ -470,20 +472,26 @@ button:focus {
 }
 
 #sub2_secao4 {
+    padding-top: 5vh;
     width: 100%;
     text-align: center;
-    font: 2.262443438914027vh NeuzeitGro-Bol;
+    font: 2.3vh NeuzeitGro-Bol;
     letter-spacing: 0.12066365007541478vh;
     color: #FFFFFF;
     opacity: 1;
 }
 
 #secao4_titulo {
-
     width: 100%;
-    font: 7.541478129713424vh/6.334841628959276vh NeuzeitGro-Bol;
+    font: 7.9vh NeuzeitGro-Bol;
     color: #EADAB4;
     opacity: 1;
+}
+
+@media (min-width: 1920px){
+    #secao4_titulo {
+        font: 6.8vh NeuzeitGro-Bol;
+    }
 }
 
 
@@ -493,14 +501,14 @@ button:focus {
 }
 
 #text_rec {
-    padding-top: 7%;
+    padding-top: 7vh;
     font-family: 'NeuzeitGro-Lig';
     min-height: 27.300150829562593vh;
     text-align: left;
 
     line-height: 200%;
     letter-spacing: 0.15082956259426847vh;
-    font-size: 1.8099547511312217vh;
+    font-size: 2vh;
     color: #FFFFFF;
     opacity: 1;
 
@@ -804,7 +812,7 @@ button:focus {
 #imagemDesktopMobile {
     width: 104.16666666666667vh;
     padding-top: 0;
-    /* padding-right: 2.232142857142857vh; */
+    padding-right: 2.232142857142857vh;
 }
 
 #imagemDesktopMobileInMobile {
@@ -898,6 +906,7 @@ button:focus {
     height: 22.321428571428573vh;
     padding-top: 18%;
 }
+
 
 @media (max-width: 800px) {
     /*CSS seção 2-mobile*/
