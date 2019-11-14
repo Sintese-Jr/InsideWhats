@@ -48,7 +48,7 @@ button:focus {
 }
 
 .scrolled {
-    background: linear-gradient(#283258 10%, #0000);
+    background: linear-gradient(#283258 20%, #2a356171);
     z-index: inherit 1000;
 }
 
@@ -315,19 +315,17 @@ button:focus {
 
 
 #marketing_button {
-    width: 30vh;
+    /* width: 30vh; */
     height: 6.523809523809524vh;
     border: 0.1488095238095238vh solid #FFFFFF;
     border-radius: 19.642857142857142vh;
-    opacity: 1;
     background: transparent;
 
-    font: 2vh Neuzeit Grotesk;
-    /* font-family: NeuzeitGro-Bol;
-    font-size: 2vh; */
+    font-family: NeuzeitGro-Bol;
+    font-size: 2vh;
     letter-spacing: 0.20vh;
     color: #FFFFFF;
-
+    padding: 0 1.5vw;
 }
 
 #marketing_button:hover {
@@ -483,7 +481,7 @@ button:focus {
 
 #secao4_titulo {
     width: 100%;
-    font: 7.9vh NeuzeitGro-Bol;
+    font: 6.7vh NeuzeitGro-Bol;
     color: #EADAB4;
     opacity: 1;
 }
@@ -548,8 +546,12 @@ button:focus {
     opacity: 1;
 }
 
+#row_sec5, #secao5_container{
+    height: 100%;
+}
+
 #subsec5_row {
-    margin-top: 30%;
+    /* margin-top: 30%; */
 }
 
 #sub_secao5 {
@@ -686,8 +688,8 @@ button:focus {
 }
 
 #secao7_titulo {
-    padding-top: 7.440476190476191vh;
-    padding-left: 0.1488095238095238vh;
+    /* padding-top: 7.440476190476191vh;
+    padding-left: 0.1488095238095238vh; */
     width: 100%;
     text-align: left;
     font: 8vh/ 6.25vh NeuzeitGro-Bol;
@@ -698,7 +700,7 @@ button:focus {
 
 
 #txt_demo {
-    padding-left: 0.1488095238095238vh;
+    /* padding-left: 0.1488095238095238vh; */
     padding-top: 7vh;
     font-family: 'NeuzeitGro-Lig';
 
@@ -716,18 +718,16 @@ button:focus {
     background: #283258 0% 0%;
     border-radius: 19.642857142857142vh;
 
-
     color: #FFFFFF;
     border: none;
 
     width: 25vh;
     height: 5vh;
 
-
-    opacity: 1;
-
-
-    font: Bold 1.7vh NeuzeitGro-Bol;
+    /* font: Bold 1.7vh NeuzeitGro-Bol; */
+    font-weight: Bold;
+    font-size: 1.7vh;
+    font-family: 'NeuzeitGro-Lig';
 
     letter-spacing: 0.1488095238095238vh;
 
@@ -778,7 +778,7 @@ button:focus {
 #secao8_titulo {
     margin-top: 14.880952380952381vh;
     text-align: center;
-    font: 3vh/1vh NeuzeitGro-Bol;
+    font: 7vh/1vh NeuzeitGro-Bol;
     letter-spacing: 0.26785714285714285vh;
     color: #283258;
     opacity: 1;
@@ -818,10 +818,10 @@ button:focus {
 
 
 /*EXCLUIR CASO DE CERTO*/
-#video {
+#videodemo {
     padding: 0;
     margin: 0;
-    width: 12vw;
+    width: 18vw;
 }
 
 #imagemDesktopMobile {
@@ -848,7 +848,7 @@ button:focus {
 }
 
 #forms_txt {
-    margin: 3.9523809523809526vh ;
+    margin: 3.9523809523809526vh;
     padding: 1.4880952380952381vh;
     text-align: center;
     font: 3vh/4vh NeuzeitGro-Lig;
@@ -859,7 +859,7 @@ button:focus {
 
 .form-group label {
     padding: 1vh 0;
-    font: Bold 2.171945701357466vh/3.1372549019607843vh Neuzeit Grotesk;
+    font: Bold 2.171945701357466vh/3.1372549019607843vh 'Neuzeit Grotesk';
     color: #ccc;
 }
 
@@ -923,7 +923,7 @@ button:focus {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     /*CSS seção 2-mobile*/
     .secao2 {
         height: auto;
@@ -1302,6 +1302,7 @@ button:focus {
     /* ////////////SECAO 7 //////////////*/
     .secao7 {
         height: auto;
+        padding-top: 15vh;
     }
 
     #secao7_container {
@@ -1319,20 +1320,18 @@ button:focus {
         font: 52px/48px NeuzeitGro-Bol;
         letter-spacing: 1.2px;
         color: #283258;
-        opacity: 1;
-
     }
 
     #txt_demo {
-        width: 95%;
+        /* width: 95%; */
         padding-bottom: 30%;
-
+        padding-left: 5%;
+        padding-right: 5%;
         text-align: left;
-        font: 22px/28px NeuzeitGro-Lig;
+        font: 23px/32px NeuzeitGro-Lig;
         font-weight: bold;
         letter-spacing: 0.5px;
         color: #283258;
-        opacity: 1;
     }
 
     #sec2_texto {
@@ -1343,7 +1342,6 @@ button:focus {
     #secao7_botao {
         justify-content: center;
         padding-left: 0px;
-
 
     }
 
@@ -1373,6 +1371,9 @@ button:focus {
         opacity: 1;
     }
 
+    #forms_txt{
+        font: 2vh/3vh NeuzeitGro-Lig;
+    }
 
     footer {
         height: 100px;
